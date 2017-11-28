@@ -1637,9 +1637,9 @@
 				<decoration type="prefab" name="mp_waste_pile_04" prob="0.0007" rotatemax="3"/>
 				<decoration type="prefab" name="mp_waste_pile_05" prob="0.0007" rotatemax="3"/>
 				<decoration type="block" blockname="cntCar03SedanDamage2" prob="0.0005" rotatemax="7"/>
-				<decoration type="block" blockname="mineCandyTin" prob="0.00015"/>
-				<decoration type="block" blockname="mineHubcap" prob="0.00015"/>
-				<decoration type="block" blockname="hubcapNoMine" prob="0.00011"/>
+				<decoration type="block" blockname="mineCandyTin" prob="0.000015"/>
+				<decoration type="block" blockname="mineHubcap" prob="0.000015"/>
+				<decoration type="block" blockname="hubcapNoMine" prob="0.000011"/>
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.0305" rotatemax="3"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.0035" rotatemax="3"/>
 			</decorations>
@@ -2398,7 +2398,7 @@
 		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
-		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0002" />
+		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0001" />
 			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>
@@ -2431,7 +2431,7 @@
 		<blockontop blockname="driftwood2" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="graveStone08" rotatemax="3" prob="0.0004" />
 		<blockontop blockname="mattressFlat" rotatemax="7" prob="0.0003" />
-		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0002" />
+		<blockontop blockname="burningBarrel" rotatemax="3" prob="0.0001" />
 			<blockontop blockname="cinderBlocks01" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks02" rotatemax="3" prob="0.0002"/>
 			<blockontop blockname="cinderBlocks03" rotatemax="3" prob="0.0002"/>
