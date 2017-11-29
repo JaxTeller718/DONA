@@ -19277,7 +19277,7 @@
 			<property name="Delay" value="0.25"/>
 			<property name="Crosshair_min_distance" value="30"/>
 			<property name="Crosshair_max_distance" value="100"/>
-			<property name="Magazine_size" value="20"/>
+			<property name="Magazine_size" value="8"/>
 			<property name="Magazine_items" value="762mmBullet, 762mmHPBullet, Unload"/>
 			<property name="Magazine_item_ray_counts" value="1, 1"/>
 			<property name="Magazine_item_ray_spreads" value="0, 0"/>
