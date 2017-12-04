@@ -1659,6 +1659,7 @@
 			<property name="Sound_start" value="swoosh"/>
 			<property name="Stamina_usage" value="7.52"/>
 			<property name="DamageBonus.glass" value="1"/>
+			<property name="DamageBonus.stone" value="1"/>
 			<property name="DamageBonus.head" value="6"/>
 			<property name="DamageBonus.body" value=".01"/>
 			<property name="DamageBonus.wood" value="0.2"/>
@@ -13576,7 +13577,6 @@
 			<property name="DamageBonus.body" value=".01"/>
 			<property name="DamageBonus.wood" value="1"/>
 			<property name="DamageBonus.earth" value="0.25"/>
-			<property name="DamageBonus.stone" value=".25"/>
 			<property name="DamageBonus.metal" value="0.25"/>
 			<property name="DamageBonus.organic" value="1"/>
 			<property name="ActionExp" value="2"/>
@@ -13586,7 +13586,7 @@
 		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="6,14"/>
-			<property name="BlockDamage" value="26,42"/>
+			<property name="BlockDamage" value="24,42"/>
 			<property name="DegradationMax" value="100,600"/>
 			<property name="DegradationRate" value="1,1"/>
 			<property name="DismembermentBaseChance" value="0,0"/>
@@ -13602,9 +13602,12 @@
 		<property name="Meshfile" value="#pickaxes?stonePickaxe"/>
 		<property name="RepairTools" value="scrapIron"/>
 		<property name="EconomicValue" value="5"/>
+		<property class="Action0">
+			<property name="DamageBonus.stone" value="1"/>
+		</property>
 		<property class="Attributes">
 			<property name="EntityDamage" value="5,10"/>
-			<property name="BlockDamage" value="19,45"/>
+			<property name="BlockDamage" value="24,46"/>
 			<property name="DegradationMax" value="200,600"/>
 			<property name="DegradationRate" value="1,1"/>
 		</property>
