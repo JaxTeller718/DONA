@@ -22637,6 +22637,35 @@
 		<property name="Gain_wellness" value="0"/>
 		<property name="Debuff" value="Dirty1,Dirty2"/>
 	</property>
-
 </item>
+	<item id="3306" name="polishedWood">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="wood"/>
+		<property name="Weight" value="5"/>
+		<property name="HoldType" value="45"/>
+		<property name="Stacknumber" value="6000"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="50"/>
+		<property name="EconomicValue" value="5"/>
+		<property name="EconomicBundleSize" value="50"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Resources"/>
+		<property name="DescriptionKey" value="polishedWoodDesc"/>
+	</item>
+	<item id="3307" name="textile">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Crafting/cloth"/>
+		<property name="Material" value="cloth"/>
+		<property name="HoldType" value="14"/>
+		<property name="Stacknumber" value="2500"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="5"/>
+		<property name="EconomicValue" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Clothing"/>
+		<property name="DescriptionKey" value="textileDesc"/>
+	</item>
 </items>
