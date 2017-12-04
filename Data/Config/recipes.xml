@@ -1399,7 +1399,7 @@
 	</recipe>
 	<recipe name="splint" count="1">
 		<ingredient name="cloth" count="2"/>
-		<ingredient name="wood" count="2"/>
+		<ingredient name="stick" count="6"/>
 		<ingredient name="ductTape" count="1"/>
 	</recipe>
 	<recipe name="steelArrow" count="1" craft_area="ammunitionTable">
@@ -1951,9 +1951,7 @@
 	<recipe name="emptyJar" count="1">
 		<ingredient name="snowberryJuice" count="1"/>
 	</recipe>
-	<recipe name="friedEggs" count="1" craft_area="BigCampFire">
-		<ingredient name="egg" count="2"/>
-	</recipe>
+
 	<recipe name="crossbowRepeater" count="1"    craft_area="NewWorkBench">
 		<ingredient name="crossbow" count="1"/>
 		<ingredient name="spring" count="5"/>
@@ -2048,15 +2046,15 @@
 	</recipe>
 	<recipe name="ironTippedSpear" count="1" craft_time = "12"  craft_area="NewWorkBench">
 		<ingredient name="ironArrowHead" count="10"/>
-		<ingredient name="wood" count="5"/>
+		<ingredient name="stick" count="15"/>
 		<ingredient name="yuccaFibers" count="1"/>
 	</recipe>
 	<recipe name="woodtippedSpear" count="1" craft_time = "12">
-		<ingredient name="wood" count="20"/>
+		<ingredient name="stick" count="60"/>
 	</recipe>
 	<recipe name="steelTippedSpear" count="1" craft_time = "12" craft_area="NewWorkBench">
 		<ingredient name="steelArrowHead" count="10"/>
-		<ingredient name="wood" count="5"/>
+		<ingredient name="stick" count="15"/>
 		<ingredient name="yuccaFibers" count="2"/>
 	</recipe>
 	<recipe name="Bread" count="1" craft_time = "8" craft_area="BigCampFire" craft_tool="cookingGrill">
@@ -3905,30 +3903,7 @@
 		<ingredient name="survivorNotes" count="120"/>
 		<ingredient name="Ink" count="5"/>
 	</recipe>
-	<recipe name="Cooking_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Trap_skill5points" count="1" craft_time = "20" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="120"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Trap_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Cooking_skill3points" count="1" craft_time = "15" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="80"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Cooking_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="5"/>
-	</recipe>
-	<recipe name="Trap_skill1point" count="1" craft_time = "10" craft_area="ResearchDesk" craft_tool="inkPen">
-		<ingredient name="survivorNotes" count="50"/>
-		<ingredient name="Ink" count="10"/>
-	</recipe>
+
 	<recipe name="applePie" count="1" craft_area="BigCampFire">
 		<ingredient name="egg" count="1"/>
 		<ingredient name="Flour" count="1"/>
@@ -4739,21 +4714,27 @@
 	</recipe>
 	<recipe name="treeCactus01" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
+		<ingredient name="foodYuccaFruit" count="10"/>
+		</recipe>
 	<recipe name="treeCactus02" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
+		<ingredient name="foodYuccaFruit" count="10"/>
+		</recipe>
 	<recipe name="treeCactus03" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
+		<ingredient name="foodYuccaFruit" count="10"/>
+		</recipe>
 	<recipe name="treeCactus04" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
+		<ingredient name="foodYuccaFruit" count="10"/>
+		</recipe>
 	<recipe name="treeCactus05" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
-	</recipe>
+		<ingredient name="foodYuccaFruit" count="10"/>
+		</recipe>
 	<recipe name="treeCactus06" count="1" craft_area="decoStation">
 		<ingredient name="yuccaFibers" count="20"/>
+		<ingredient name="foodYuccaFruit" count="10"/>
 	</recipe>
 	<recipe name="bridgeAsphaltBlock" count="1" craft_area="cementMixer">
 		<ingredient name="concreteMix" count="10"/>
@@ -7063,11 +7044,7 @@
 	<recipe name="bioFuel" count="1" craft_time = "8" craft_area="BigCampFire"  craft_tool="beaker">
 		<ingredient name="tallow" count="5"/>
 	</recipe>
-	<recipe name="stove" count="1">
-		<ingredient name="shortMetalPipe" count="10"/>
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="rockSmall" count="8"/>
-	</recipe>
+
 	<recipe name="friedPotato" count="1" craft_area="Stoves" craft_time="30" craft_tool="pan">
 		<ingredient name="potato" count="3"/>
 		<ingredient name="bowl" count="1"/>

@@ -2076,7 +2076,7 @@
 		<property name="Prefab" value="Backpack"/>
 		<property name="Class" value="EntityLootContainer"/>
 		<property name="Parent" value="Backpack"/>
-		<property name="TimeStayAfterDeath" value="240"/>
+		<property name="TimeStayAfterDeath" value="480"/>
 		<property name="IsEnemyEntity" value="false"/>
 		<property name="LootListOnDeath" value="47"/>
 		<!-- used to determine container X/Y size -->
@@ -2088,7 +2088,7 @@
 		<property name="Prefab" value="Backpack"/>
 		<property name="Class" value="EntityLootContainer"/>
 		<property name="Parent" value="Backpack"/>
-		<property name="TimeStayAfterDeath" value="120"/>
+		<property name="TimeStayAfterDeath" value="240"/>
 		<property name="IsEnemyEntity" value="false"/>
 		<property name="LootListOnDeath" value="174"/>
 		<!-- used to determine container X/Y size and sounds -->

@@ -4213,7 +4213,6 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="409" name="trapSpikesDamage1">
 		<property name="Extends" value="trapSpikesNew"/>
@@ -4327,7 +4326,6 @@
 		<property name="EconomicValue" value="30"/>
 		<property name="EconomicBundleSize" value="20"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="419" name="corrugatedMetalCNRInside">
 		<property name="Extends" value="corrugatedMetalMaster"/>
@@ -4468,7 +4466,6 @@
 		<property name="CanPlayersSpawnOn" value="false"/>
 		<property name="Group" value="Tools/Traps,Science"/>
 		<property name="EconomicValue" value="11"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="431" name="mineCandyTin">
 		<property name="Class" value="Mine"/>
@@ -13318,7 +13315,6 @@
 		<drop event="Destroy" name="wood" count="0"/>
 		<drop event="Destroy" name="scrapIron" count="15"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1433" name="rScrapIronLogSpike5">
 		<!-- log spike 5 rScrap -->
@@ -15977,7 +15973,6 @@
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
 		<property name="EconomicValue" value="444"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2011" name="dartTrap">
 		<property name="Class" value="Launcher"/>
@@ -16008,7 +16003,6 @@
 		<property name="Stacknumber" value="10"/>
 		<property name="TakeDelay" value="10"/>
 		<property name="EconomicValue" value="220"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2012" name="rampCornerCutoutTest">
 		<property name="CreativeMode" value="Dev"/>
@@ -16197,7 +16191,6 @@
 		<drop event="Fall" name="woodDebris" count="1" prob="0.3" stick_chance="1"/>
 		<property name="EconomicValue" value="16"/>
 		<property name="PickupJournalEntry" value="triggerDelayDurationTip,passthroughTriggeringTip"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2029" name="electricfencepost">
 		<property name="Class" value="ElectricWire"/>
@@ -16229,7 +16222,6 @@
 		<drop event="Destroy" count="0"/>
 		<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
 		<property name="EconomicValue" value="62"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="2030" name="motionsensor">
 		<property name="Class" value="MotionSensor"/>
@@ -17684,7 +17676,6 @@
 		<property name="DropScale" value="3"/>
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Tools/Traps"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1714" name="trapAdhesive">
 		<property name="DescriptionKey" value="trapAdhesiveDesc"/>
@@ -17695,7 +17686,6 @@
 		<drop event="Destroy" count="0"/>
 		<property name="Group" value="Building"/>
 		<drop event="Fall" count="0"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1713" name="trapAdhesiveSpike">
 		<property name="DescriptionKey" value="trapAdhesiveSpikeDesc"/>
@@ -17703,7 +17693,6 @@
 		<property name="Material" value="MbarbedFence"/>
 		<property name="Texture" value="245"/>
 		<property name="MaxDamage" value="200"/>
-		<property name="CraftingSkillGroup" value="Traps"/>
 	</block>
 	<block id="1701" name="supplyCrateBuilding">
 		<property name="CustomIcon" value="cntSupplyCrateWorkingStiffs"/>

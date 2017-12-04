@@ -1,6 +1,6 @@
 <!-- Groups: firearms, weapons, tools, clothing, scavenging, health, crafting !-->
 <progression>
-	<player 	max_level="250" 	exp_to_level="18000" 	experience_multiplier="1.025" 	skill_points_per_level="7" 	skill_point_multiplier="1.013"/>
+	<player 	max_level="250" 	exp_to_level="18000" 	experience_multiplier="1.025" 	skill_points_per_level="8" 	skill_point_multiplier="1.013"/>
 	<!-- A15: 8000 XP for level 1 and 134k for level 199, total cumulative of 9MXP; XPRequired = exp_to_level * experience_multiplier ^ level -->
 	<!-- A16: 8300 XP for level 1, total cumulative of 11MXP -->
 	<skills 	max_level="100" 	exp_to_level="500" 	experience_multiplier="1.03" 	skill_point_cost_multiplier="0" 	skill_point_cost_per_level="1">
