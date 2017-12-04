@@ -2028,7 +2028,7 @@
 		<item name="nail" count="10,40" prob="0.3"/>
 		<item name="forgedIron" count="5,15" prob="0.25"/>
 		<item name="forgedSteel" count="3,12" prob="0.15"/>
-		<item name="craftingTools" prob="0.05"/>
+		<item group="craftingTools" prob="0.05"/>
 	</lootgroup>
 	<lootgroup name="ZombieFootballPlayer">
 		<item name="footballHelmetZU" prob="1.5"/>
