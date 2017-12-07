@@ -2064,14 +2064,16 @@
 		<ingredient name="bottledWater" count="1"/>
 		<ingredient name="Flour" count="2"/>
 	</recipe>
-	<recipe name="Compost" count="1" craft_time = "15">
+	<recipe name="Compost" count="2" craft_time = "15">
 		<ingredient name="turd" count="5"/>
 		<ingredient name="rottingHarvest" count="5"/>
 		<ingredient name="yuccaFibers" count="20"/>
 	</recipe>
 	<recipe name="rainCatcherEmpty" count="1" craft_time = "20"  craft_area="NewWorkBench">
-		<ingredient name="forgedIron" count="20"/>
-		<ingredient name="scrapPlastics" count="10"/>
+		<ingredient name="forgedIron" count="40"/>
+		<ingredient name="wood" count="30"/>
+		<ingredient name="tarp" count="2"/>
+
 	</recipe>
 	<recipe name="chickenCoopEmpty" count="1" craft_time = "20"  craft_area="NewWorkBench">
 		<ingredient name="wood" count="20"/>
@@ -2082,6 +2084,7 @@
 	<recipe name="Empty_Composter" count="1" craft_time = "20"  craft_area="NewWorkBench">
 		<ingredient name="wood" count="20"/>
 		<ingredient name="nail" count="10"/>
+		<ingredient name="tarp" count="3"/>
 	</recipe>
 	<recipe name="leatherCouchSofa" count="1">
 		<ingredient name="leather" count="40"/>
@@ -4007,8 +4010,8 @@
 	</recipe>
 	<recipe name="battleAxe" count="1" craft_area="NewWorkBench">
 		<ingredient name="toolHeadSteelAxe" count="1"/>
-		<ingredient name="wood" count="20"/>
-		<ingredient name="leather" count="1"/>
+		<ingredient name="wood" count="40"/>
+		<ingredient name="leather" count="5"/>
 	</recipe>
 	<recipe name="hoeIron" count="1">
 		<ingredient name="toolHeadIronHoe" count="1"/>
@@ -5997,8 +6000,8 @@
 		<ingredient name="Solder" count="15"/>
 	</recipe>
 	<recipe name="Lucille" count="1" scrapable="False">
-		<ingredient name="batWood" count="4"/>
-		<ingredient name="barbedWireSheet" count="5"/>
+		<ingredient name="batWood" count="1"/>
+		<ingredient name="barbedWireSheet" count="8"/>
 	</recipe>
 	<!-- Kitchen by JaxTeller718 -->
 	<recipe name="woodCounter01" count="1">
@@ -7253,5 +7256,31 @@
 	</recipe>
 	<recipe name="polishedWood" count="1">
 		<ingredient name="wood" count="1"/>
+	</recipe>
+	<recipe name="wallTorch" count="1">
+		<ingredient name="torch" count="3"/>
+	</recipe>
+	<recipe name="vegetableJuice" count="1" craft_time = "8" craft_area="foodPrepTable">
+		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="cucumber" count="3"/>
+		<ingredient name="Tomato" count="3"/>
+		<ingredient name="carrot" count="3"/>
+	</recipe>
+	<recipe name="shockTrap" count="1">
+		<ingredient name="electricCharge" count="15"/>
+		<ingredient name="forgedSteel" count="15"/>
+		<ingredient name="mechanicalParts" count="10"/>
+	</recipe>
+	<recipe name="bowl" count="1" craft_area="BigForge" material_based="true">
+		<ingredient name="unit_glass" count="5"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="dinnerPlate" count="1" craft_area="BigForge" material_based="true">
+		<ingredient name="unit_glass" count="5"/>
+		<ingredient name="unit_clay" count="15"/>
+	</recipe>
+	<recipe name="shamSandwich" count="1" craft_time = "4" craft_area="foodPrepTable">
+		<ingredient name="canHam" count="1"/>
+		<ingredient name="Bread" count="2"/>
 	</recipe>
 </recipes>
