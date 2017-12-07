@@ -1003,7 +1003,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
-		<property name="CanPickup" value="false"/>
 	</block>
 	<block id="120" name="cropsHarvestableMaster">
 		<property name="CreativeMode" value="None"/>
@@ -1018,9 +1017,10 @@
 		<property name="Collide" value="melee"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="IsDecoration" value="true"/>
-		<property name="Class" value="PlantGrowing"/>
+		<property name="Class" value="CropsGrown"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="PlantGrowing.LightLevelStay" value="0"/>
+		<property name="CropsGrown.BonusHarvestDivisor" value="9"/>
 		<property name="HarvestOverdamage" value="false"/>
 		<drop event="Destroy" count="0"/>
 		<property name="SellableToTrader" value="false"/>
