@@ -561,3 +561,135 @@ v2.05
 ----------------------------------------------
 
 V2.06
+
+-Removed Traps XP that could give players extra XP
+
+-increased timer on destroyed loot container backpacks to 480 to allow more time to loot them.
+
+-Added Polished Wood which is used to make Decorative Items and can be crafted out of wood
+
+-Added sticks to more recipes
+
+-Adjusted Probabilities for certain types of rare loot.
+
+-You must now "punch" plants and crops to harvest them.
+
+-Increased Skill Point Gain from levelling from 7 to 8
+
+-Fixed Shock Club breaking at 0 Durability
+
+-Lowered entity damage on regular hammer
+
+-Removed duplicate stove recipes
+
+-Added yucca to Cactus Recipe
+
+-Added Textile fabric made out of cloth and is used for all Decorative items and extra clothing recipes.
+
+-Added Heat Free Torch recipe requires 3 normal torches to make.
+
+-Adjusted Lucille Recipe
+
+-Skill Books like Medicine and Archery found in loot now give 2 points towards each skill
+
+-Added special Loot to Bus
+
+-Added Special Loot To mystery Machine
+
+-Fixed soda scrapping into glass
+
+-Fixed box of nails scrapping to plastic
+
+-Decreased Percent Traders Sell Items For
+
+-Added Gun Locker
+
+-Added Wardrobe Closet
+
+-Fixed models of Hamburger and Candy Bar
+
+-Added Soda Can Model
+
+-Adjusted price of 556 Ammo and 32mm Ammo
+
+-Adjusted Damage Duplet and Homemade Pistol Do
+
+-Added new vehicles in the world such as Bus, Semi, Cars, Vans, and Dump Truck along with appropriate loot (Hint: You WANT to find a Semi)
+
+-Removed headshot only, but made zombies a bit more difficult. This was done to make the Night Terrors allow proper body damage (No more farming them on spikes)
+
+-Night Terrors now do more Block Damage
+
+-Night Terrors now move slightly faster.
+
+-Night Terrors overall are more tough. Do NOT go out at Night or in the Wastelands or Burnt Biome unless you are PREPARED. That is my only warning to you! :)
+
+-Added missing shock trap recipe
+
+-Fixed Armor Quest showing wrong number of materials needed
+
+-Slight wellness increases on certain foods and drinks
+
+-Vegetable Juice Added. Great way to gain Wellness
+
+-Plants must now be harvested by punching them, even in the world. This is part one of a new farming system coming in 3.0. There is a chance your harvest may go bad and return Rotting Harvests that can be used for Fertilizer. Keep in mind that punching the crops can result in ZERO harvest at times. The ONLY way to ensure a harvest is by using a farming tool.
+
+-Using a Hoe, scythe or sickle now affords you the chance to get a seed back when you use them to harvest crops. Each hoe offers a different harvest bonus. Scrap is half, iron is full and steel gives a chance at more.
+
+-Increased chances of finding Antibiotics in Medicine loot.
+
+-Decreased amount of Compost needed to fill the Composter
+
+-Increased timers on Rain Catcher, Composter and Chicken Coop
+
+-Added empty jars to Rain Catcher loot
+
+-Added Tarps can only be found and are required to make Composter and Rain Catcher. More recipes to come.
+
+-Reduced Snowberries around the world except in the Snow Biome.
+
+-Thanks to sphereii's new DLL edit whenever you craft an item it will AUTOMATICALLY favorite it. This makes using Favorites even easier and eliminates the process of forgetting or finding it again to favorite it. Using favorites is a GREAT way to cut down on Inventory and Workbench lag. If you wish you can still un-favorite any one time recipes.
+
+-Removed Traps skill from Survival Class which will hopefully KILL the Traps bug once and for all.
+
+-Bite Mark countdown timer slightly increased.
+
+-Plants have decreased in grow time from 360 minutes a stage to 300 minutes a stage
+
+-There is Sham in them thar hills!
+
+-556HP and 32HP ammo recipes now Added
+
+-Claw Hammer will no longer be OP on stone and dirt
+
+---------------------------------------------------
+
+Patch 2.08
+
+-Reverted Farming back to its original state. There was an issue with fertilized farms that would make the hoe inefficient. The system will return in a future patch after it is balanced propefly.
+
+-Added second stage to Tomato Plant so it falls in line with all plants
+
+-Added lead and brass Junk Quest Items to zombie loot.
+
+-Cooking Books are now scrappable for Knowledge Points
+
+-Changed Samaras Loot to a normal Screamer
+
+-Updated some of the Journal to reflect changes in our mod. More work needs to be done on it.
+
+-Fixed stats on Lucille to make it stronger
+
+-Lowered stats a bit on the starting guns
+
+-Iron Crossbow loads faster than normal crossbow. 
+
+-Crossbow Repeater does more damage and its reload time has been reduced by one second
+
+-Crossbow Repeater has less delay between shots now
+
+-Iron Crossbow damage reduced slightly so it is not as powerful as a Repeater.
+
+-Night Terrors have had their reach extended to hopefully deal damage to blocks
+
+-Night Terrors health has been slightly increased.
