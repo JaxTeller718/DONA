@@ -5637,6 +5637,7 @@
 		<ingredient name="forgedIron" count="25"/>
 		<ingredient name="Twine" count="3"/>
 		<ingredient name="wood" count="50"/>
+		<ingredient name="anvil" count="1"/>
 	</recipe>
 	<recipe name="BigForge" count="1">
 		<ingredient name="rockSmall" count="200"/>
