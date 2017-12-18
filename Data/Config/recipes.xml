@@ -5763,4 +5763,45 @@
 		<ingredient name="electricParts" count="10"/>
 		<ingredient name="electricCharge" count="4"/>
 	</recipe>
+	<recipe name="journalQuest" count="1">
+		<ingredient name="paper" count="5"/>
+	</recipe>
+	<recipe name="Charcoal" count="1" craft_time="5">
+		<ingredient name="coal" count="1"/>
+		<ingredient name="wood" count="1"/>
+		<ingredient name="paper" count="20"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipScraptools" count="1"/>
+		<ingredient name="tipIronsteel" count="1"/>
+		<ingredient name="tipPrimitivetools" count="1"/>
+		<ingredient name="tipRecipeunlocks" count="1"/>
+		<ingredient name="tipNewcooking" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipnewSeeds" count="1"/>
+		<ingredient name="tipAdvancedforge" count="1"/>
+		<ingredient name="tipAdvancedworkbench" count="1"/>
+		<ingredient name="tipNewores" count="1"/>
+		<ingredient name="tipNightterrors" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipNewstations" count="1"/>
+		<ingredient name="tipTailorstation" count="1"/>
+		<ingredient name="tipDryingrack" count="1"/>
+		<ingredient name="tipWeaponparts" count="1"/>
+		<ingredient name="tipKP" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipCarparts" count="1"/>
+		<ingredient name="tipLeathermaking" count="1"/>
+		<ingredient name="tipScavenging" count="1"/>
+		<ingredient name="tipsToolheads" count="1"/>
+		<ingredient name="tipSticks" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipCrowbars" count="1"/>
+		<ingredient name="tipKnives" count="1"/>
+		<ingredient name="tipWeaponstation" count="1"/>
+	</recipe>
 </recipes>

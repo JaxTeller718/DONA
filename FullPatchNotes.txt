@@ -918,3 +918,27 @@ Patch 2.11.03
 -Fixed Machete Blade recipe so it can be crafted in Blacksmith Station
 
 -Added a Debuff to Extreme Blood Loss to Blood Bag. Otherwise the buff would not go away.
+
+-------------------------------------------
+
+Patch 2.11.04
+
+-Added a craftable quest which when read will give you 22 new items. These items will record tips in your Journal on Ravenhearst mechanics. When you are done with them you can click on them and then click Recipes to craft a Collection of Knowledge Points. Scrapping this collecion will reward you with 3 KP each as a reward for reading the Journal
+
+-Mechanic fixed so that he is faster and does more ranged damage.
+
+-Fix for iron scrapping to Mechanical Parts when learning the Mechanical Parts recipe
+
+-Added an Admin Bucket which can pick up and deposit water
+
+-Commented out the Halicopter Recipe on MP version since it does not work in MP. It is still craftable in SP versions
+
+-Removed some junk loot to make way for better looting.
+
+-Sticks are still not a recipe and you must scrap wood for sticks
+
+-Decreased Padlock and flashlight loot
+
+-Shooting a Pistol will turn your hand into a red goo, which can then be thrown at dogs to tame them. If your goo runs out the Dogs become Seals and will sing Beatles songs to you
+
+-Charcoal is now crafttable and has a longer burn time then its ingredients.

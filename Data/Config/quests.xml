@@ -1187,4 +1187,29 @@
 		<reward type="Item" id="seedPack" value="10"/>
 		<reward type="Item" id="hoeIron" value="250"/>
 	</quest>
+	<quest id="journal_tips" name_key="Ravenhearst Tourist Guide" subtitle_key="Read the Guide" description_key="This Guide to Ravenhearst will add multiple Journal Entries to your in game Journal. Make sure you have an EMPTY BAG as this will add multiple items to Inventory. You can scrap the items after the entries are added." icon="ui_game_symbol_treasure"  	repeatable="false" category_key="challenge" offer_key="This Guide to Ravenhearst will add multiple Journal Entries to your in game Journal. Make sure you have an EMPTY BAG as this will add multiple items to Inventory. You can scrap the items after the entries are added." difficulty="easy">
+		<reward type="Item" id="tipScraptools" value="1"/>
+		<reward type="Item" id="tipIronsteel" value="1"/>
+		<reward type="Item" id="tipPrimitivetools" value="1"/>
+		<reward type="Item" id="tipRecipeunlocks" value="1"/>
+		<reward type="Item" id="tipNewcooking" value="1"/>
+		<reward type="Item" id="tipnewSeeds" value="1"/>
+		<reward type="Item" id="tipAdvancedforge" value="1"/>
+		<reward type="Item" id="tipAdvancedworkbench" value="1"/>
+		<reward type="Item" id="tipNewores" value="1"/>
+		<reward type="Item" id="tipNightterrors" value="1"/>
+		<reward type="Item" id="tipNewstations" value="1"/>
+		<reward type="Item" id="tipTailorstation" value="1"/>
+		<reward type="Item" id="tipDryingrack" value="1"/>
+		<reward type="Item" id="tipWeaponparts" value="1"/>
+		<reward type="Item" id="tipKP" value="1"/>
+		<reward type="Item" id="tipCarparts" value="1"/>
+		<reward type="Item" id="tipLeathermaking" value="1"/>
+		<reward type="Item" id="tipScavenging" value="1"/>
+		<reward type="Item" id="tipsToolheads" value="1"/>
+		<reward type="Item" id="tipSticks" value="1"/>
+		<reward type="Item" id="tipCrowbars" value="1"/>
+		<reward type="Item" id="tipKnives" value="1"/>
+		<reward type="Item" id="tipWeaponstation" value="1"/>
+	</quest>
 </quests>

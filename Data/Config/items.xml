@@ -8055,7 +8055,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources,Basics"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="DescriptionKey" value="woodDesc"/>
 		<property name="CraftingIngredientTime" value="0.25"/>
 	</item>
@@ -8457,11 +8456,11 @@
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 		<property name="HoldType" value="45"/>
-		<property name="Material" value="metal"/>
+		<property name="Material" value="MmechanicalParts"/>
 		<property name="Weight" value="5"/>
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
-		<property name="EconomicValue" value="32"/>
+		<property name="EconomicValue" value="12"/>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingIngredientExp" value="15"/>
 		<property name="CraftingIngredientTime" value="2"/>
@@ -10165,12 +10164,11 @@
 		<property name="HoldType" value="45"/>
 		<property name="Stacknumber" value="5000"/>
 		<!-- STK resource -->
-		<property name="FuelValue" value="100"/>
+		<property name="FuelValue" value="175"/>
 		<property name="EconomicValue" value="5"/>
 		<property name="EconomicBundleSize" value="50"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="DescriptionKey" value="CharcoalDesc"/>
 		<property name="CraftingIngredientTime" value="0.25"/>
 	</item>
@@ -14145,11 +14143,11 @@
 	</item>
 	<item id="2696" name="survivorNoteCollection">
 		<property name="DescriptionKey" value="survivorNoteCollectionDesc"/>
-		<property name="CustomIcon" value="knowledgePoint"/>
+		<property name="CustomIcon" value="knowledgePointCollection"/>
 		<property name="Meshfile" value="Items/Misc/paper"/>
 		<property name="HoldType" value="21"/>
 		<property name="Material" value="knowledge_Points"/>
-		<property name="Weight" value="10"/>
+		<property name="Weight" value="3"/>
 		<property name="Stacknumber" value="500"/>
 		<property name="FuelValue" value="20"/>
 		<property name="Group" value="Books"/>
@@ -14873,7 +14871,6 @@
 		<!-- STK resource -->
 		<property name="Group" value="Resources"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="CraftingIngredientTime" value="0.5"/>
 	</item>
 	<item id="2791" name="ovenKit">
@@ -14886,7 +14883,6 @@
 		<!-- STK resource -->
 		<property name="Group" value="Resources"/>
 		<property name="RepairAmount" value="100"/>
-		<property name="LootExpValue" value="1"/>
 		<property name="CraftingIngredientTime" value="0.5"/>
 	</item>
 	<item id="2792" name="minerParts">
@@ -18520,7 +18516,7 @@
 		<property name="Extends" value="handMaster"/>
 		<property name="CreativeMode" value="None"/>
 		<property class="Action0">
-			<property name="Range" value="2.8"/>
+			<property name="Range" value="3.5"/>
 			<property name="DamageEntity" value="40"/>
 			<property name="DamageBlock" value="120"/>
 			<property name="Buff" value="bleeding,sprainedLeg,stunned"/>
@@ -18533,9 +18529,9 @@
 		<property class="Action0">
 			<property name="Range" value="2.3"/>
 			<property name="DamageEntity" value="20"/>
-			<property name="DamageBlock" value="30"/>
+			<property name="DamageBlock" value="40"/>
 			<property name="Buff" value="bleeding,burningSmall,stunned"/>
-			<property name="Buff_chance" value="0.15,0.5,0.3"/>
+			<property name="Buff_chance" value="0.15,0.3,0.3"/>
 		</property>
 	</item>
 	<item id="3130" name="handZombieRaptor">
@@ -22758,6 +22754,7 @@
 		<property name="CraftingSkillGroup" value="Cooking"/>
 	</item>
 	<item id="3314" name="Spaghetti">
+		<property name="CustomIcon" value="Spaghetti"/>
 		<property name="Meshfile" value="Items/Food/venison_stewPrefab"/>
 		<property name="Material" value="organic"/>
 		<property name="HoldType" value="21"/>
@@ -22782,5 +22779,460 @@
 		<property name="DescriptionKey" value="woodSpoonDesc"/>
 		<property name="Material" value="wood"/>
 		<property name="Weight" value="7"/>
+	</item>
+	<item id="3316" name="adminbucket">
+		<property name="CustomIcon" value="bucket"/>
+		<property name="CustomIconTint" value="172,33,50"/>
+		<property name="Candrop" value="false"/>
+		<property name="DescriptionKey" value="adminbucketDesc"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Meshfile" value="Items/Crafting/Metal/IronBucket"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="metal"/>
+		<property name="HoldType" value="34"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="EconomicValue" value="84"/>
+		<property class="Action0">
+			<!-- AttackAction -->
+			<property name="Class" value="BailLiquid"/>
+			<property name="Delay" value="0.35"/>
+			<property name="Sound_start" value="bucketbail_water"/>
+		</property>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="ExchangeItem"/>
+			<property name="Delay" value="0.35"/>
+			<property name="Change_item_to" value="adminbucketWater"/>
+			<property name="Do_block_action" value="deplete3"/>
+			<property name="Focused_blockname_1" value="water"/>
+			<property name="Focused_blockname_2" value="waterMoving"/>
+			<property name="Focused_blockname_3" value="waterStaticBucket"/>
+			<property name="Focused_blockname_4" value="waterMovingBucket"/>
+			<property name="Focused_blockname_5" value="waterSource8"/>
+			<property name="Sound_start" value="bucketfill_water"/>
+		</property>
+		<property name="Group" value="Tools/Traps"/>
+	</item>
+	<item id="3317" name="adminbucketWater">
+		<property name="CustomIcon" value="bucketWater"/>
+		<property name="CustomIconTint" value="172,33,50"/>
+		<property name="DescriptionKey" value="adminbucketDesc"/>
+		<property name="Candrop" value="false"/>
+		<property name="CreativeMode" value="Dev"/>
+		<property name="Meshfile" value="Items/Crafting/Metal/IronBucketWaterPrefab"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="Material" value="metal"/>
+		<property name="HoldType" value="34"/>
+		<property name="Stacknumber" value="1"/>
+		<property name="EconomicValue" value="88"/>
+		<property class="Action1">
+			<!-- UseAction -->
+			<property name="Class" value="PlaceAsBlock"/>
+			<property name="Delay" value="0.5"/>
+			<property name="Blockname" value="waterMovingBucket"/>
+			<property name="Change_item_to" value="adminbucket"/>
+			<property name="Sound_start" value="bucketplace_water"/>
+		</property>
+		<property name="Group" value="Tools/Traps"/>
+	</item>
+	<item id="3318" name="journalQuest">
+		<property name="Extends" value="challengeQuestMaster"/>
+		<property name="DescriptionKey" value="journalQuestDesc"/>
+		<property name="CustomIcon" value="journalQuest"/>
+		<property name="EconomicValue" value="5"/>
+		<property class="Action1">
+			<property name="QuestGiven" value="journal_tips"/>
+		</property>
+	</item>
+	<item id="3319" name="tipSticks">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="stickTip"/>
+	</item>
+	<item id="3320" name="tipsToolheads">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="toolheadTip"/>
+	</item>
+	<item id="3321" name="tipScavenging">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="scavengingTip"/>
+	</item>
+	<item id="3322" name="tipLeathermaking">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="leathermakingTip"/>
+	</item>
+	<item id="3323" name="tipCarparts">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="carpartsTip"/>
+	</item>
+	<item id="3324" name="tipKP">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="kpTip"/>
+	</item>
+	<item id="3325" name="tipWeaponparts">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="weaponpartsTip"/>
+	</item>
+	<item id="3326" name="tipDryingrack">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="dryingrackTip"/>
+	</item>
+	<item id="3327" name="tipTailorstation">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="tailorstationTip"/>
+	</item>
+	<item id="3328" name="tipNewstations">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="newstationsTip"/>
+	</item>
+	<item id="3329" name="tipNightterrors">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="nightterrorsTip"/>
+	</item>
+	<item id="3330" name="tipNewores">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="neworeguideTip"/>
+	</item>
+	<item id="3331" name="tipAdvancedworkbench">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="advancedworkbenchTip"/>
+	</item>
+	<item id="3332" name="tipAdvancedforge">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="advancedforgeTip"/>
+	</item>
+	<item id="3333" name="tipnewSeeds">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="newseedsTip"/>
+	</item>
+	<item id="3334" name="tipNewcooking">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="newcookingTip"/>
+	</item>
+	<item id="3335" name="tipRecipeunlocks">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="recipeunlocksTip"/>
+	</item>
+	<item id="3336" name="tipPrimitivetools">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="primitivetoolsTip"/>
+	</item>
+	<item id="3337" name="tipIronsteel">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="ironsteelTip"/>
+	</item>
+	<item id="3338" name="tipScraptools">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="scraptoolsTip"/>
+	</item>
+	<item id="3339" name="tipCrowbars">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="crowbarTip"/>
+	</item>
+	<item id="3340" name="tipKnives">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="knivesTip"/>
+	</item>
+	<item id="3341" name="tipWeaponstation">
+		<!-- scrap material -->
+		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+		<property name="CustomIcon" value="tipscover"/>
+		<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+		<property name="HoldType" value="45"/>
+		<property name="Material" value="paper"/>
+		<property name="Stacknumber" value="1"/>
+		<!-- STK resource -->
+		<property name="FuelValue" value="1"/>
+		<property name="Weight" value="1"/>
+		<property name="EconomicValue" value="15"/>
+		<property name="EconomicBundleSize" value="5"/>
+		<property name="SellableToTrader" value="false"/>
+		<property name="Group" value="Special Items"/>
+		<property name="PickupJournalEntry" value="weaponstationTip"/>
 	</item>
 </items>
