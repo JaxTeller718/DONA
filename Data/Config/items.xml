@@ -7851,7 +7851,7 @@
 		</property>
 		<property name="FuelValue" value="2"/>
 		<property name="Weight" value="2"/>
-		<property name="Group" value="Special Items"/>
+		<property name="Group" value="Books"/>
 	</item>
 	<item id="1151" name="challengeQuestMaster">
 		<property name="Extends" value="questMaster"/>
@@ -8182,7 +8182,7 @@
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="20"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Clothing"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
 	</item>
@@ -8196,7 +8196,7 @@
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="22"/>
-		<property name="Group" value="Resources,Clothing"/>
+		<property name="Group" value="Clothing"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="Weight" value="5"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
@@ -8403,7 +8403,7 @@
 		<property name="EconomicValue" value="15"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Special Items"/>
+		<property name="Group" value="Books"/>
 	</item>
 	<!--<item id="1329" name="book"><property name="Meshfile" value="Items/Misc/Book"/><property name="Material" value="paper"/><property name="HoldType" value="21"/><property name="Stacknumber" value="100"/><property name="FuelValue" value="20"/><property name="Weight" value="20"/><property name="Group" value="Decor/Miscellaneous"/></item>-->
 	<item id="1330" name="militaryFiber">
@@ -8478,7 +8478,7 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="CraftingIngredientTime" value="2"/>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Clothing"/>
 		<property name="DescriptionKey" value="plantedCotton3HarvestDesc"/>
 	</item>
 	<item id="1335" name="goldenrodPlant">
@@ -8508,7 +8508,7 @@
 		<!-- STK resource -->
 		<!--<property name="EconomicValue" value="5"/><property name="EconomicBundleSize" value="50"/>-->
 		<property name="EconomicValue" value="5"/>
-		<property name="Group" value="Special Items"/>
+		<property name="Group" value="Books"/>
 	</item>
 	<item id="1337" name="snowberryPlant">
 		<property name="Extends" value="blueberries"/>
@@ -8559,7 +8559,7 @@
 		<property name="EconomicValue" value="10"/>
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingIngredientTime" value="1"/>
 	</item>
 	<item id="1341" name="ironArrowHead">
@@ -8696,7 +8696,7 @@
 			<property name="EntityDamage" value="5,10"/>
 			<property name="BlockDamage" value="0.1,0.2"/>
 		</property>
-		<property name="Group" value="Ammo/Weapons"/>
+		<property name="Group" value="Resources"/>
 	</item>
 	<item id="1354" name="rocketTip">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -9226,7 +9226,7 @@
 		<!-- STK resource -->
 		<property name="Weight" value="100"/>
 		<property name="EconomicValue" value="225"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Special Items"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 	</item>
 	<item id="1445" name="anvil">
@@ -9249,7 +9249,7 @@
 		<property name="Stacknumber" value="1"/>
 		<!-- STK loot -->
 		<property name="EconomicValue" value="2000"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Special Items"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 	</item>
 	<item id="1448" name="forgeCrucible">
@@ -9258,7 +9258,7 @@
 		<property name="HoldType" value="45"/>
 		<property name="Material" value="organic"/>
 		<property name="Stacknumber" value="1"/>
-		<property name="Group" value="Resources"/>
+		<property name="Group" value="Special Items"/>
 		<property name="EconomicValue" value="600"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 	</item>
@@ -17147,7 +17147,7 @@
 		<!-- STK resource -->
 		<property name="FuelValue" value="5"/>
 		<property name="EconomicValue" value="22"/>
-		<property name="Group" value="Resources,Clothing"/>
+		<property name="Group" value="Clothing"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<property name="Weight" value="2"/>
 		<property name="CraftingSkillGroup" value="craftSkillArmor"/>
@@ -22843,6 +22843,7 @@
 		<property class="Action1">
 			<property name="QuestGiven" value="journal_tips"/>
 		</property>
+		<property name="Group" value="Basics"/>
 	</item>
 	<item id="3319" name="tipSticks">
 		<!-- scrap material -->
