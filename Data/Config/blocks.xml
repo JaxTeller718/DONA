@@ -989,7 +989,7 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.Next" value="cropsHarvestableMaster"/>
-		<property name="PlantGrowing.GrowthRate" value="300.0"/>
+		<property name="PlantGrowing.GrowthRate" value="240.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -1144,7 +1144,7 @@
 		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine8m"/>
-		<property name="PlantGrowing.GrowthRate" value="720"/>
+		<property name="PlantGrowing.GrowthRate" value="480"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="EconomicValue" value="24"/>
@@ -18533,7 +18533,6 @@
 		<property name="CustomIcon" value="plantedWeed1"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
-		<property name="PlantGrowing.GrowthRate" value="360.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.Next" value="plantedWeed2"/>
 		<property class="UpgradeBlock">
@@ -18546,7 +18545,6 @@
 		<property name="CustomIcon" value="plantedWeed2"/>
 		<property name="Shape" value="ModelEntity"/>
 		<property name="Model" value="#plantedWeed2?plantedWeed2Prefab"/>
-		<property name="PlantGrowing.GrowthRate" value="360.0"/>
 		<property name="Collide" value="melee"/>
 		<property name="Group" value="Medicine"/>
 		<property name="PlantGrowing.Next" value="plantedWeed3Harvest"/>

@@ -23183,7 +23183,7 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="scraptoolsTip"/>
+		<property name="PickupJournalEntry" value="scrappingtoolsTip"/>
 	</item>
 	<item id="3339" name="tipCrowbars">
 		<!-- scrap material -->
@@ -23236,4 +23236,8 @@
 		<property name="Group" value="Special Items"/>
 		<property name="PickupJournalEntry" value="weaponstationTip"/>
 	</item>
+
+
+
+
 </items>

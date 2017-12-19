@@ -648,10 +648,10 @@
 		<entity name="valZombieBrute" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
-		<entity name="zombieScreamer5" prob="0.03"/>
+		<entity name="zombieScreamer5" prob="0.3"/>
 		<entity name="zombieScreamer"/>
 		<entity name="zombieScreamer7" prob="0.03"/>
-		<entity name="zombieScreamer6" prob="0.03"/>
+		<entity name="zombieScreamer6" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="ZombiesCrawlers">
 		<entity name="zombieSteveCrawler" prob="1"/>
