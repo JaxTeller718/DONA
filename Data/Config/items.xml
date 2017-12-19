@@ -7544,7 +7544,7 @@
 			<!-- When first learned the multiplier is applied. After that only the action exp is applied but it's applied for EACH item in the book. -->
 			<property name="Sound_start" value="recipe_unlocked"/>
 		</property>
-		<property name="Group" value="Books"/>
+		<property name="Group" value="Schematics"/>
 	</item>
 	<item id="901" name="invisibleRecipesForRepairCost">
 		<!-- Gating book for lootable things we dont want the player to repair -->
@@ -7851,7 +7851,7 @@
 		</property>
 		<property name="FuelValue" value="2"/>
 		<property name="Weight" value="2"/>
-		<property name="Group" value="Books"/>
+		<property name="Group" value="Quests"/>
 	</item>
 	<item id="1151" name="challengeQuestMaster">
 		<property name="Extends" value="questMaster"/>
@@ -7859,6 +7859,7 @@
 		<property name="DescriptionKey" value="qc_ZombieGroupDesc"/>
 		<property name="CustomIcon" value="challengeQuestMaster"/>
 		<property name="EconomicValue" value="400"/>
+		<property name="Group" value="Quests"/>
 	</item>
 	<item id="1152" name="treasureQuestMaster">
 		<property name="Extends" value="questMaster"/>
@@ -7866,6 +7867,7 @@
 		<property name="DescriptionKey" value="qt_desc"/>
 		<property name="CustomIcon" value="treasureQuestMaster"/>
 		<property name="PickupJournalEntry" value="treasureMapTip"/>
+		<property name="Group" value="Maps"/>
 	</item>
 	<item id="1160" name="q_basicSurvival">
 		<property name="Extends" value="questMaster"/>
@@ -10182,7 +10184,7 @@
 		<property name="Stacknumber" value="50"/>
 		<property name="DropScale" value="4"/>
 		<property name="CreativeMode" value="None"/>
-		<property name="Group" value="Books"/>
+		<property name="Group" value="Quest Items"/>
 		<property name="EconomicValue" value="50"/>
 	</item>
 	<item id="2701" name="questItemRing">
@@ -14626,7 +14628,7 @@
 		<property name="Material" value="paper"/>
 		<property name="Weight" value="1"/>
 		<property name="FuelValue" value="20"/>
-		<property name="Group" value="Survival"/>
+		<property name="Group" value="Skills"/>
 		<property class="Action1">
 			<property name="Class" value="Quest"/>
 			<property name="QuestGiven" value="skill1"/>
@@ -14643,7 +14645,7 @@
 		<property name="Material" value="paper"/>
 		<property name="Weight" value="1"/>
 		<property name="FuelValue" value="20"/>
-		<property name="Group" value="Survival"/>
+		<property name="Group" value="Skills"/>
 		<property class="Action1">
 			<property name="Class" value="Quest"/>
 			<property name="QuestGiven" value="skill3"/>
@@ -14660,7 +14662,7 @@
 		<property name="Material" value="paper"/>
 		<property name="Weight" value="1"/>
 		<property name="FuelValue" value="20"/>
-		<property name="Group" value="Survival"/>
+		<property name="Group" value="Skills"/>
 		<property class="Action1">
 			<property name="Class" value="Quest"/>
 			<property name="QuestGiven" value="skill5"/>
@@ -21564,7 +21566,7 @@
 			<property name="ActionExp" value="10"/>
 			<property name="ActionExpBonusMultiplier" value="1"/>
 		</property>
-		<property name="Group" value="Food/Cooking"/>
+		<property name="Group" value="Seeds"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
@@ -22835,17 +22837,15 @@
 		</property>
 		<property name="Group" value="Tools/Traps"/>
 	</item>
-	<item id="3318" name="journalQuest">
+
+	<item id="3318" name="turdquest">
 		<property name="Extends" value="challengeQuestMaster"/>
 		<property name="DescriptionKey" value="journalQuestDesc"/>
 		<property name="CustomIcon" value="journalQuest"/>
 		<property name="EconomicValue" value="5"/>
-		<property class="Action1">
-			<property name="QuestGiven" value="journal_tips"/>
-		</property>
 		<property name="Group" value="Basics"/>
 	</item>
-	<item id="3319" name="tipSticks">
+	<item id="3319" name="turd1">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22860,9 +22860,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="stickTip"/>
 	</item>
-	<item id="3320" name="tipsToolheads">
+	<item id="3320" name="turd2">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22877,9 +22876,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="toolheadTip"/>
 	</item>
-	<item id="3321" name="tipScavenging">
+	<item id="3321" name="turd3">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22894,9 +22892,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="scavengingTip"/>
 	</item>
-	<item id="3322" name="tipLeathermaking">
+	<item id="3322" name="turd4">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22911,9 +22908,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="leathermakingTip"/>
 	</item>
-	<item id="3323" name="tipCarparts">
+	<item id="3323" name="turd5">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22928,9 +22924,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="carpartsTip"/>
 	</item>
-	<item id="3324" name="tipKP">
+	<item id="3324" name="turd6">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22945,9 +22940,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="kpTip"/>
 	</item>
-	<item id="3325" name="tipWeaponparts">
+	<item id="3325" name="turd7">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22962,9 +22956,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="weaponpartsTip"/>
 	</item>
-	<item id="3326" name="tipDryingrack">
+	<item id="3326" name="turd8">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22979,9 +22972,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="dryingrackTip"/>
 	</item>
-	<item id="3327" name="tipTailorstation">
+	<item id="3327" name="turd9">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -22996,9 +22988,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="tailorstationTip"/>
 	</item>
-	<item id="3328" name="tipNewstations">
+	<item id="3328" name="turd10">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23013,9 +23004,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="newstationsTip"/>
 	</item>
-	<item id="3329" name="tipNightterrors">
+	<item id="3329" name="turd11">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23030,9 +23020,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="nightterrorsTip"/>
 	</item>
-	<item id="3330" name="tipNewores">
+	<item id="3330" name="turd12">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23047,9 +23036,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="neworeguideTip"/>
 	</item>
-	<item id="3331" name="tipAdvancedworkbench">
+	<item id="3331" name="turd13">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23064,9 +23052,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="advancedworkbenchTip"/>
 	</item>
-	<item id="3332" name="tipAdvancedforge">
+	<item id="3332" name="turd14">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23081,9 +23068,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="advancedforgeTip"/>
 	</item>
-	<item id="3333" name="tipnewSeeds">
+	<item id="3333" name="turd15">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23098,9 +23084,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="newseedsTip"/>
 	</item>
-	<item id="3334" name="tipNewcooking">
+	<item id="3334" name="turd16">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23115,9 +23100,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="newcookingTip"/>
 	</item>
-	<item id="3335" name="tipRecipeunlocks">
+	<item id="3335" name="turd17">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23132,9 +23116,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="recipeunlocksTip"/>
 	</item>
-	<item id="3336" name="tipPrimitivetools">
+	<item id="3336" name="turd18">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23149,9 +23132,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="primitivetoolsTip"/>
 	</item>
-	<item id="3337" name="tipIronsteel">
+	<item id="3337" name="turd19">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23166,9 +23148,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="ironsteelTip"/>
 	</item>
-	<item id="3338" name="tipScraptools">
+	<item id="3338" name="turd20">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23183,9 +23164,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="scrappingtoolsTip"/>
 	</item>
-	<item id="3339" name="tipCrowbars">
+	<item id="3339" name="turd21">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23200,9 +23180,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="crowbarTip"/>
 	</item>
-	<item id="3340" name="tipKnives">
+	<item id="3340" name="turd22">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23217,9 +23196,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="knivesTip"/>
 	</item>
-	<item id="3341" name="tipWeaponstation">
+	<item id="3341" name="turd23">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23234,9 +23212,7 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="weaponstationTip"/>
 	</item>
-
 
 
 
