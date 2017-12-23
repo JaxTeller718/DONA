@@ -1361,7 +1361,7 @@
 	</lootgroup>
 	<lootgroup name="rareBooks" count="1">
 		<item name="ak47Schematic"/>
-		<item name="augerSchematic" prob="0.05"/>
+		<item name="augerSchematic" prob="0.15"/>
 		<item name="chainsawSchematic"/>
 		<item name="minibikesForDumbshits" prob="0.35"/>
 		<item name="MinibikesForSmartshits" prob="0.15"/>

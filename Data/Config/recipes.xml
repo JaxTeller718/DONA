@@ -4923,7 +4923,7 @@
 		<ingredient name="unit_iron" count="25"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="halipad" count="1" craft_area="NewWorkBench">
+<!-- 	<recipe name="halipad" count="1" craft_area="NewWorkBench">
 		<ingredient name="forgedSteel" count="50"/>
 		<ingredient name="carBattery" count="1"/>
 		<ingredient name="smallEngine" count="1"/>
@@ -4934,7 +4934,7 @@
 		<ingredient name="forgedSteel" count="20"/>
 		<ingredient name="electronicParts" count="15"/>
 		<ingredient name="mechanicalParts" count="10"/>
-	</recipe>
+	</recipe> -->
 	<recipe name="cntStorageCustomSecure" count="1" scrapable="False">
 		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="10"/>
