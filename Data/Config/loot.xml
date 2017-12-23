@@ -1527,8 +1527,10 @@
 		<item name="plantedWheat1"/>
 		<item name="plantedSoy1"/>
 		<item name="plantedAppleTree1"/>
-		<item name="cucumberSeed"/>
-		<item name="carrotSeed"/>
+		<item name="plantedCucumber1"/>
+		<item name="plantedCarrot1"/>
+		<item name="plantedOnion1"/>
+		<item name="plantedLettuce1"/>
 	</lootgroup>
 	<lootgroup name="airdropfood">
 		<item name="canBeef"/>
@@ -3786,5 +3788,19 @@
 		<item name="pipeWrench" prob="0.15"/>
 		<item group="rareMedicine" prob="0.2"/>
 		<item name="tarp" count="1,2"/>
+	</lootcontainer>
+	<lootgroup name="MinibikeLoot" count="all">
+		<item name="minibikeChassis" count="1"/>
+		<item name="minibikeChassis" count="1"/>
+		<item name="minibikeHandlebars" count="1"/>
+		<item name="minibikeSeat" count="1"/>
+		<item name="minibikeWheels" count="1"/>
+		<item name="smallEngine" count="1"/>
+		<item name="carBattery" count="1"/>
+		<item name="shoppingCartEmpty" count="1"/>
+		<item name="gasCan" count="1000"/>
+	</lootgroup>
+	<lootcontainer id="177" count="1" size="2,2" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate"  open_time="5" loot_quality_template="baseTemplate">
+		<item group="MinibikeLoot" count="All"/>
 	</lootcontainer>
 </lootcontainers>

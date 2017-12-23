@@ -1055,8 +1055,8 @@
 	</quest>
 	<quest id="quest_AdminStarter" group_name_key="Admin Starter Pack" name_key="Admin Starter Pack" subtitle_key="Admin Starter Pack" description_key="Tools for Testing for Admins" icon="ui_game_symbol_hand" category_key="Quest" offer_key="Reading this will give you some Admin Tools for Testing Purposes">
 		<reward type="Item" id="AdminPill" value="2"/>
-		<reward type="Item" id="Admin 50 Skillpoints" value="2"/>
-		<reward type="Item" id="AdminFood" value="2"/>
+		<reward type="Item" id="Admin XP and Skills" value="2"/>
+		<reward type="Item" id="AdminFood" value="5"/>
 		<reward type="Item" id="shotgunShell" value="500"/>
 		<reward type="Item" id="clubSpiked" value="500"/>
 		<reward type="Item" id="Admin Tool" value="500"/>
@@ -1070,6 +1070,11 @@
 		<reward type="Item" id="cloth" value="500"/>
 		<reward type="Item" id="ductTape" value="500"/>
 		<reward type="Item" id="yuccaFibers" value="500"/>
+		<reward type="Item" id="Twine" value="500"/>
+		<reward type="Item" id="Charcoal" value="500"/>
+		<reward type="Item" id="stick" value="500"/>
+		<reward type="Item" id="feather" value="500"/>
+		<reward type="Item" id="MinibikeBox" value="1"/>
 	</quest>
 	<quest id="adminskill5" name_key="5 Skill Points" subtitle_key="5 Skill Points" description_key="5 Admin Skill Points for Testing" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
 		<reward type="SkillPoints" value="5"/>
@@ -1082,6 +1087,10 @@
 	</quest>
 	<quest id="adminskill50" name_key="50 Skill Points" subtitle_key="50 Skill Points" description_key="50 Admin Skill Points for Testing" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
 		<reward type="SkillPoints" value="50"/>
+	</quest>
+	<quest id="adminskillxp" name_key="Admin Skills and XP" subtitle_key="Experience Points and Skills for Admins" description_key="Admin Skill Points and XP for Testing" icon="misc_crafting"  repeatable="true" category_key="challenge" difficulty="easy">
+		<reward type="SkillPoints" value="200"/>
+		<reward type="Exp" value="1000000"/>
 	</quest>
 	<!-- Classes -->
 	<quest id="riflesclass1" 	name_key="Rifles Class" 	group_name="SurvivalClasses" 	subtitle_key="Rifles Class" 	offer_key="Accepting this will give you an SMG 150 bullets and an SMG schematic" 	description_key="Become an expert in Rifles" 	icon="classMarksmanLevel1Icon" 	repeatable="false" 	category_key="Quest" 	difficulty="easy">
@@ -1187,4 +1196,29 @@
 		<reward type="Item" id="seedPack" value="10"/>
 		<reward type="Item" id="hoeIron" value="250"/>
 	</quest>
+		<quest id="journal_tips" name_key="Ravenhearst Tourist Guide" subtitle_key="Read the Guide" description_key="This Guide to Ravenhearst will add multiple Journal Entries to your in game Journal. Make sure you have an EMPTY BAG as this will add multiple items to Inventory. You can scrap the items after the entries are added." icon="ui_game_symbol_treasure"  	repeatable="false" category_key="challenge" offer_key="This Guide to Ravenhearst will add multiple Journal Entries to your in game Journal. Make sure you have an EMPTY BAG as this will add multiple items to Inventory. You can scrap the items after the entries are added." difficulty="easy">
+		<reward type="Item" id="tipScraptools" value="1"/>
+		<reward type="Item" id="tipIronsteel" value="1"/>
+		<reward type="Item" id="tipPrimitivetools" value="1"/>
+		<reward type="Item" id="tipRecipeunlocks" value="1"/>
+		<reward type="Item" id="tipNewcooking" value="1"/>
+		<reward type="Item" id="tipnewSeeds" value="1"/>
+		<reward type="Item" id="tipAdvancedforge" value="1"/>
+		<reward type="Item" id="tipAdvancedworkbench" value="1"/>
+		<reward type="Item" id="tipNewores" value="1"/>
+		<reward type="Item" id="tipNightterrors" value="1"/>
+		<reward type="Item" id="tipNewstations" value="1"/>
+		<reward type="Item" id="tipTailorstation" value="1"/>
+		<reward type="Item" id="tipDryingrack" value="1"/>
+		<reward type="Item" id="tipWeaponparts" value="1"/>
+		<reward type="Item" id="tipKP" value="1"/>
+		<reward type="Item" id="tipCarparts" value="1"/>
+		<reward type="Item" id="tipLeathermaking" value="1"/>
+		<reward type="Item" id="tipScavenging" value="1"/>
+		<reward type="Item" id="tipsToolheads" value="1"/>
+		<reward type="Item" id="tipSticks" value="1"/>
+		<reward type="Item" id="tipCrowbars" value="1"/>
+		<reward type="Item" id="tipKnives" value="1"/>
+		<reward type="Item" id="tipWeaponstation" value="1"/>
+	</quest>	
 </quests>

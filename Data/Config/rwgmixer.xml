@@ -2,7 +2,7 @@
 <rwgmixer>
 	<world ruleset="vanilla"/>
 	<rulesets>
-		<ruleset name="vanilla" cell_cache_size="8" cell_size="1800" cell_offset="0" generation_distance="20000" terrain_generator="vanilla" biome_generator="vanilla">
+		<ruleset name="vanilla" cell_cache_size="8" cell_size="1800" cell_offset="0" generation_distance="15000" terrain_generator="vanilla" biome_generator="vanilla">
 			<cell_rule name="default" prob="1"/>
 			<!--<cell_rule name="customHubTest" position="0,1" prob="0"/>-->
 		</ruleset>
@@ -456,7 +456,7 @@
 			<prefab name="ouch_airport1" max_count="1" prob="0.2"/>
 		</prefab_rule>
 		<prefab_rule name="wildernessGroup">
-			<prefab rule="traderGroup" max_count="1" prob="0.4"/>
+			<prefab rule="traderGroup" max_count="1" prob="0.3"/>
 			<prefab name="cabin_01"/>
 			<prefab name="cabin_02_sm"/>
 			<prefab name="cabin_03_lg"/>
@@ -474,7 +474,7 @@
 			<prefab name="campsite_06a"/>
 			<prefab name="campsite_07"/>
 			<prefab name="campsite_07a"/>
-			<prefab name="indian_burial_grounds_01" prob="0.05"/>
+			<prefab name="indian_burial_grounds_01" prob="0.15"/>
 			<prefab name="oldwest_graveyard"/>
 			<prefab name="cave_01"/>
 			<prefab name="cave_02"/>
@@ -497,7 +497,7 @@
 			<prefab name="xcostum_LumberMill(by_IceJudge)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_ZombieZoo(by_Wsiegel)" max_count="1" prob="0.3"/>
 			<prefab name="xcostum_H0bbit(by_Limodor)" max_count="2" prob="0.2"/>
-			<prefab name="xcostum_CrashedAirplane(by_LazMan)" max_count="1" prob="0.05"/>
+			<prefab name="xcostum_CrashedAirplane(by_LazMan)" max_count="1" prob="0.15"/>
 			<prefab name="xcostum_CasinoANKH(by_magoli)" max_count="1"  prob="0.1"/>
 			<prefab name="xcostum_Prison(by_Limodur)" max_count="1" prob="0.1"/>
 			<prefab name="kam_modern_resi01" max_count="1" prob="0.4"/>
@@ -531,12 +531,6 @@
 			<prefab name="settlement_trader_03"/>
 			<prefab name="settlement_trader_04"/>
 			<prefab name="settlement_trader_05"/>
-		</prefab_rule>
-		<prefab_rule name="AframeHouses">
-			<prefab name="xcostum_House_AF02P(17x16)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF03P(35x54)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF04P(15x15)(by_Nodabba)" max_count="1"/>
-			<prefab name="xcostum_House_AF06R(29x30)(by_Nodabba)" max_count="1"/>
 		</prefab_rule>
 	</prefab_rules>
 	<hub_layouts>
@@ -718,7 +712,7 @@
 			<biome_generator range="0.9,1"/>
 		</biome_spawn_rule>
 		<biome_spawn_rule name="radiated">
-			<distance_from_center range="20000,25000"/>
+			<distance_from_center range="15000,16000"/>
 		</biome_spawn_rule>
 		<biome_spawn_rule name="water">
 			<terrain_generator range="-31,-1"/>

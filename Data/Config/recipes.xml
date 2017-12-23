@@ -20,16 +20,16 @@
 	<recipe name="brokenGlass" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="clayLump" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="clayLump" count="1" craft_area="advancedForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="clayLump" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="clayLump" count="1" craft_area="blacksmithStation" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
 	<recipe name="cloth" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="brokenGlass" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="brokenGlass" count="1" craft_area="advancedForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_glass" count="5"/>
 	</recipe>
 	<recipe name="leather" count="1" tooltip="ttScrapMetalBrass">
@@ -41,28 +41,28 @@
 	<recipe name="paper" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="rockSmall" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="rockSmall" count="1" craft_area="advancedForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
 	<recipe name="rockSmall" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="scrapBrass" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="scrapBrass" count="1" craft_area="advancedForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_brass" count="1"/>
 	</recipe>
 	<recipe name="scrapBrass" count="1" tooltip="ttScrapMetalBrass">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="scrapIron" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="scrapIron" count="1" craft_area="advancedForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
 	</recipe>
-	<recipe name="scrapIron" count="1" craft_area="anvilBlock" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="scrapIron" count="1" craft_area="blacksmithStation" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_iron" count="1"/>
 	</recipe>
 	<recipe name="scrapIron" count="1" tooltip="ttScrapMetalIron">
 		<wildcard_forge_category />
 	</recipe>
-	<recipe name="scrapLead" count="1" craft_area="BigForge" material_based="true" craft_time = "1" craft_exp_gain="0">
+	<recipe name="scrapLead" count="1" craft_area="advancedForge" material_based="true" craft_time = "1" craft_exp_gain="0">
 		<ingredient name="unit_lead" count="1"/>
 	</recipe>
 	<recipe name="scrapLead" count="1" tooltip="ttScrapMetalLead">
@@ -178,7 +178,7 @@
 		<ingredient name="potassiumNitratePowder" count="3"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="anvil" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="anvil" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="400"/>
 		<ingredient name="unit_clay" count="40"/>
 	</recipe>
@@ -351,15 +351,15 @@
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="buckshot" count="1" craft_area="BigForge"  material_based="true">
+	<recipe name="buckshot" count="1" craft_area="advancedForge"  material_based="true">
 		<ingredient name="unit_lead" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="bulletCasing" count="1" craft_area="BigForge"  craft_tool="calipers" material_based="true">
+	<recipe name="bulletCasing" count="1" craft_area="advancedForge"  craft_tool="calipers" material_based="true">
 		<ingredient name="unit_brass" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="bulletTip" count="1" craft_area="BigForge"  craft_tool="calipers" material_based="true">
+	<recipe name="bulletTip" count="1" craft_area="advancedForge"  craft_tool="calipers" material_based="true">
 		<ingredient name="unit_lead" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -396,7 +396,7 @@
 	<recipe name="candleTablePlayer" count="1">
 		<ingredient name="candle" count="1"/>
 	</recipe>
-	<recipe name="cement" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="cement" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
 	<recipe name="cementMixer" count="1" craft_area="NewWorkBench">
@@ -678,11 +678,11 @@
 	<recipe name="forestGround" count="1" craft_time="6">
 		<ingredient name="dirtFragment" count="8"/>
 	</recipe>
-	<recipe name="forgedIron" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="forgedIron" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="forgedSteel" count="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="forgedSteel" count="1" craft_area="advancedForge" craft_tool="forgeCrucible" material_based="true">
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="10"/>
 	</recipe>
@@ -691,85 +691,85 @@
 		<ingredient name="spring" count="6"/>
 		<ingredient name="mechanicalParts" count="12"/>
 	</recipe>
-	<recipe name="glassCTRSheet" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassCTRSheet" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_lead" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassShowerBlock" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassShowerBlock" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="14"/>
 		<ingredient name="unit_lead" count="4"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassShowerRamp" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassShowerRamp" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="14"/>
 		<ingredient name="unit_lead" count="4"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassIndustrialCTRPlate" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassIndustrialCTRPlate" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_lead" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassIndustrial02CTRPlate" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassIndustrial02CTRPlate" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_lead" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="glassBusinessSheet" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassBusinessSheet" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="14"/>
 		<ingredient name="unit_lead" count="5"/>
 		<ingredient name="unit_clay" count="2"/>
 	</recipe>
-	<recipe name="glassBusinessCTRSheet" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassBusinessCTRSheet" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="14"/>
 		<ingredient name="unit_lead" count="5"/>
 		<ingredient name="unit_clay" count="2"/>
 	</recipe>
-	<recipe name="glassBusinessBlock" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassBusinessBlock" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="14"/>
 		<ingredient name="unit_lead" count="5"/>
 		<ingredient name="unit_clay" count="2"/>
 	</recipe>
-	<recipe name="glassBusinessPlate" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassBusinessPlate" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="14"/>
 		<ingredient name="unit_lead" count="5"/>
 		<ingredient name="unit_clay" count="2"/>
 	</recipe>
-	<recipe name="glassBusinessPlateCurved" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="glassBusinessPlateCurved" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="14"/>
 		<ingredient name="unit_lead" count="5"/>
 		<ingredient name="unit_clay" count="2"/>
 	</recipe>
-	<recipe name="glassBulletproofBlock" count="1" craft_area="BigForge"  material_based="true">
+	<recipe name="glassBulletproofBlock" count="1" craft_area="advancedForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofPlate" count="1" craft_area="BigForge"  material_based="true">
+	<recipe name="glassBulletproofPlate" count="1" craft_area="advancedForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofCTRPlate" count="1" craft_area="BigForge"  material_based="true">
+	<recipe name="glassBulletproofCTRPlate" count="1" craft_area="advancedForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofPlateCurved" count="1" craft_area="BigForge"  material_based="true">
+	<recipe name="glassBulletproofPlateCurved" count="1" craft_area="advancedForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
 		<ingredient name="unit_iron" count="20"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="glassBulletproofRamp" count="1" craft_area="BigForge"  material_based="true">
+	<recipe name="glassBulletproofRamp" count="1" craft_area="advancedForge"  material_based="true">
 		<ingredient name="unit_glass" count="110"/>
 		<ingredient name="unit_stone" count="10"/>
 		<ingredient name="unit_lead" count="40"/>
@@ -937,18 +937,6 @@
 		<ingredient name="stick" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="ironDoor1_v1" count="1" craft_area="NewWorkBench">
-		<ingredient name="forgedIron" count="10"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="ironDoor1_v2" count="1" craft_area="NewWorkBench">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="ironDoor1_v3" count="1" craft_area="NewWorkBench">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
 	<recipe name="rustyIronTable" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="7"/>
 	</recipe>
@@ -984,7 +972,7 @@
 		<ingredient name="leather" count="10"/>
 		<ingredient name="Twine" count="3"/>
 	</recipe>
-	<recipe name="macheteBlade" count="1"  craft_area="anvilBlock" craft_time="30">
+	<recipe name="macheteBlade" count="1"  craft_area="blacksmithStation" craft_time="30"  material_based="true">
 		<ingredient name="unit_iron" count="400"/>
 		<ingredient name="unit_clay" count="200"/>
 	</recipe>
@@ -1378,7 +1366,7 @@
 	<recipe name="shortMetalPipe" count="1">
 		<ingredient name="forgedIron" count="1"/>
 	</recipe>
-	<recipe name="shortMetalPipe" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="shortMetalPipe" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
@@ -1408,7 +1396,7 @@
 		<ingredient name="stick" count="1"/>
 		<ingredient name="feather" count="1"/>
 	</recipe>
-	<recipe name="steelArrowHead" count="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="steelArrowHead" count="1" craft_area="advancedForge" craft_tool="forgeCrucible" material_based="true">
 		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -1614,13 +1602,13 @@
 		<ingredient name="nail" count="5"/>
 		<ingredient name="wood" count="20"/>
 	</recipe>
-	<recipe name="trapGlassBusinessSheet1x1" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="trapGlassBusinessSheet1x1" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="20"/>
 		<ingredient name="unit_stone" count="5"/>
 		<ingredient name="unit_lead" count="5"/>
 		<ingredient name="unit_clay" count="3"/>
 	</recipe>
-	<recipe name="trapGlassBusinessCTRSheet1x1" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="trapGlassBusinessCTRSheet1x1" count="1" craft_area="advancedForge" material_based="true">
 		<!-- trap -->
 		<ingredient name="unit_glass" count="20"/>
 		<ingredient name="unit_stone" count="5"/>
@@ -1749,25 +1737,6 @@
 	<recipe name="brickArch" count="1"  craft_area="NewWorkBench">
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
-	</recipe>
-	<recipe name="mechanicalParts" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="2"/>
-		<ingredient name="ductTape" count="1"/>
-	</recipe>
-	<recipe name="insulator" count="1" craft_area="BigForge" craft_tool="toolAndDieSet" material_based="true">
-		<ingredient name="unit_iron" count="2"/>
-		<ingredient name="unit_glass" count="10"/>
-		<ingredient name="unit_clay" count="20"/>
-	</recipe>
-	<recipe name="electricParts" count="1"  craft_area="NewWorkBench">
-		<ingredient name="insulator" count="1"/>
-		<ingredient name="forgedIron" count="1"/>
-		<ingredient name="ductTape" count="1"/>
-	</recipe>
-	<recipe name="electronicParts" count="1"  craft_area="NewWorkBench">
-		<ingredient name="electricParts" count="1"/>
-		<ingredient name="scrapBrass" count="1"/>
-		<ingredient name="scrapPlastics" count="1"/>
 	</recipe>
 	<recipe name="wireTool" count="1" craft_area="NewWorkBench">
 		<ingredient name="forgedSteel" count="9"/>
@@ -2118,48 +2087,48 @@
 		<ingredient name="Bricks" count="5"/>
 		<ingredient name="concreteMix" count="5"/>
 	</recipe>
-	<recipe name="chainLink" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLink" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="chainLinkCornerBottom" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLinkCornerBottom" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="chainLinkCornerTop" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLinkCornerTop" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="chainLinkFenceBottomPole" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLinkFenceBottomPole" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="chainLinkFenceTop" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLinkFenceTop" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="chainLinkFenceTopPole" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLinkFenceTopPole" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="chainLinkFenceTopPole2" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLinkFenceTopPole2" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="chainLinkPole" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="chainLinkPole" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="10"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="faucet02" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="faucet02" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_lead" count="10"/>
 	</recipe>
-	<recipe name="faucet04" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="faucet04" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_lead" count="10"/>
 	</recipe>
-	<recipe name="faucetBrass02" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="faucetBrass02" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_brass" count="10"/>
 	</recipe>
-	<recipe name="faucetBrass04" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="faucetBrass04" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_brass" count="10"/>
 	</recipe>
 	<recipe name="flagCNRRound" count="1">
@@ -3001,7 +2970,7 @@
 	<recipe name="Cheeseburger" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="slicedrawMeat" count="2"/>
 		<ingredient name="Bread" count="2"/>
-		<ingredient name="Cheese" count="1"/>
+		<ingredient name="slicedCheese" count="1"/>
 	</recipe>
 	<recipe name="honeyHam" count="1" craft_area="BigCampFire" craft_tool="cookingGrill">
 		<ingredient name="foodHoney" count="1"/>
@@ -3165,11 +3134,11 @@
 		<ingredient name="electricCharge" count="1"/>
 		<ingredient name="clubSpiked" count="1"/>
 	</recipe>
-	<recipe name="diyRocketCasing" count="1" craft_time="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="diyRocketCasing" count="1" craft_time="1" craft_area="advancedForge" craft_tool="forgeCrucible" material_based="true">
 		<ingredient name="unit_iron" count="30"/>
 		<ingredient name="unit_clay" count="35"/>
 	</recipe>
-	<recipe name="diyRocketTip" count="1" craft_time="1" craft_area="BigForge" craft_tool="forgeCrucible" material_based="true">
+	<recipe name="diyRocketTip" count="1" craft_time="1" craft_area="advancedForge" craft_tool="forgeCrucible" material_based="true">
 		<ingredient name="unit_lead" count="35"/>
 		<ingredient name="unit_clay" count="75"/>
 	</recipe>
@@ -3179,11 +3148,11 @@
 		<ingredient name="gunPowder" count="15"/>
 		<ingredient name="gasCan" count="5"/>
 	</recipe>
-	<recipe name="rocketCasing" count="1" craft_time="1" craft_area="BigForge" craft_tool="toolAndDieSet" material_based="true">
+	<recipe name="rocketCasing" count="1" craft_time="1" craft_area="advancedForge" craft_tool="toolAndDieSet" material_based="true">
 		<ingredient name="unit_iron" count="70"/>
 		<ingredient name="unit_clay" count="120"/>
 	</recipe>
-	<recipe name="rocketTip" count="1" craft_area="BigForge" craft_tool="toolAndDieSet" material_based="true">
+	<recipe name="rocketTip" count="1" craft_area="advancedForge" craft_tool="toolAndDieSet" material_based="true">
 		<ingredient name="unit_lead" count="100"/>
 		<ingredient name="unit_clay" count="150"/>
 	</recipe>
@@ -3379,7 +3348,7 @@
 		<ingredient name="electronicParts" count="3"/>
 		<ingredient name="partsNailgun_battery" count="1"/>
 	</recipe>
-	<recipe name="Bricks" count="1" craft_time = "4"  craft_area="BigForge" material_based="true">
+	<recipe name="Bricks" count="1" craft_time = "4"  craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_stone" count="5"/>
 	</recipe>
@@ -3390,102 +3359,7 @@
 		<ingredient name="forgedSteel" count="5"/>
 	</recipe>
 	<!-- 	<recipe name="zombieHordeBeacon" count="1"><ingredient name="burningBarrelPlayer" count="1"/><ingredient name="rottingFlesh" count="25"/></recipe> -->
-	<recipe name="sandbag_1" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbag_2" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbag_3" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbag_4" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbagCorner" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbagEnd" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbagEnd2" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbagCornerDMG1" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbagCorner2" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbagCorner2DMG1" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbag_5" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="sandbag_5DMG1" count="1" craft_area="decoStation">
-		<ingredient name="crushedSand" count="10"/>
-		<ingredient name="textile" count="10"/>
-	</recipe>
-	<recipe name="iBeamSmall" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeam" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamCorner" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamBent" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamSupport" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamFoundation" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamCentered" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamCornerCentered" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamTCentered" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeamCenteredFoundation" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeam5wayCentered" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
-	<recipe name="iBeam6wayCentered" count="1"  craft_area="NewWorkBench">
-		<ingredient name="forgedSteel" count="5"/>
-		<ingredient name="nail" count="50"/>
-	</recipe>
+
 	<recipe name="streetLight01" count="1"  craft_area="decoStation">
 		<ingredient name="forgedSteel" count="5"/>
 		<ingredient name="electricParts" count="13"/>
@@ -3534,7 +3408,7 @@
 		<ingredient name="goldenrodPlant" count="1"/>
 		<ingredient name="blueberries" count="1"/>
 	</recipe>
-	<recipe name="poleTop01" count="1"  craft_area="NewWorkBench">
+	<recipe name="poleTop01" count="1"  craft_area="decoStation">
 		<ingredient name="shortMetalPipe" count="2"/>
 		<ingredient name="electricParts" count="4"/>
 		<ingredient name="mechanicalParts" count="1"/>
@@ -3549,37 +3423,13 @@
 	<recipe name="bridgeWoodBlock" count="1" craft_area="NewWorkBench">
 		<ingredient name="polishedWood" count="20"/>
 	</recipe>
-	<recipe name="woodCrossCtr" count="1" craft_area="NewWorkBench">
+	<recipe name="woodCrossCtr" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="10"/>
 	</recipe>
-	<recipe name="woodCross" count="1" craft_area="NewWorkBench">
+	<recipe name="woodCross" count="1" craft_area="decoStation">
 		<ingredient name="wood" count="10"/>
-	</recipe>
-	<recipe name="emberPile1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="emberPile2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="emberPile3" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
-	</recipe>
-	<recipe name="emberPile4" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="10"/>
-		<ingredient name="coal" count="5"/>
 	</recipe>
 	<recipe name="commercialDoor1_v1" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="commercialDoor1_v2" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="commercialDoor1_v3" count="1"  craft_area="decoStation">
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
 	</recipe>
@@ -3587,31 +3437,32 @@
 		<ingredient name="forgedIron" count="5"/>
 		<ingredient name="spring" count="2"/>
 	</recipe>
-	<recipe name="commercialDoor4_v2" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
-	<recipe name="commercialDoor4_v3" count="1"  craft_area="decoStation">
-		<ingredient name="forgedIron" count="5"/>
-		<ingredient name="spring" count="2"/>
-	</recipe>
 	<recipe name="houseFrontDoor1_v1" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
-	</recipe>
-	<recipe name="houseFrontDoor1_v2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
-	</recipe>
-	<recipe name="houseFrontDoor1_v3" count="1" craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 	</recipe>
 	<recipe name="houseFrontDoor2_v1" count="1" craft_area="decoStation">
 		<ingredient name="polishedWood" count="20"/>
 	</recipe>
-	<recipe name="houseFrontDoor2_v2" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+	<recipe name="forestCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
 	</recipe>
-	<recipe name="houseFrontDoor2_v3" count="1" craft_area="decoStation">
-		<ingredient name="polishedWood" count="20"/>
+	<recipe name="forestCNRCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="sidewalkCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="plainsCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="plainsCNRCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="wastelandCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
+	</recipe>
+	<recipe name="wastelandCNRCurb" count="1" craft_area="decoStation">
+		<ingredient name="concreteMix" count="10"/>
 	</recipe>
 	<recipe name="ice" count="1">
 		<ingredient name="snowBall" count="12"/>
@@ -3750,7 +3601,7 @@
 	<recipe name="ductSoftCorner2" count="1"  craft_area="decoStation">
 		<ingredient name="scrapIron" count="20"/>
 	</recipe>
-	<recipe name="electricalBox01" count="1"  craft_area="NewWorkBench">
+	<recipe name="electricalBox01" count="1"  craft_area="decoStation">
 		<ingredient name="shortMetalPipe" count="1"/>
 		<ingredient name="spring" count="1"/>
 		<ingredient name="electricParts" count="3"/>
@@ -3886,13 +3737,13 @@
 		<ingredient name="potato" count="20"/>
 		<ingredient name="blueberries" count="20"/>
 	</recipe>
-	<recipe name="Solder" count="5" craft_area="oilRefinery">
-		<ingredient name="CopperFragment" count="20"/>
-		<ingredient name="ZincFragment" count="20"/>
+	<recipe name="Solder" count="3" craft_area="oilRefinery">
+		<ingredient name="CopperFragment" count="10"/>
+		<ingredient name="ZincFragment" count="10"/>
 	</recipe>
 	<recipe name="Solder" count="1" craft_area="chemistryStation" craft_tool="beaker">
-		<ingredient name="CopperFragment" count="20"/>
-		<ingredient name="ZincFragment" count="20"/>
+		<ingredient name="CopperFragment" count="10"/>
+		<ingredient name="ZincFragment" count="10"/>
 	</recipe>
 	<recipe name="diamondgloves" count="1"  craft_area="tailorStation" craft_tool="weldingTorch">
 		<ingredient name="rawDiamond" count="15"/>
@@ -3932,12 +3783,12 @@
 		<ingredient name="mechanicalParts" count="10"/>
 		<ingredient name="shortMetalPipe" count="4"/>
 	</recipe>
-	<recipe name="bbqgrill" count="1" craft_area="BigForge" material_based="true" craft_time="250">
+	<recipe name="bbqgrill" count="1" craft_area="advancedForge" material_based="true" craft_time="250">
 		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_iron" count="100"/>
 	</recipe>
-	<recipe name="mortarAndPestle" count="1" craft_area="BigForge" material_based="true" craft_time="250">
+	<recipe name="mortarAndPestle" count="1" craft_area="advancedForge" material_based="true" craft_time="250">
 		<ingredient name="unit_lead" count="1"/>
 		<ingredient name="unit_clay" count="5"/>
 		<ingredient name="unit_stone" count="10"/>
@@ -3992,13 +3843,19 @@
 	<recipe name="plantedTomato1" count="1" craft_area="mortarAndPestle">
 		<ingredient name="seedPack" count="1"/>
 	</recipe>
-	<recipe name="carrotSeed" count="1"  craft_area="mortarAndPestle">
+	<recipe name="plantedCarrot1" count="1"  craft_area="mortarAndPestle">
 		<ingredient name="seedPack" count="1"/>
 	</recipe>
-	<recipe name="cucumberSeed" count="1"  craft_area="mortarAndPestle">
+	<recipe name="plantedCucumber1" count="1"  craft_area="mortarAndPestle">
 		<ingredient name="seedPack" count="1"/>
 	</recipe>
 	<recipe name="plantedAppleTree1" count="1" craft_area="mortarAndPestle">
+		<ingredient name="seedPack" count="1"/>
+	</recipe>
+	<recipe name="plantedOnion1" count="1" craft_time="1" craft_area="mortarAndPestle">
+		<ingredient name="seedPack" count="1"/>
+	</recipe>
+	<recipe name="plantedLettuce1" count="1" craft_time="1" craft_area="mortarAndPestle">
 		<ingredient name="seedPack" count="1"/>
 	</recipe>
 	<recipe name="plantedWeed1" count="1" craft_time="1"  craft_area="mortarAndPestle">
@@ -4050,11 +3907,17 @@
 	<recipe name="plantedYucca1" count="1" craft_time="1" craft_area="mortarAndPestle">
 		<ingredient name="foodYuccaFruit" count="1"/>
 	</recipe>
-	<recipe name="carrotSeed" count="1" craft_time="1" craft_area="mortarAndPestle">
+	<recipe name="plantedCarrot1" count="1" craft_time="1" craft_area="mortarAndPestle">
 		<ingredient name="carrot" count="1"/>
 	</recipe>
-	<recipe name="cucumberSeed" count="1" craft_time="1" craft_area="mortarAndPestle">
+	<recipe name="plantedCucumber1" count="1" craft_time="1" craft_area="mortarAndPestle">
 		<ingredient name="cucumber" count="1"/>
+	</recipe>
+	<recipe name="plantedOnion1" count="1" craft_time="1" craft_area="mortarAndPestle">
+		<ingredient name="Onion" count="1"/>
+	</recipe>
+	<recipe name="plantedLettuce1" count="1" craft_time="1" craft_area="mortarAndPestle">
+		<ingredient name="Lettuce" count="1"/>
 	</recipe>
 	<recipe name="chickenFeed" count="1" craft_time = "4"   craft_area="mortarAndPestle">
 		<ingredient name="plantedCorn1" count="2"/>
@@ -4098,7 +3961,7 @@
 		<ingredient name="wood" count="50"/>
 		<ingredient name="anvil" count="1"/>
 	</recipe>
-	<recipe name="BigForge" count="1">
+	<recipe name="advancedForge" count="1">
 		<ingredient name="rockSmall" count="200"/>
 		<ingredient name="clayLump" count="150"/>
 		<ingredient name="bellows" count="2"/>
@@ -4109,7 +3972,7 @@
 		<ingredient name="mechanicalParts" count="5"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
-	<recipe name="anvilBlock" count="1">
+	<recipe name="blacksmithStation" count="1">
 		<ingredient name="anvil" count="1"/>
 		<ingredient name="wood" count="50"/>
 	</recipe>
@@ -4659,7 +4522,7 @@
 	<recipe name="Cheeseburger" count="1" craft_area="Stoves" craft_tool="pan">
 		<ingredient name="slicedrawMeat" count="2"/>
 		<ingredient name="Bread" count="2"/>
-		<ingredient name="Cheese" count="1"/>
+		<ingredient name="slicedCheese" count="1"/>
 	</recipe>
 	<recipe name="honeyHam" count="1" craft_area="Stoves"  craft_tool="pan">
 		<ingredient name="foodHoney" count="1"/>
@@ -4692,7 +4555,11 @@
 		<ingredient name="Tomato" count="1"/>
 		<ingredient name="bottledWater" count="1"/>
 	</recipe>
-	<recipe name="Crackers" count="1" craft_time = "8" craft_area="Stoves">
+	<recipe name="tomatoJuice" count="1" craft_area="foodPrepTable">
+		<ingredient name="Tomato" count="5"/>
+		<ingredient name="PurifiedWater" count="1"/>
+	</recipe>
+	<recipe name="Crackers" count="4" craft_time = "8" craft_area="Stoves">
 		<ingredient name="Dough" count="1"/>
 	</recipe>
 	<recipe name="CrackersAndCheese" count="1" craft_time = "8" craft_area="foodPrepTable">
@@ -4732,7 +4599,7 @@
 	<recipe name="charredMeat" count="1" craft_area="bbqgrill">
 		<ingredient name="rawMeat" count="1"/>
 	</recipe>
-	<recipe name="emptyJar" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="emptyJar" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -4774,7 +4641,7 @@
 		<ingredient name="unit_iron" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="ironArrowHead" count="1" craft_area="BigForge"  material_based="true">
+	<recipe name="ironArrowHead" count="1" craft_area="advancedForge"  material_based="true">
 		<ingredient name="unit_iron" count="2"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -4791,139 +4658,139 @@
 		<ingredient name="unit_glass" count="10"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="bucket" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="bucket" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="40"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="ironBars" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="ironBars" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="100"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="ironBarsCentered" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="ironBarsCentered" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="100"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="metalTrussingBlock" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalTrussingBlock" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="40"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="metalTrussingRamp" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalTrussingRamp" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="40"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="minibikeChassis" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="minibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="nail" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="nail" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="1"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="rebarFrameBlock" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="rebarFrameBlock" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="rebarFrameCNRInside" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="rebarFrameCNRInside" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="rebarFramePillar100" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="rebarFramePillar100" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="rebarFrameRamp" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="rebarFrameRamp" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="5"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="wroughtIronFenceSheet" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="wroughtIronFenceSheet" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="15"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="steelDart" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="steelDart" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="3"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="metalPipeCap" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalPipeCap" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="50"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="metalPipeCorner" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalPipeCorner" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="50"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="metalPipeFlange" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalPipeFlange" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="50"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="metalPipeJoint" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalPipeJoint" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="50"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="metalPipeStraight" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalPipeStraight" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="50"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="metalPipeValve" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="metalPipeValve" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="50"/>
 		<ingredient name="unit_clay" count="20"/>
 	</recipe>
-	<recipe name="toolHeadSledgehammer" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadSledgehammer" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="600"/>
 		<ingredient name="unit_clay" count="300"/>
 	</recipe>
-	<recipe name="toolHeadSteelShovel" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadSteelShovel" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="400"/>
 		<ingredient name="unit_clay" count="200"/>
 	</recipe>
-	<recipe name="toolHeadIronShovel" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadIronShovel" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="160"/>
 		<ingredient name="unit_clay" count="80"/>
 	</recipe>
-	<recipe name="toolHeadSteelPickaxe" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadSteelPickaxe" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="400"/>
 		<ingredient name="unit_clay" count="200"/>
 	</recipe>
-	<recipe name="toolHeadIronPickaxe" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadIronPickaxe" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="100"/>
 	</recipe>
-	<recipe name="toolHeadKnifeBlade" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadKnifeBlade" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="100"/>
 		<ingredient name="unit_clay" count="50"/>
 	</recipe>
-	<recipe name="toolHeadSteelHoe" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadSteelHoe" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="300"/>
 		<ingredient name="unit_clay" count="200"/>
 	</recipe>
-	<recipe name="toolHeadIronHoe" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadIronHoe" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="160"/>
 		<ingredient name="unit_clay" count="80"/>
 	</recipe>
-	<recipe name="toolHeadSteelAxe" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadSteelAxe" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="400"/>
 		<ingredient name="unit_clay" count="200"/>
 	</recipe>
-	<recipe name="toolHeadIronAxe" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadIronAxe" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="100"/>
 	</recipe>
-	<recipe name="toolHeadBladeScythe" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadBladeScythe" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="100"/>
 	</recipe>
-	<recipe name="toolHeadHammer" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="toolHeadHammer" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="120"/>
 		<ingredient name="unit_clay" count="60"/>
 	</recipe>
-	<recipe name="cookingGrill" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="cookingGrill" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="25"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-	<recipe name="cookingPot" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="cookingPot" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="25"/>
 		<ingredient name="unit_clay" count="5"/>
 	</recipe>
-<!-- 	<recipe name="halipad" count="1" craft_area="NewWorkBench">
+	<recipe name="halipad" count="1" craft_area="NewWorkBench">
 		<ingredient name="forgedSteel" count="50"/>
 		<ingredient name="carBattery" count="1"/>
 		<ingredient name="smallEngine" count="1"/>
@@ -4934,7 +4801,7 @@
 		<ingredient name="forgedSteel" count="20"/>
 		<ingredient name="electronicParts" count="15"/>
 		<ingredient name="mechanicalParts" count="10"/>
-	</recipe> -->
+	</recipe>
 	<recipe name="cntStorageCustomSecure" count="1" scrapable="False">
 		<ingredient name="polishedWood" count="10"/>
 		<ingredient name="nail" count="10"/>
@@ -4951,21 +4818,21 @@
 	<recipe name="roadRailingEnd2" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
-	<recipe name="rustyIronCrossCtr" count="1" craft_area="NewWorkBench">
+	<recipe name="rustyIronCrossCtr" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
-	<recipe name="rustyIronPoleSupportCtr" count="1" craft_area="NewWorkBench">
+	<recipe name="rustyIronPoleSupportCtr" count="1" craft_area="decoStation">
 		<ingredient name="forgedIron" count="15"/>
 	</recipe>
-	<recipe name="railingWroughtIronSheet" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="railingWroughtIronSheet" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="15"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="railingMetalSheet" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="railingMetalSheet" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="15"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
-	<recipe name="railingBlackSheet" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="railingBlackSheet" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="15"/>
 		<ingredient name="unit_clay" count="1"/>
 	</recipe>
@@ -5071,11 +4938,11 @@
 		<ingredient name="Solder" count="15"/>
 		<ingredient name="rawDiamond" count="5"/>
 	</recipe>
-	<recipe name="SteelMinibikeChassis" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="SteelMinibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="600"/>
 		<ingredient name="unit_clay" count="40"/>
 	</recipe>
-	<recipe name="TungstenMinibikeChassis" count="1" craft_area="anvilBlock" craft_tool="blacksmithHammer" material_based="true">
+	<recipe name="TungstenMinibikeChassis" count="1" craft_area="blacksmithStation" craft_tool="blacksmithHammer" material_based="true">
 		<ingredient name="unit_iron" count="1200"/>
 		<ingredient name="unit_clay" count="120"/>
 	</recipe>
@@ -5573,7 +5440,7 @@
 		<ingredient name="forgedSteel" count="12"/>
 		<ingredient name="militaryFiber" count="8"/>
 	</recipe>
-	<recipe name="blacksmithHammer" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="blacksmithHammer" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_iron" count="200"/>
 		<ingredient name="unit_clay" count="40"/>
 	</recipe>
@@ -5685,21 +5552,25 @@
 		<ingredient name="torch" count="3"/>
 	</recipe>
 	<recipe name="vegetableJuice" count="1" craft_time = "8" craft_area="foodPrepTable">
-		<ingredient name="bottledWater" count="1"/>
+		<ingredient name="PurifiedWater" count="1"/>
 		<ingredient name="cucumber" count="3"/>
 		<ingredient name="Tomato" count="3"/>
 		<ingredient name="carrot" count="3"/>
+	</recipe>
+	<recipe name="carrotJuise" count="1" craft_time = "8" craft_area="foodPrepTable">
+		<ingredient name="PurifiedWater" count="1"/>
+		<ingredient name="carrot" count="5"/>
 	</recipe>
 	<recipe name="shockTrap" count="1">
 		<ingredient name="electricCharge" count="15"/>
 		<ingredient name="forgedSteel" count="15"/>
 		<ingredient name="mechanicalParts" count="10"/>
 	</recipe>
-	<recipe name="bowl" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="bowl" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="5"/>
 		<ingredient name="unit_clay" count="15"/>
 	</recipe>
-	<recipe name="dinnerPlate" count="1" craft_area="BigForge" material_based="true">
+	<recipe name="dinnerPlate" count="1" craft_area="advancedForge" material_based="true">
 		<ingredient name="unit_glass" count="5"/>
 		<ingredient name="unit_clay" count="15"/>
 	</recipe>
@@ -5763,11 +5634,48 @@
 		<ingredient name="electricParts" count="10"/>
 		<ingredient name="electricCharge" count="4"/>
 	</recipe>
-
 	<recipe name="Charcoal" count="1" craft_time="5">
 		<ingredient name="coal" count="1"/>
 		<ingredient name="wood" count="1"/>
 		<ingredient name="paper" count="20"/>
 	</recipe>
-
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipScraptools" count="1"/>
+		<ingredient name="tipIronsteel" count="1"/>
+		<ingredient name="tipPrimitivetools" count="1"/>
+		<ingredient name="tipRecipeunlocks" count="1"/>
+		<ingredient name="tipNewcooking" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipnewSeeds" count="1"/>
+		<ingredient name="tipAdvancedforge" count="1"/>
+		<ingredient name="tipAdvancedworkbench" count="1"/>
+		<ingredient name="tipNewores" count="1"/>
+		<ingredient name="tipNightterrors" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipNewstations" count="1"/>
+		<ingredient name="tipTailorstation" count="1"/>
+		<ingredient name="tipDryingrack" count="1"/>
+		<ingredient name="tipWeaponparts" count="1"/>
+		<ingredient name="tipKP" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipCarparts" count="1"/>
+		<ingredient name="tipLeathermaking" count="1"/>
+		<ingredient name="tipScavenging" count="1"/>
+		<ingredient name="tipsToolheads" count="1"/>
+		<ingredient name="tipSticks" count="1"/>
+	</recipe>
+	<recipe name="survivorNoteCollection" count="1">
+		<ingredient name="tipCrowbars" count="1"/>
+		<ingredient name="tipKnives" count="1"/>
+		<ingredient name="tipWeaponstation" count="1"/>
+	</recipe>
+	<recipe name="journalQuest" count="1">
+		<ingredient name="paper" count="5"/>
+	</recipe>	
+	<recipe name="shed" count="1">
+		<ingredient name="forgedIron" count="250"/>
+	</recipe>	
 </recipes>

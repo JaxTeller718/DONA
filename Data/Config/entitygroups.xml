@@ -648,10 +648,10 @@
 		<entity name="valZombieBrute" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombieScouts">
-		<entity name="zombieScreamer5" prob="0.3"/>
+		<entity name="zombieScreamer5" prob="0.03"/>
 		<entity name="zombieScreamer"/>
 		<entity name="zombieScreamer7" prob="0.03"/>
-		<entity name="zombieScreamer6" prob="0.3"/>
+		<entity name="zombieScreamer6" prob="0.03"/>
 	</entitygroup>
 	<entitygroup name="ZombiesCrawlers">
 		<entity name="zombieSteveCrawler" prob="1"/>
@@ -716,271 +716,62 @@
 	<entitygroup name="AnimalsFarm">
 		<entity name="animalBoar"/>
 		<entity name="animalChicken"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="AnimalsDesert">
 		<entity name="animalRabbit"/>
 		<entity name="animalChicken"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="EnemyAnimalsDesert">
 		<entity name="invisibleAnimalEnemy" prob="6"/>
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="FriendlyAnimalsDesert">
 		<entity name="invisibleAnimal" prob="3"/>
 		<entity name="animalRabbit"/>
 		<entity name="animalChicken"/>
 		<entity name="animalBoar" prob="0.4"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="EnemyAnimalsSnow">
 		<entity name="invisibleAnimalEnemy" prob="6"/>
 		<entity name="animalZombieVulture" prob="0.4"/>
 		<entity name="animalDireWolf" prob="0.05"/>
 		<entity name="animalBear" prob="0.05"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="FriendlyAnimalsSnow">
 		<entity name="invisibleAnimal" prob="3"/>
 		<entity name="animalRabbit"/>
 		<entity name="animalBoar" prob="0.4"/>
 		<entity name="animalStag" prob="0.4"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="EnemyAnimalsForest">
 		<entity name="invisibleAnimalEnemy" prob="6"/>
 		<entity name="animalWolf" prob="0.4"/>
 		<entity name="animalBear" prob="0.05"/>
 		<entity name="animalDireWolf" prob="0.05"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="FriendlyAnimalsForest">
 		<entity name="invisibleAnimal" prob="3"/>
 		<entity name="animalRabbit"/>
 		<entity name="animalBoar" prob="0.4"/>
 		<entity name="animalStag" prob="0.4"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="EnemyAnimalsBurntForest">
 		<entity name="invisibleAnimalEnemy" prob="6"/>
 		<entity name="animalZombieVulture"/>
 		<entity name="animalZombieBear" prob="0.15"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="FriendlyAnimalsBurntForest">
 		<entity name="invisibleAnimal" prob="3"/>
 		<entity name="animalChicken"/>
 		<entity name="animalStag" prob="0.4"/>
 		<entity name="animalBoar" prob="0.4"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="EnemyAnimalsPlains">
 		<entity name="invisibleAnimalEnemy" prob="6"/>
 		<entity name="animalZombieVulture"/>
 		<entity name="animalSnake"/>
 		<entity name="animalWolf"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="FriendlyAnimalsPlains">
 		<entity name="invisibleAnimal" prob="3"/>
@@ -988,25 +779,6 @@
 		<entity name="animalChicken"/>
 		<entity name="animalBoar"/>
 		<entity name="animalStag"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="AnimalsAll">
 		<entity name="animalRabbit"/>
@@ -1025,25 +797,6 @@
 		<entity name="animalZombieVulture"/>
 		<entity name="animalZombieDog"/>
 		<entity name="animalZombieBear" prob="0.15"/>
-		<entity name="zombieBoe" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSteve" prob="0.3"/>
-		<entity name="zombieMoe" prob="0.3"/>
-		<entity name="zombieYo" prob="0.3"/>
-		<entity name="zombieBusinessMan" prob="0.3"/>
-		<entity name="zombieArlene" prob="0.3"/>
-		<entity name="zombieDarlene" prob="0.3"/>
-		<entity name="zombieMarlene" prob="0.3"/>
-		<entity name="zombieJoe" prob="0.3"/>
-		<entity name="zombieSkateboarder" prob="0.3"/>
-		<entity name="zombieCheerleader" prob="0.3"/>
-		<entity name="zombieOldTimer" prob="0.3"/>
-		<entity name="zombieBiker" prob="0.1"/>
-		<entity name="zombieFarmer" prob="0.1"/>
-		<entity name="zombieStripper" prob="0.3"/>
-		<entity name="zombieUtilityWorker" prob="0.1"/>
-		<entity name="zombieNurse" prob="0.3"/>
-		<entity name="zombieFatHawaiian" prob="0.3"/>
 	</entitygroup>
 	<entitygroup name="ZombieDogGroup">
 		<entity name="animalZombieDog"/>
