@@ -989,7 +989,7 @@
 		<property name="OnlySimpleRotations" value="true"/>
 		<property name="Class" value="PlantGrowing"/>
 		<property name="PlantGrowing.Next" value="cropsHarvestableMaster"/>
-		<property name="PlantGrowing.GrowthRate" value="240.0"/>
+		<property name="PlantGrowing.GrowthRate" value="180.0"/>
 		<!-- setting 1 is erratic. Recommend 2+ for testing or use -->
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -1145,7 +1145,7 @@
 		<property name="DescriptionKey" value="devOnlyGroupDesc"/>
 		<property name="MultiBlockDim" value="1,2,1"/>
 		<property name="PlantGrowing.Next" value="treePlantedMountainPine8m"/>
-		<property name="PlantGrowing.GrowthRate" value="480"/>
+		<property name="PlantGrowing.GrowthRate" value="360"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
 		<property name="PlantGrowing.FertileLevel" value="1"/>
 		<property name="EconomicValue" value="24"/>
@@ -16485,7 +16485,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="PlantGrowing.Next" value="cntCar03SedanDamage0"/>
-		<property name="PlantGrowing.GrowthRate" value="960"/>
+		<property name="PlantGrowing.GrowthRate" value="1800"/>
 		<!-- amount of days for respawn 60 equals 1 day-->
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -17088,7 +17088,7 @@
 		<drop event="Destroy" count="0"/>
 		<property name="IsTerrainDecoration" value="true"/>
 		<property name="PlantGrowing.Next" value="lootMyCarsHelper"/>
-		<property name="PlantGrowing.GrowthRate" value="960"/>
+		<property name="PlantGrowing.GrowthRate" value="1800"/>
 		<!-- amount of days for respawn 60 equals 1 day-->
 		<property name="PlantGrowing.FertileLevel" value="0"/>
 		<property name="PlantGrowing.IsRandom" value="false"/>
@@ -20556,7 +20556,7 @@
 		<property name="CustomIcon" value="appleSeeds"/>
 		<property name="Extends" value="treePlantedMountainPine1m"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree2"/>
-		<property name="PlantGrowing.GrowthRate" value="360"/>
+		<property name="PlantGrowing.GrowthRate" value="180"/>
 		<property name="ParticleOnDeath" value="treeGib_sapling"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
 	</block>
@@ -20568,7 +20568,7 @@
 		<property name="MultiBlockDim" value="1,5,1"/>
 		<property name="BigDecorationRadius" value="1"/>
 		<property name="PlantGrowing.Next" value="plantedAppleTree3Harvest"/>
-		<property name="PlantGrowing.GrowthRate" value="360"/>
+		<property name="PlantGrowing.GrowthRate" value="180"/>
 		<property name="ParticleOnDeath" value="treeGib_birch_6m"/>
 		<drop event="Harvest" name="wood" count="30" tool_category="harvestingTools"/>
 		<drop event="Destroy" name="plantedAppleTree1" count="1"/>
