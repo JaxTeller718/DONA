@@ -921,9 +921,17 @@ Patch 2.11.03
 
 -------------------------------------------
 
-Patch 2.11.04
+Patch 2.11.05   
 
--Added a craftable quest which when read will give you 22 new items. These items will record tips in your Journal on Ravenhearst mechanics. When you are done with them you can click on them and then click Recipes to craft a Collection of Knowledge Points. Scrapping this collecion will reward you with 3 KP each as a reward for reading the Journal
+-Massive Localization Fixes
+
+-Fixed Boomstick Not Being Assembled
+
+-Fixed XP Bug on Food Items
+
+-Fixed Machete Blade Recipe
+
+-Fixed Probability for Auger Schematic
 
 -Mechanic fixed so that he is faster and does more ranged damage.
 
@@ -939,6 +947,9 @@ Patch 2.11.04
 
 -Decreased Padlock and flashlight loot
 
--Shooting a Pistol will turn your hand into a red goo, which can then be thrown at dogs to tame them. If your goo runs out the Dogs become Seals and will sing Beatles songs to you
+-Hands replaced by goo. If your goo runs out Dogs become Seals and will sing Beatles songs to you
 
 -Charcoal is now crafttable and has a longer burn time then its ingredients.
+
+-Adjusted Sounds All Around. Terrors should be lower, Augers and Chainsaws should be quieter. Unfortunately Wind is hardcoded.
+

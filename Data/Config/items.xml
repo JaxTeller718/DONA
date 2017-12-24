@@ -61,8 +61,6 @@
 		<property name="CritChance" value="0.10"/>
 		<property name="Group" value="Ammo/Weapons,Basics"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="7" name="clubIron">
 		<property name="Extends" value="clubMaster"/>
@@ -217,8 +215,6 @@
 		<property name="LightSource" value="lightSource"/>
 		<property name="ActivateObject" value="lightSource"/>
 		<property name="AlwaysActive" value="true"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="17" name="flashlight02">
 		<property name="Class" value="ItemClassToggle"/>
@@ -1563,8 +1559,6 @@
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="106" name="tazasStoneaxe">
 		<property name="DescriptionKey" value="tazasStoneaxeDesc"/>
@@ -1759,8 +1753,6 @@
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 		<property name="PickupJournalEntry" value="miningTip"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="118" name="shovelIron">
 		<property name="Meshfile" value="Items/Tools/shovel_ironPrefab"/>
@@ -2284,8 +2276,6 @@
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
 		<property name="PickupJournalEntry" value="alternateAmmoTip"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="146" name="crossbow">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowPrefab"/>
@@ -2408,8 +2398,6 @@
 			<property name="BlockDamage" value="5,13"/>
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="152" name="44MagBullet">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Magnums/44_roundPrefab"/>
@@ -2426,8 +2414,6 @@
 			<property name="EntityDamage" value="27.5,78"/>
 			<property name="BlockDamage" value="4,8"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="153" name="762mmBullet">
 		<property name="Meshfile" value="Items/Weapons/Ranged/HuntingRifle/762mm_bulletPrefab"/>
@@ -2444,8 +2430,6 @@
 			<property name="EntityDamage" value="55,90"/>
 			<property name="BlockDamage" value="1,5"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="156" name="shotgunShell">
 		<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab"/>
@@ -2463,8 +2447,6 @@
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
 		<property name="Group" value="Ammo/Weapons"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="157" name="shotgunSlug">
 		<property name="Meshfile" value="Items/Weapons/Ranged/SawedOffPumpShotgun/shotgunShellPrefab"/>
@@ -2481,8 +2463,6 @@
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
 		<property name="Group" value="Ammo/Weapons"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="159" name="rocket">
 		<property name="Meshfile" value="Items/Weapons/Ranged/RocketLauncher/rocketPrefab"/>
@@ -2550,8 +2530,6 @@
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="EconomicValue" value="6"/>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="161" name="gasCan">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -2604,8 +2582,6 @@
 			<property name="ApplyBuff" value="0.25,0.25" param1="arrowCriticalBleedout"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
-        <property name="Categories" value="Basics,Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_resource,ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="165" name="ironArrow">
 		<property name="Extends" value="arrow"/>
@@ -2625,8 +2601,6 @@
 			<property name="BlockDamage" value="3,5"/>
 			<property name="ApplyBuff" value="0.35,0.35" param1="arrowCriticalBleedout"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="166" name="steelArrow">
 		<property name="Extends" value="ironArrow"/>
@@ -2644,8 +2618,6 @@
 			<property name="BlockDamage" value="5,8"/>
 			<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="167" name="flamingArrow">
 		<property name="Extends" value="ironArrow"/>
@@ -2668,8 +2640,6 @@
 			<property name="BlockDamage" value="6,11"/>
 			<property name="ApplyBuff" value="1,1" param1="burning"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="170" name="crossbowBolt">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltStonePrefab"/>
@@ -2704,8 +2674,6 @@
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
 		<property name="Group" value="Ammo/Weapons"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="171" name="ironCrossbowBolt">
 		<property name="Meshfile" value="Items/Weapons/Ranged/Bows/Crossbow/crossbowBoltPrefab"/>
@@ -2743,8 +2711,6 @@
 		</property>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="172" name="steelCrossbowBolt">
 		<property name="Extends" value="ironCrossbowBolt"/>
@@ -2765,8 +2731,6 @@
 			<property name="BlockDamage" value="6,11"/>
 			<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="173" name="explodingCrossbowBolt">
 		<property name="Extends" value="ironCrossbowBolt"/>
@@ -2800,8 +2764,6 @@
 			<property name="ApplyBuff" value="0,0" param1="arrowCriticalBleedout"/>
 		</property>
 		<property name="CraftingSkillGroup" value="craftSkillExplosives"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<!-- * * * * * * * * * * explosives / decoys / thrown items * * * * * * * * * * -->
 	<item id="180" name="pipeBomb">
@@ -3029,8 +2991,6 @@
 			<property name="BlockDamage" value="3,8"/>
 			<property name="ApplyBuff" value="0.3,0.3" param1="arrowCriticalBleedout"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<!-- * * * * * * * * * * parts for assembled weapons, tools, and vehicles * * * * * * * * * * -->
 	<item id="200" name="partsMaster">
@@ -6333,8 +6293,6 @@
 		<property name="CraftingSkillGroup" value="craftSkillScience"/>
 		<property name="ActionExp" value="10"/>
 		<property name="PickupJournalEntry" value="firstAidTip"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="657" name="firstAidBandage">
 		<property name="Extends" value="bandage"/>
@@ -6600,7 +6558,7 @@
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="701" name="foodYuccaFruit">
 		<property name="Meshfile" value="Items/Food/fruit_yucca"/>
@@ -6647,8 +6605,6 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="706" name="canBeef">
 		<property name="Meshfile" value="Items/Food/can_beefPrefab"/>
@@ -6671,8 +6627,6 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
-        <property name="Categories" value="Soups/Stews" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="708" name="canChicken">
 		<property name="Extends" value="canBeef"/>
@@ -7106,8 +7060,6 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Soups/Stews" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="750" name="potato">
 		<property name="Meshfile" value="Items/Food/vegetable_potatoPrefab"/>
@@ -7132,7 +7084,7 @@
 			<property name="Sound_start" value="player_eating"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="3"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="751" name="blueberries">
 		<property name="Meshfile" value="Items/Food/blueberriesPrefab"/>
@@ -7201,8 +7153,6 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="754" name="blueberryPie">
 		<property name="Meshfile" value="Items/Food/blueberry_piePrefab"/>
@@ -7266,8 +7216,6 @@
 		<property name="Smell" value="largeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="757" name="mushrooms">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
@@ -7315,8 +7263,6 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Soups/Stews" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="775" name="canMurkyWater">
 		<property name="Meshfile" value="Items/Food/can_empty"/>
@@ -7345,8 +7291,6 @@
 			<property name="Create_item" value="canEmpty"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="776" name="canBoiledWater">
 		<property name="Meshfile" value="Items/Food/can_empty"/>
@@ -7369,8 +7313,6 @@
 			<property name="Create_item" value="canEmpty"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="779" name="bottledRiverWater">
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
@@ -7401,8 +7343,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="780" name="bottledWater">
 		<property name="Meshfile" value="Items/Food/bottled_waterPrefab"/>
@@ -7428,8 +7368,6 @@
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="Group" value="Food/Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="781" name="snowberryJuice">
 		<property name="Extends" value="bottledWater"/>
@@ -7445,8 +7383,6 @@
 			<property name="Buff" value="eatsnowberryJuiceTrigger,extinguishFireBuff"/>
 		</property>
 		<property name="Group" value="Science"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="782" name="goldenRodTea">
 		<property name="Meshfile" value="Items/Food/goldenrod_teaPrefab"/>
@@ -7472,8 +7408,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="783" name="redTea">
 		<property name="Meshfile" value="Items/Food/redTeaPrefab"/>
@@ -7499,8 +7433,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="784" name="yuccaCocktail">
 		<!-- yucca yuice/drink/thing -->
@@ -7520,8 +7452,6 @@
 			<property name="Gain_wellness" value="-0.1"/>
 			<property name="Buff" value="megaCrushBuff,extinguishFireBuff"/>
 		</property>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="786" name="coffee">
 		<property name="Meshfile" value="Items/Food/coffeePrefab"/>
@@ -7546,8 +7476,6 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="787" name="beer">
 		<property name="Meshfile" value="Items/Food/bottledBeerPrefab"/>
@@ -7571,8 +7499,6 @@
 			<property name="Create_item" value="emptyJar"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="788" name="grainAlcohol">
 		<property name="Meshfile" value="Items/Food/bottledRiverWaterPrefab"/>
@@ -8189,7 +8115,7 @@
 		<property name="Stacknumber" value="1000"/>
 		<!-- STK resource -->
 		<property name="EconomicValue" value="15"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="10"/>
 		<property name="RepairTime" value="0.5"/>
 		<property name="RepairAmount" value="350"/>
@@ -8212,7 +8138,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="50"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="400"/>
@@ -8229,7 +8155,7 @@
 		<property name="EconomicValue" value="16"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8246,7 +8172,7 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="DropScale" value="8"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="2"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="1312" name="animalHide">
 		<property name="Meshfile" value="Items/Crafting/animal_hidePrefab"/>
@@ -8489,7 +8415,7 @@
 		<property name="HoldType" value="14"/>
 		<property name="Stacknumber" value="500"/>
 		<!-- STK resource -->
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="10"/>
 		<property name="RepairTime" value="0.6"/>
 		<property name="RepairAmount" value="120"/>
@@ -8509,7 +8435,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="32"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8524,7 +8450,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="50"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8538,7 +8464,7 @@
 		<!-- STK resource -->
 		<property name="EconomicValue" value="12"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8571,7 +8497,7 @@
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="plantedGoldenrod3HarvestDesc"/>
-		<property name="CraftingIngredientExp" value="5"/>
+		<property name="CraftingIngredientExp" value="0"/>
 	</item>
 	<item id="1336" name="oldCash">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8620,7 +8546,7 @@
 		<property name="EconomicValue" value="30"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="2"/>
 		<!-- <property name="RepairTime" value="2"/><property name="RepairAmount" value="400"/> -->
 	</item>
@@ -8652,8 +8578,6 @@
 		<property name="RepairAmount" value="100"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1342" name="steelArrowHead">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8669,8 +8593,6 @@
 		<property name="RepairAmount" value="100"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1345" name="coal">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8710,8 +8632,6 @@
 		<property name="EconomicBundleSize" value="10"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1348" name="buckshot">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8724,8 +8644,6 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1349" name="bulletCasing">
 		<property name="Meshfile" value="Items/Crafting/bullet_casingPrefab"/>
@@ -8737,8 +8655,6 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1350" name="bulletTip">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8751,8 +8667,6 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1353" name="nail">
 		<property name="Meshfile" value="Items/Tools/nailProjectilePrefab"/>
@@ -8796,8 +8710,6 @@
 		<property name="EconomicValue" value="151"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillExplosives"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1355" name="rocketCasing">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -8809,8 +8721,6 @@
 		<property name="EconomicValue" value="77"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillExplosives"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="1358" name="macheteBlade">
 		<property name="CustomIcon" value="machete"/>
@@ -9127,7 +9037,7 @@
 		<property name="Stacknumber" value="500"/>
 		<!-- STK loot -->
 		<property name="EconomicValue" value="250"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="15"/>
 		<property name="RepairTime" value="1"/>
 		<property name="RepairAmount" value="400"/>
@@ -9137,7 +9047,7 @@
 	<item id="1391" name="goldNugget">
 		<property name="Extends" value="silverNugget"/>
 		<property name="EconomicValue" value="700"/>
-		<property name="CraftingIngredientTime" value="15"/>
+		<property name="CraftingIngredientTime" value="0"/>
 		<property name="DescriptionKey" value="rareOresGroupDesc"/>
 	</item>
 	<item id="1392" name="rawDiamond">
@@ -9557,8 +9467,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="2003" name="scrapZinc">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -10197,8 +10105,6 @@
 			<property name="Create_item" value="plasticBottle"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="2060" name="purifyingTablets">
 		<property name="Meshfile" value="Items/Health/painkillersPrefab"/>
@@ -10636,8 +10542,6 @@
 			<property name="CraftingIngredientExp" value="0"/>
 			<property name="CraftingSkillGroup" value="Cooking"/>
 			<property name="Group" value="Food/Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 		</property>
 		<property class="Preview">
 			<property name="Zoom" value="30"/>
@@ -10674,8 +10578,6 @@
 			<property name="Rot" value="90,45,0"/>
 		</property>
 		<property name="Group" value="Food/Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="2070" name="bagChips">
 		<property name="Extends" value="cornBread"/>
@@ -10704,6 +10606,7 @@
 		<property class="Action1">
 			<property name="Gain_food" value="3"/>
 			<property name="Gain_water" value="-5"/>
+			<property name="Gain_wellness" value="0.05"/>
 		</property>
 	</item>
 	<item id="2073" name="bowlRamenNoodles">
@@ -10713,7 +10616,7 @@
 		<property name="HoldType" value="23"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="Stacknumber" value="100"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property class="Action1">
 			<property name="Class" value="Eat"/>
 			<property name="Delay" value="1.0"/>
@@ -10721,7 +10624,6 @@
 			<property name="Gain_health" value="0"/>
 			<property name="Gain_food" value="14"/>
 			<property name="Gain_water" value="3"/>
-			<property name="Gain_wellness" value="0.05"/>
 			<property name="Create_item" value="bowl"/>
 			<property name="Sound_start" value="player_drinking"/>
 		</property>
@@ -10732,8 +10634,6 @@
 			<property name="Rot" value="90,45,0"/>
 		</property>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Soups/Stews" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="2074" name="cornbreadJam">
 		<property name="Extends" value="cornBread"/>
@@ -10773,8 +10673,6 @@
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="BowlSoupDesc"/>
-        <property name="Categories" value="Soups/Stews" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="2076" name="soupChicken">
 		<property name="Extends" value="soupChunkyBeef"/>
@@ -13697,8 +13595,6 @@
 		<property name="ActionSkillGroup" value="Construction Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScrapTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="2646" name="scrapIronPickaxe">
 		<property name="Extends" value="pickaxeIron"/>
@@ -13718,8 +13614,6 @@
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScrapTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="2647" name="scrapIronShovel">
 		<property name="Extends" value="shovelIron"/>
@@ -13735,8 +13629,6 @@
 		<property name="ActionSkillGroup" value="Mining Tools"/>
 		<property name="CraftingSkillGroup" value="craftSkillScrapTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="2648" name="scrapIronShiv">
 		<property name="Meshfile" value="#IronShiv?IronShiv"/>
@@ -13752,8 +13644,6 @@
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillScrapTools"/>
 		<property name="RepairExpMultiplier" value="5.5"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="2649" name="clubBurning">
 		<property name="Class" value="ItemClassTorch"/>
@@ -14840,8 +14730,6 @@
 		</property>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="SandwichDesc"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="2780" name="Hamburger">
 		<property name="Meshfile" value="#hamburger?hamburgerPrefab"/>
@@ -14863,8 +14751,6 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="2781" name="honeyHam">
 		<property name="Extends" value="boiledMeat"/>
@@ -14941,8 +14827,6 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="2786" name="mealDinner">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
@@ -14965,8 +14849,6 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="2787" name="seedPack">
 		<property name="DescriptionKey" value="seedPackDesc"/>
@@ -16261,8 +16143,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="DescriptionKey" value="tomatoSoupDesc"/>
 		<property name="Create_item" value="bowl"/>
-        <property name="Categories" value="Soups/Stews" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="2913" name="Pancakes">
 		<property name="Meshfile" value="Items/Misc/parcelPrefab"/>
@@ -16808,8 +16688,6 @@
 			<property name="EntityDamage" value="30,55"/>
 			<property name="BlockDamage" value="5,8"/>
 			<property name="ApplyBuff" value="0.7,0.9" param1="shockammobuff"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 		</property>
 	</item>
 	<item id="2955" name="shockCrossbowBolt">
@@ -16848,8 +16726,6 @@
 			<property name="EntityDamage" value="30,55"/>
 			<property name="BlockDamage" value="5,8"/>
 			<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 		</property>
 	</item>
 	<item id="2957" name="modernCrossbowBolt">
@@ -16871,8 +16747,6 @@
 			<property name="EntityDamage" value="45,65"/>
 			<property name="BlockDamage" value="6,11"/>
 			<property name="ApplyBuff" value="0.5,0.5" param1="arrowCriticalBleedout"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 		</property>
 	</item>
 	<item id="2958" name="hollowpointbulletTip">
@@ -16886,8 +16760,6 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillAmmo"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="2959" name="762mmHPBullet">
 		<property name="Extends" value="762mmBullet"/>
@@ -16900,8 +16772,6 @@
 			<property name="BlockDamage" value="5,7"/>
 			<property name="ApplyBuff" value="0.7,0.7" param1="stunned"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="2960" name="9mmHPBullet">
 		<property name="Extends" value="9mmBullet"/>
@@ -16914,8 +16784,6 @@
 			<property name="BlockDamage" value="2,5"/>
 			<property name="ApplyBuff" value="0.7,0.10" param1="stunned"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="2961" name="44MagHPBullet">
 		<property name="Extends" value="44MagBullet"/>
@@ -16928,8 +16796,6 @@
 			<property name="BlockDamage" value="2,5"/>
 			<property name="ApplyBuff" value="0.7,0.10" param1="stunned"/>
 		</property>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="2962" name="hoeSteel">
 		<property name="Extends" value="hoeIron"/>
@@ -17830,8 +17696,6 @@
 		<property name="ActionSkillGroup" value="Blade Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillPrimitiveTools"/>
 		<property name="DescriptionKey" value="woodSpearDesc"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="163" name="ironTippedSpear">
 		<property name="Meshfile" value="#ironSpear?ironSpearPrefab"/>
@@ -17993,7 +17857,6 @@
 		<property name="CustomIcon" value="battleAxe"/>
 		<property name="DescriptionKey" value="battleAxeDesc"/>
 		<property name="FuelValue" value="16"/>
-		<property name="RepairTools" value="forgedSteel"/>
 		<property class="Action0">
 			<!-- AttackAction -->
 			<property name="Class" value="Melee"/>
@@ -18730,8 +18593,6 @@
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
 		<property name="Group" value="Ammo/Weapons"/>
 		<property name="DescriptionKey" value="stonecrossbowBoltDesc"/>
-        <property name="Categories" value="Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="3133" name="halicopterCrate">
 		<!-- <property name="HoldingItemHidden" value="true"/> -->
@@ -19052,7 +18913,7 @@
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillMiscParts"/>
-		<property name="CraftingIngredientExp" value="10"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="500"/>
 	</item>
@@ -19067,7 +18928,7 @@
 		</property>
 		<property name="Group" value="Resources"/>
 		<property name="CraftingSkillGroup" value="craftSkillMiscParts"/>
-		<property name="CraftingIngredientExp" value="15"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingIngredientTime" value="5"/>
 		<property name="EconomicValue" value="750"/>
 	</item>
@@ -19672,7 +19533,7 @@
 		<property name="CustomIcon" value="Remington8_Stock"/>
 		<property name="Extends" value="partsMaster"/>
 		<property name="PartType" value="Stock"/>
-		<property name="Material" value="weapon_Parts"/>
+		<property name="Material" value="wood"/>
 		<property name="FuelValue" value="50"/>
 		<property name="Weight" value="8"/>
 		<property class="Attributes">
@@ -21710,7 +21571,21 @@
 		<property name="PickupJournalEntry" value="farmingTip"/>
 		<property name="DescriptionKey" value="plantsBlockGroupDesc"/>
 	</item>
-
+	<item id="3241" name="cucumberSeed">
+		<property name="Extends" value="seedMaster"/>
+		<property name="CustomIcon" value="cucumberSeed"/>
+		<property class="Action1">
+			<property name="Blockname" value="cucumber1"/>
+		</property>
+		<property name="Group" value="Food/Cooking"/>
+	</item>
+	<item id="3242" name="carrotSeed">
+		<property name="Extends" value="seedMaster"/>
+		<property name="CustomIcon" value="carrotSeed"/>
+		<property class="Action1">
+			<property name="Blockname" value="carrot1"/>
+		</property>
+	</item>
 	<item id="3243" name="rGOGrenade">
 		<property name="Class" value="ItemClassTimeBomb"/>
 		<property name="CustomIcon" value="rgoGrenade"/>
@@ -21799,8 +21674,6 @@
 		</property>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Drinks" />
-        <property name="Categories_UI" value="ui_game_symbol_coffee" />
 	</item>
 	<item id="3248" name="carrotJuise">
 		<property name="Extends" value="cherryJuice"/>
@@ -22275,8 +22148,6 @@
 		<property name="Stacknumber" value="100"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="friedEggsDesc"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="3284" name="friedPotato">
 		<property name="CustomIcon" value="FriedPotato"/>
@@ -22297,8 +22168,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="friedPotatoDesc"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="3285" name="sugar">
 		<property name="CustomIcon" value="sugar"/>
@@ -22487,7 +22356,7 @@
 		</property>
 		<property name="Smell" value="ExLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="8"/>
+		<property name="CraftingIngredientExp" value="0"/>
 		<property name="DescriptionKey" value="slicedrawMeatDesc"/>
 	</item>
 	<item id="3293" name="tenderizer">
@@ -22535,8 +22404,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingIngredientExp" value="0"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="3296" name="soda">
 		<property name="Meshfile" value="#cansoda01?cansoda01Prefab" />
@@ -22582,8 +22449,6 @@
 		<property name="DescriptionKey" value="stickDesc"/>
 		<property name="CustomIcon" value="ui_game_symbol_stick"/>
 		<property name="Group" value="Basics"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="3299" name="stoneArrowHead">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -22599,8 +22464,6 @@
 		<property name="RepairAmount" value="100"/>
 		<property name="Group" value="Basics, Ammo/Weapons"/>
 		<property name="CraftingSkillGroup" value="craftSkillBowWeapons"/>
-        <property name="Categories" value="Basics,Ammo" />
-        <property name="Categories_UI" value="ui_game_symbol_resource,ui_game_symbol_ammo_crafting" />
 	</item>
 	<item id="3300" name="plasticBottle">
 		<property name="CustomIcon" value="PBottleEmpty"/>
@@ -22699,8 +22562,6 @@
 			<property name="Sound_start" value="bucketfill_water"/>
 		</property>
 		<property name="Group" value="Resources"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="3303" name="wetTowel">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
@@ -22719,8 +22580,6 @@
 			<property name="Debuff" value="Dirty1"/>
 		</property>
 		<property name="Group" value="Resources"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="3304" name="wetTowelSoap">
 		<property name="Meshfile" value="Items/Crafting/cloth"/>
@@ -22739,8 +22598,6 @@
 			<property name="Debuff" value="Dirty1,Dirty2,Dirty3"/>
 		</property>
 		<property name="Group" value="Resources"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="3305" name="Soap">
 		<property name="DescriptionKey" value="soapDesc"/>
@@ -22760,8 +22617,6 @@
 			<property name="Gain_wellness" value="0"/>
 			<property name="Debuff" value="Dirty1,Dirty2"/>
 		</property>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="3306" name="polishedWood">
 		<!-- scrap material -->
@@ -22778,8 +22633,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Resources"/>
 		<property name="DescriptionKey" value="polishedWoodDesc"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="3307" name="textile">
 		<!-- scrap material -->
@@ -22794,8 +22647,6 @@
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Clothing"/>
 		<property name="DescriptionKey" value="textileDesc"/>
-        <property name="Categories" value="Basics" />
-        <property name="Categories_UI" value="ui_game_symbol_resource" />
 	</item>
 	<item id="3308" name="scoobySnack">
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
@@ -22884,7 +22735,7 @@
 	</item>
 	<item id="3313" name="Cheeseburger">
 		<property name="Meshfile" value="#hamburger?hamburgerPrefab"/>
-		<property name="CustomIcon" value="hamburger"/>
+		<property name="CustomIcon" value="Hamburger"/>
 		<property name="Material" value="organic"/>
 		<property name="DescriptionKey" value="hamburgerDesc"/>
 		<property name="HoldType" value="3"/>
@@ -22903,8 +22754,6 @@
 		<property name="Smell" value="exLargeSmell"/>
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="3314" name="Spaghetti">
 		<property name="CustomIcon" value="Spaghetti"/>
@@ -22925,8 +22774,6 @@
 		<property name="Group" value="Food/Cooking"/>
 		<property name="CraftingSkillGroup" value="Cooking"/>
 		<property name="DescriptionKey" value="spaghettiDesc"/>
-        <property name="Categories" value="Meals" />
-        <property name="Categories_UI" value="ui_game_symbol_cookware" />
 	</item>
 	<item id="3315" name="uncutwoodLog">
 		<property name="Extends" value="wood"/>
@@ -22991,17 +22838,14 @@
 		<property name="Group" value="Tools/Traps"/>
 	</item>
 
-	<item id="3318" name="journalQuest">
+	<item id="3318" name="turdquest">
 		<property name="Extends" value="challengeQuestMaster"/>
 		<property name="DescriptionKey" value="journalQuestDesc"/>
 		<property name="CustomIcon" value="journalQuest"/>
 		<property name="EconomicValue" value="5"/>
-		<property class="Action1">
-			<property name="QuestGiven" value="journal_tips"/>
-		</property>
 		<property name="Group" value="Basics"/>
 	</item>
-	<item id="3319" name="tipSticks">
+	<item id="3319" name="turd1">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23016,9 +22860,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="stickTip"/>
 	</item>
-	<item id="3320" name="tipsToolheads">
+	<item id="3320" name="turd2">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23033,9 +22876,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="toolheadTip"/>
 	</item>
-	<item id="3321" name="tipScavenging">
+	<item id="3321" name="turd3">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23050,9 +22892,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="scavengingTip"/>
 	</item>
-	<item id="3322" name="tipLeathermaking">
+	<item id="3322" name="turd4">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23067,9 +22908,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="leathermakingTip"/>
 	</item>
-	<item id="3323" name="tipCarparts">
+	<item id="3323" name="turd5">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23084,9 +22924,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="carpartsTip"/>
 	</item>
-	<item id="3324" name="tipKP">
+	<item id="3324" name="turd6">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23101,9 +22940,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="kpTip"/>
 	</item>
-	<item id="3325" name="tipWeaponparts">
+	<item id="3325" name="turd7">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23118,9 +22956,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="weaponpartsTip"/>
 	</item>
-	<item id="3326" name="tipDryingrack">
+	<item id="3326" name="turd8">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23135,9 +22972,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="dryingrackTip"/>
 	</item>
-	<item id="3327" name="tipTailorstation">
+	<item id="3327" name="turd9">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23152,9 +22988,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="tailorstationTip"/>
 	</item>
-	<item id="3328" name="tipNewstations">
+	<item id="3328" name="turd10">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23169,9 +23004,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="newstationsTip"/>
 	</item>
-	<item id="3329" name="tipNightterrors">
+	<item id="3329" name="turd11">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23186,9 +23020,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="nightterrorsTip"/>
 	</item>
-	<item id="3330" name="tipNewores">
+	<item id="3330" name="turd12">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23203,9 +23036,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="neworeguideTip"/>
 	</item>
-	<item id="3331" name="tipAdvancedworkbench">
+	<item id="3331" name="turd13">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23220,9 +23052,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="advancedworkbenchTip"/>
 	</item>
-	<item id="3332" name="tipAdvancedforge">
+	<item id="3332" name="turd14">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23237,9 +23068,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="advancedforgeTip"/>
 	</item>
-	<item id="3333" name="tipnewSeeds">
+	<item id="3333" name="turd15">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23254,9 +23084,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="newseedsTip"/>
 	</item>
-	<item id="3334" name="tipNewcooking">
+	<item id="3334" name="turd16">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23271,9 +23100,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="newcookingTip"/>
 	</item>
-	<item id="3335" name="tipRecipeunlocks">
+	<item id="3335" name="turd17">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23288,9 +23116,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="recipeunlocksTip"/>
 	</item>
-	<item id="3336" name="tipPrimitivetools">
+	<item id="3336" name="turd18">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23305,9 +23132,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="primitivetoolsTip"/>
 	</item>
-	<item id="3337" name="tipIronsteel">
+	<item id="3337" name="turd19">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23322,9 +23148,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="ironsteelTip"/>
 	</item>
-	<item id="3338" name="tipScraptools">
+	<item id="3338" name="turd20">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23339,9 +23164,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="scrappingtoolsTip"/>
 	</item>
-	<item id="3339" name="tipCrowbars">
+	<item id="3339" name="turd21">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23356,9 +23180,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="crowbarTip"/>
 	</item>
-	<item id="3340" name="tipKnives">
+	<item id="3340" name="turd22">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23373,9 +23196,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="knivesTip"/>
 	</item>
-	<item id="3341" name="tipWeaponstation">
+	<item id="3341" name="turd23">
 		<!-- scrap material -->
 		<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 		<property name="CustomIcon" value="tipscover"/>
@@ -23390,76 +23212,8 @@
 		<property name="EconomicBundleSize" value="5"/>
 		<property name="SellableToTrader" value="false"/>
 		<property name="Group" value="Special Items"/>
-		<property name="PickupJournalEntry" value="weaponstationTip"/>
 	</item>
-	<item id="3342" name="Onion">
-		<property name="Meshfile" value="Items/Food/vegetable_potatoPrefab"/>
-		<property name="Material" value="plants"/>
-		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="500"/>
-		<!-- STK resource -->
-		<property name="EconomicValue" value="10"/>
-		<property name="EconomicBundleSize" value="5"/>
-		<property name="SellableToTrader" value="false"/>
-		<property name="CraftingIngredientTime" value="10"/>
-		<!-- 14 is large round hold -->
-		<property class="Action1">
-			<property name="Class" value="Eat"/>
-			<property name="Delay" value="1.0"/>
-			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="2"/>
-			<property name="Buff" value="eatFood_1_Trigger"/>
-			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
-			<property name="Sound_start" value="player_eating"/>
-		</property>
-		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="0"/>
-		<property name="DescriptionKey" value="onionDesc"/>
-	</item>
-	<item id="3343" name="Lettuce">
-		<property name="Meshfile" value="Items/Food/vegetable_potatoPrefab"/>
-		<property name="Material" value="plants"/>
-		<property name="HoldType" value="3"/>
-		<property name="Stacknumber" value="500"/>
-		<!-- STK resource -->
-		<property name="EconomicValue" value="10"/>
-		<property name="EconomicBundleSize" value="5"/>
-		<property name="SellableToTrader" value="false"/>
-		<property name="CraftingIngredientTime" value="10"/>
-		<!-- 14 is large round hold -->
-		<property class="Action1">
-			<property name="Class" value="Eat"/>
-			<property name="Delay" value="1.0"/>
-			<property name="Use_time" value="..."/>
-			<property name="Gain_health" value="0"/>
-			<property name="Gain_food" value="2"/>
-			<property name="Buff" value="eatFood_1_Trigger"/>
-			<property name="Gain_water" value="0"/>
-			<property name="Gain_wellness" value="0"/>
-			<property name="Sound_start" value="player_eating"/>
-		</property>
-		<property name="Group" value="Food/Cooking"/>
-		<property name="CraftingIngredientExp" value="0"/>
-		<property name="DescriptionKey" value="lettuceDesc"/>
-	</item>
-	<item id="3344" name="Admin XP and Skills">
-		<property name="CustomIcon" value="survivorNotes"/>
-		<property name="CustomIconTint" value="172,33,50"/>
-		<property name="Candrop" value="false"/>
-		<property name="CreativeMode" value="Dev"/>
-		<property name="Stacknumber" value="5"/>
-		<property name="Meshfile" value="Items/Misc/paper"/>
-		<property name="HoldType" value="21"/>
-		<property name="Material" value="knowledge_Points"/>
-		<property name="Weight" value="50"/>
-		<property name="FuelValue" value="20"/>
-		<property name="Group" value="Survival"/>
-		<property class="Action1">
-			<property name="Class" value="Quest"/>
-			<property name="QuestGiven" value="adminskillxp"/>
-			<property name="Delay" value="0"/>
-		</property>
-	</item>
+
+
+
 </items>

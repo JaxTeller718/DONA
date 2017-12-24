@@ -253,7 +253,7 @@
 			<window name="windowOutput2"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-		<window_group name="workstation_advancedForge" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstation_BigForge" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingList" /> -->
@@ -269,7 +269,7 @@
 			<window name="windowForgeOutput"/>
 			<window name="windowNonPagingHeader"/>
 		</window_group>
-		<window_group name="workstation_blacksmithStation" controller="XUiC_WorkstationWindowGroup">
+		<window_group name="workstation_anvilBlock" controller="XUiC_WorkstationWindowGroup">
 			<window name="SMXCraftingList" />
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingList" /> -->
@@ -279,7 +279,7 @@
 			<!-- Enable this if you want to use the increased CRAFTING QUEUE -->
 			<!--		<window name="windowCraftingQueue" /> -->
 			<!-- Disable this if you want to use the increased CRAFTING QUEUE -->
-			<window name="windowToolsBlacksmith"/>
+			<window name="windowToolsAnvil"/>
 			<window name="windowFuel"/>
 			<window name="windowForgeInput"/>
 			<window name="windowForgeOutput"/>

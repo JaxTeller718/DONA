@@ -43,9 +43,9 @@
 		<property name="SoundPlayerLandThump" value="PlayerLandThump"/>
 		<property name="MapIcon" value="ui_game_symbol_map_player_arrow"/>
 		<property name="IsEnemyEntity" value="false"/>
-<!--		<property name="DropInventoryBlock" value="cntBackpackDropped"/> -->
-		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="classSelection,survivorKey,keystoneBlock,Admin Starter Pack"/>
-		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="classSelection,survivorKey,keystoneBlock,Admin Starter Pack"/>
+		<property name="DropInventoryBlock" value="cntBackpackDropped"/>
+		<property name="ItemsOnEnterGame.GameModeSurvivalSP" value="classSelection,survivorKey,keystoneBlock,hut"/>
+		<property name="ItemsOnEnterGame.GameModeSurvivalMP" value="classSelection,survivorKey,keystoneBlock,hut"/>
 		<property name="ExperienceGain" value="173"/>
 		<property name="LegsExplosionDamageMultiplier" value="1"/>
 		<property name="ArmsExplosionDamageMultiplier" value="1"/>
@@ -4444,6 +4444,32 @@
 		<property name="SoundHurt" value="newzombiegrowl"/>
 		<property name="SoundDeath" value="newzombiebreath"/>
 		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
+	</entity_class>
+	<entity_class name="Dino" extends="SDXTemplate">
+		<property name="Mesh" value="#Dinosaurs?Raptor"/>
+		<property name="MaxHealth" value="1485"/>
+		<!-- These are the animation map names. The value comes from the animation from Unity -->
+		<property name="AnimationIdle" value="Idle"/>
+		<property name="AnimationMainAttack" value="Attack"/>
+		<property name="AnimationSecondAttack" value="JumpAttack Legs/Head"/>
+		<property name="AnimationPain" value="Hit Front"/>
+		<property name="AnimationJump" value="Jumping"/>
+		<property name="AnimationDeath" value="Death"/>
+		<property name="AnimationRun" value="Run"/>
+		<property name="AnimationWalk" value="Walk Look Round"/>
+		<!-- property name="AnimationSpecialAttack" value="false" /-->
+		<property name="SoundRandom" value="Enemies/Spider_Zombie/spiderroam"/>
+		<property name="SoundAlert" value="Enemies/Spider_Zombie/spideralert"/>
+		<property name="SoundAttack" value="Enemies/Spider_Zombie/spiderattack"/>
+		<property name="SoundDeath" value="Enemies/Spider_Zombie/spiderdeath"/>
+		<property name="SoundHurt" value="Enemies/Spider_Zombie/spiderpain"/>
+		<property name="SoundSense" value="Enemies/Spider_Zombie/spidersense"/>
+		<drop event="Harvest" name="rawMeat" tool_category="Butcher" count="6"/>
+		<drop event="Harvest" name="animalHide" tool_category="Butcher" count="9"/>
+		<drop event="Harvest" name="animalFat" tool_category="Butcher" count="4"/>
+		<drop event="Harvest" name="femur" tool_category="Butcher" count="2"/>
+		<drop event="Harvest" name="animalHide" tool_category="Skinner" count="3"/>
+		<drop event="Harvest" name="rawMeat" tool_category="ButcherBonus" count="2"/>
 	</entity_class>
 	<entity_class name="dog01" extends="animalTemplateTimid">
 		<property name="EntityType" value="Zombie"/>

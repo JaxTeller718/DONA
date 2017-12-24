@@ -881,7 +881,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: leadOre -->
+				<!-- Ore Sub Biome: coalOre -->
 				<layers>
 					<layer depth="1" blockname="plainsGround">
 						<resource blockname="gravelPlusLead" cluster="1" prob="0.1" rwgGenerationType="all"/>
@@ -903,7 +903,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: leadOre -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="1" blockname="plainsGround">
 						<resource blockname="gravelPlusLead" cluster="1" prob="0.1" rwgGenerationType="all"/>
@@ -924,7 +924,7 @@
 					<layer depth="3" blockname="bedrock"/>
 				</layers>
 			</subbiome>
-			<!-- Block layers: Plains, Local ore: leadOre -->
+			<!-- Block layers: Plains, Local ore: coalOre -->
 			<layers>
 				<layer filluptorg="60" blockname="water"/>
 				<layer depth="1" blockname="plainsGround">
@@ -982,7 +982,6 @@
 				<decoration type="block" blockname="treeCactus06" prob ="0.0002" rotatemax="3"/>
 				<decoration type="block" blockname="treePlainsGrassDiagonal" prob ="0.005" rotatemax="3"/>
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.005" rotatemax="3"/>
-				<decoration type="block" blockname="plantedWheat3Harvest" prob ="0.0005" rotatemax="3"/>
 			</decorations>
 			<spectrum name="pine_forest"/>
 			<terrain class="Water"/>
@@ -1065,7 +1064,7 @@
 			</subbiome>
 			<spectrum name="desert"/>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: oilDeposit -->
+				<!-- Ore Sub Biome: leadOre -->
 				<layers>
 					<layer depth="1" blockname="plainsGround"/>
 					<layer depth="22" blockname="sandStone"/>
@@ -1087,7 +1086,7 @@
 				</decorations>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: oilDeposit -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="1" blockname="desertGround"/>
 					<layer depth="22" blockname="sandStone"/>
@@ -1259,7 +1258,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: leadOre -->
+				<!-- Ore Sub Biome: coalOre -->
 				<layers>
 					<layer depth="6" blockname="sand">
 						<resource blockname="clay" prob="0.15" rwgGenerationType="all"/>
@@ -1279,7 +1278,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: leadOre -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="6" blockname="sand">
 						<resource blockname="clay" prob="0.15" rwgGenerationType="all"/>
@@ -1298,7 +1297,7 @@
 					<layer depth="3" blockname="bedrock"/>
 				</layers>
 			</subbiome>
-			<!-- Block layers: Water, Local ore: leadOre -->
+			<!-- Block layers: Water, Local ore: none -->
 			<layers>
 				<layer filluptorg="58" blockname="water"/>
 				<layer depth="1" blockname="sand">
@@ -1454,7 +1453,7 @@
 				</decorations>
 			</subbiome>
 			<subbiome prob="0.25">
-				<!-- Ore Sub Biome: copperOre  zincOre   -->
+				<!-- Ore Sub Biome: leadOre -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
 						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
@@ -1503,7 +1502,7 @@
 				</decorations>
 			</subbiome>
 			<subbiome prob="0.25">
-				<!-- Ore Sub Biome: copperOre  zincOre   -->
+				<!-- Ore Sub Biome: coalOre -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
 						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
@@ -1550,7 +1549,7 @@
 				<decoration type="block" blockname="treeBrownGrassDiagonal" prob ="0.0035" rotatemax="3"/>
 			</decorations>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: copperOre  zincOre   -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
 						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
@@ -1573,7 +1572,7 @@
 					<layer depth="3" blockname="bedrock"/>
 				</layers>
 			</subbiome>
-			<!-- Block layers: Wasteland Main, Local ore: copperOre  zincOre   -->
+			<!-- Block layers: Wasteland Main, Local ore: potassiumNitrate -->
 			<layers>
 				<layer filluptorg="60" blockname="water"/>
 				<layer depth="1" blockname="destroyedStone">
@@ -1763,7 +1762,7 @@
 				</decorations>
 			</subbiome>
 			<subbiome prob="0.06">
-				<!-- Ore Sub Biome: coalOre -->
+				<!-- Ore Sub Biome: leadOre -->
 				<layers>
 					<layer depth="3" blockname="clay">
 						<resource blockname="clay" cluster="1" prob="0.04" rwgGenerationType="all"/>
@@ -1841,7 +1840,7 @@
 				</decorations>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome: coalOre -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="1" blockname="burntForestGround">
 						<resource blockname="gravelPlusCoal" cluster="1" prob="0.071" rwgGenerationType="all"/>
@@ -1938,7 +1937,7 @@
 				<Wind min="20" max="100" prob="0.1"/>
 			</weather>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: leadOre -->
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
@@ -1959,7 +1958,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: coalOre -->
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
@@ -1980,7 +1979,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
@@ -2000,7 +1999,7 @@
 					<layer depth="3" blockname="bedrock"/>
 				</layers>
 			</subbiome>
-			<!-- Block layers: City (Diersville), Local ore:  copperOre  zincOre   -->
+			<!-- Block layers: City (Diersville), Local ore: potassiumNitrate -->
 			<layers>
 				<layer depth="3" blockname="asphalt"/>
 				<layer depth="4" blockname="dirt">
@@ -2047,7 +2046,7 @@
 				<Wind min="20" max="100" prob="0.1"/>
 			</weather>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: leadOre -->
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
@@ -2068,7 +2067,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: coalOre -->
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
@@ -2089,7 +2088,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="3" blockname="asphalt"/>
 					<layer depth="4" blockname="dirt">
@@ -2109,7 +2108,7 @@
 					<layer depth="3" blockname="bedrock"/>
 				</layers>
 			</subbiome>
-			<!-- Block layers: city_wasteland (Gravestown), Local ore:  copperOre  zincOre   -->
+			<!-- Block layers: city_wasteland (Gravestown), Local ore: potassiumNitrate -->
 			<layers>
 				<layer filluptorg="60" blockname="water"/>
 				<layer depth="3" blockname="asphalt"/>
@@ -2196,7 +2195,7 @@
 			</subbiome>
 			<spectrum name="wasteland"/>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: leadOre -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
 						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
@@ -2219,7 +2218,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: coalOre -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
 						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
@@ -2242,7 +2241,7 @@
 				</layers>
 			</subbiome>
 			<subbiome prob="0.1551">
-				<!-- Ore Sub Biome:  copperOre  zincOre   -->
+				<!-- Ore Sub Biome: potassiumNitrate -->
 				<layers>
 					<layer depth="3" blockname="destroyedStone">
 						<resource blockname="gravelPlusCopper" cluster="1" prob="0.071" rwgGenerationType="all"/>
@@ -2264,7 +2263,7 @@
 					<layer depth="3" blockname="bedrock"/>
 				</layers>
 			</subbiome>
-			<!-- Block layers: Wasteland_hub, Local ore:  copperOre  zincOre   -->
+			<!-- Block layers: Wasteland_hub, Local ore: potassiumNitrate -->
 			<layers>
 				<layer filluptorg="60" blockname="water"/>
 				<layer depth="1" blockname="destroyedStone">
@@ -2395,8 +2394,8 @@
 			<blockontop blockname="randomCarsHelper" prob="0.0015" rotatemax="3"/>
 			<blockontop blockname="tire" rotatemax="3" prob="0.0007"/>
 			<blockontop blockname="HDTire" rotatemax="3" prob="0.0002"/>
-			<blockontop blockname="driftwood" rotatemax="3" prob="0.00003" />
-			<blockontop blockname="driftwood2" rotatemax="3" prob="0.00003" />
+			<blockontop blockname="driftwood" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="driftwood2" rotatemax="3" prob="0.00004" />
 			<blockontop blockname="graveStone08" rotatemax="3" prob="0.00004" />
 			<blockontop blockname="mattressFlat" rotatemax="7" prob="0.00003" />
 			<blockontop blockname="burningBarrel" rotatemax="3" prob="0.00001" />
@@ -2428,8 +2427,8 @@
 			<blockontop blockname="randomCarsHelper" prob="0.0015" rotatemax="3"/>
 			<blockontop blockname="tire" rotatemax="3" prob="0.0007"/>
 			<blockontop blockname="HDTire" rotatemax="3" prob="0.0002"/>
-			<blockontop blockname="driftwood" rotatemax="3" prob="0.00003" />
-			<blockontop blockname="driftwood2" rotatemax="3" prob="0.00003" />
+			<blockontop blockname="driftwood" rotatemax="3" prob="0.00004" />
+			<blockontop blockname="driftwood2" rotatemax="3" prob="0.00004" />
 			<blockontop blockname="graveStone08" rotatemax="3" prob="0.00004" />
 			<blockontop blockname="mattressFlat" rotatemax="7" prob="0.00003" />
 			<blockontop blockname="burningBarrel" rotatemax="3" prob="0.00001" />

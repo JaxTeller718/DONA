@@ -636,7 +636,7 @@
 			<item name="shoppingBasketItem" prob="0.3"/>
 		</trader_item_group>
 		<trader_item_group name="workstations" count="1">
-			<item name="advancedForge"/>
+			<item name="BigForge"/>
 			<item name="forge"/>
 			<item name="workbench"/>
 			<item name="cementMixer"/>
