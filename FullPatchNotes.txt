@@ -953,3 +953,19 @@ Patch 2.11.05
 
 -Adjusted Sounds All Around. Terrors should be lower, Augers and Chainsaws should be quieter. Unfortunately Wind is hardcoded.
 
+-Cars now Take 30 Days to Respawn after being destroyed
+
+
+---------------------------------------------------
+
+Patch 2.12    No Wipe Needed   Required File Updates - XML
+
+-Certain Blocks that had been upgrading to solid blocks have been fixed (Water Well)
+
+-New additions like Storages can now be rep[aired properly
+
+-Treasure Maps slightly increased
+
+-Added some wellness to basic foods like Boiled Meat, Grilled Meat, Teas and Juices.
+
+-FINAL Update 3.0 Is now FULLY underway with game changing new features, rebalances and new additions. Look for a release sometime in January or February.
