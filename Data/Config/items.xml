@@ -14022,7 +14022,6 @@
 			<property name="Pos" value="0.1,-0.1"/>
 			<property name="Rot" value="0,-45,0"/>
 		</property>
-		<property name="ActionSkillGroup" value="Construction Tools"/>
 	</item>
 	<item id="2683" name="Admin_nail">
 		<property name="CreativeMode" value="Dev"/>
