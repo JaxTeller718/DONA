@@ -7837,3 +7837,4 @@ townTorchDesc,,,,With some extra work you have figured out how to make a torch t
 coldDrinkDesc,items,Food,KgNone,This drink has been chilled. Left-Click on a campfire or microwave to make it warmer.,,Dieses Getränk wurde gekühlt. Linksklick auf einen Kühlschrank oder Kühler um es wärmer zu machen.,,
 LockpickDesc,items,Item,,Can be used to crack into safes. Note: Doesn't work on doors. While holding the Lockpick in your hand focus on the safe and hold down right click until the safe is open.,,,,
 jerkyDesc,,,,Jerky is made from drying and curing meat and can give a great boost in both your hunger.\n [ Crafted in [dd6262]Drying Rack[-]  ],,Trockenfleisch ist getrocknetes und ausgehärtetes Fleisch. Es macht dich relativ gut satt und gibt dir auch etwas Wohlbefinden.\n [ Herzustellen am [dd6262]Trockengestell[-] ],,
+classSelectionReward,,,,Class Selection Reward,,,,
