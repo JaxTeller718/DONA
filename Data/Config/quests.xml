@@ -1367,7 +1367,7 @@
 	<quest id="quest_MedicClass10" group_name_key="quest_MedicClass" name_key="quest_MedicClass10" subtitle_key="quest_MedicClass10_subtitle" description_key="quest_MedicClass10_description" icon="ui_game_symbol_medical" category_key="quest">
 		<objective type="FetchKeep" id="blueberries" value="25"/>
 		<objective type="FetchKeep" id="mushrooms" value="15"/>
-		<objective type="FetchKeep" id="chrysanthemumPlant" value="15"/>
+		<objective type="FetchKeep" id="resistanceMixture" value="5"/>
 		<objective type="FetchKeep" id="potassiumNitratePowder" value="15"/>
 		<objective type="FetchKeep" id="bottledWater" value="5"/>
 		<objective type="Craft" id="herbalAntibiotics" value="5"/>
@@ -1402,6 +1402,7 @@
 		<objective type="FetchKeep" id="moldyBread" value="5"/>
 		<objective type="FetchKeep" id="potassiumNitratePowder" value="5"/>
 		<objective type="FetchKeep" id="bottledRiverWater" value="5"/>
+		<objective type="FetchKeep" id="resistanceMixture" value="5"/>
 		<objective type="Craft" id="antibiotics" value="5"/>
 		<reward type="SkillPoints" value="3"/>
 		<reward type="Exp" value="500"/>
@@ -1429,6 +1430,7 @@
 		<objective type="FetchKeep" id="milk" value="5"/>
 		<objective type="FetchKeep" id="bloodBag" value="10"/>
 		<objective type="FetchKeep" id="zombieBlood" value="25"/>
+		<objective type="FetchKeep" id="resistanceMixture" value="5"/>
 		<objective type="Craft" id="antiRad" value="5"/>
 		<reward type="SkillPoints" value="10"/>
 		<reward type="Exp" value="1500"/>
