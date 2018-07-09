@@ -106,15 +106,15 @@
 	<SMX_quest_objective_tracker_entry_uf1>
 		<rect width="280" height="26" controller="QuestTrackerObjectiveEntry" visible="{hasobjective}">
 			<sprite depth="2" name="iconTrack" style="SMXicon15px" pos="280,0" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" />
-			<label depth="1" pos="0,4" text="{objectiveoptional}{objectivedescription} " upper_case="true" font_size="22" effect="outline" justify="left" visible="{hasobjective}" width="{objectivetextwidth}" />
-			<label depth="1" pos="0,4" text=" [{objectivecompletehexcolor}]{objectivestate}[-]" upper_case="true" font_size="22" effect="outline" justify="right" visible="{hasobjective}" width="{objectivetextwidth}" />
+			<label depth="1" pos="0,4" text="{objectiveoptional}{objectivedescription} " upper_case="false" font_size="22" effect="outline" justify="left" visible="{hasobjective}" width="{objectivetextwidth}" />
+			<label depth="1" pos="0,4" text=" [{objectivecompletehexcolor}]{objectivestate}[-]" upper_case="false" font_size="22" effect="outline" justify="right" visible="{hasobjective}" width="{objectivetextwidth}" />
 		</rect>
 	</SMX_quest_objective_tracker_entry_uf1>
 	<SMX_active_buff_entry1>
 		<panel height="43" controller="ActiveBuffEntry" width="314" disableautobackground="true" visible="false">
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-9999,9999" width="320" height="49" color="[black]" type="sliced" fillcenter="false" />
 			<sprite depth="0" name="background" color="[darkGrey]" type="sliced" height="45" width="316" pos="-9999,9999" />
-			<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon32px" pos="5,-5" />
+			<sprite depth="2" name="Icon" atlas="ItemIconAtlas" sprite="{bufficon|once}" style="icon32px" pos="5,-5" />
 			<label depth="2" pos="45,-8" width="280" height="30" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" color="[white]" font_size="28" pivot="topleft" effect="outline" />
 		</panel>
 	</SMX_active_buff_entry1>
@@ -122,7 +122,7 @@
 		<panel height="43" controller="ActiveBuffEntry" width="314" disableautobackground="true" visible="false">
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-9999,9999" width="320" height="49" color="[black]" type="sliced" fillcenter="false" />
 			<sprite depth="0" name="background" color="[darkGrey]" type="sliced" height="45" width="316" pos="-9999,9999" />
-			<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon22px" pos="5,-5" />
+			<sprite depth="2" name="Icon" atlas="ItemIconAtlas" sprite="{bufficon|once}" style="icon22px" pos="5,-5" />
 			<label depth="2" pos="45,-5" width="280" height="30" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" color="[white]" font_size="22" pivot="topleft" effect="outline" />
 		</panel>
 	</SMX_active_buff_entry2>
@@ -505,7 +505,7 @@
 	<category_icon>
 		<rect depth="1" size="43,43" controller="CategoryEntry" sound="[paging_click]" >
 			<!--#$-IGS BEGIN: Increasing collider scale to improve snap responsiveness -$#-->
-			<button name="categoryIcon" depth="1" size="28,28" pos="21, -14" sprite="{categoryicon|once}" tooltip="{categorydisplayname|once}" pivot="center" collider_scale="1.5"/>
+			<button name="categoryIcon" depth="1" size="28,28" pos="21, -14" sprite="{categoryicon|once}" atlas="ItemIconAtlas" tooltip="{categorydisplayname|once}" pivot="center" collider_scale="1.5"/>
 			<!--*#$-IGS END.-$#-->
 		</rect>
 	</category_icon>
@@ -513,7 +513,7 @@
 		<panel height="43" controller="ActiveBuffEntry" width="314" style="press" sound="[recipe_click]" on_hover="true" disableautobackground="true" on_scroll="true" >
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="320" height="49" color="[black]" type="sliced" fillcenter="false" />
 			<sprite depth="0" name="background" color="[darkGrey]" type="sliced" height="45" width="316" pos="-1,1" />
-			<sprite depth="2" name="Icon" sprite="{bufficon|once}" style="icon32px" pos="5,-5"/>
+			<sprite depth="2" name="Icon" atlas="ItemIconAtlas" sprite="{bufficon|once}" style="icon32px" pos="5,-5"/>
 			<label depth="2" pos="45,-8" width="280" height="30" text="{buffname|once}  [DECEA3]{buffdisplayinfo}[-]" font_size="28" pivot="topleft"/>
 		</panel>
 	</active_buff_entry>
@@ -672,25 +672,25 @@
 		<panel disableautobackground="true" depth="2" width="645" height="46" controller="SkillEntry" style="press, hover, scroll" enabled_color="[iconColor]" disabled_color="[disabledLabelColor]" row_color="[darkGrey]" hover_color="[mediumGrey]" sound="[recipe_click]">
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,2" width="647" height="48" color="[black]" type="sliced" fillcenter="false" />
 			<sprite depth="1" color="{rowstatecolor}" sprite="{rowstatesprite}" width="644"  height="45" type="sliced" />
-			<sprite depth="2" sprite="{groupicon}" style="icon32px" pos="6, -3" color="{statuscolor}" foregroundlayer="true"/>
+			<sprite depth="2" sprite="{groupicon}" atlas="ItemIconAtlas" style="icon32px" pos="6, -3" color="{statuscolor}" foregroundlayer="true"/>
 			<sprite depth="3" pos="0,-39" height="3" width="640" color="[lightGrey]" foregroundlayer="true" visible="{skillpercentshouldshow}" type="sliced" />
 			<sprite depth="3" pos="0,-39" height="3" width="640" color="[red]" foregroundlayer="true" type="filled" fill="{skillpercentthislevel}" visible="{skillpercentshouldshow}" />
 			<label width="386" pos="44,-7" depth="2" text="{groupname}" color="{statuscolor}"/>
 			<sprite depth="2" pos="386,-19" sprite="ui_game_symbol_lock" visible="{islocked}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true"/>
 			<label width="125" pos="386,-19" depth="2" text="{grouplevel}" visible="{isnotlocked}" pivot="center" justify="center" color="{statuscolor}"/>
 			<sprite pos="492,-19" depth="2" sprite="{grouptypeicon}" style="icon32px" pivot="center" color="{statuscolor}" foregroundlayer="true"/>
-			<label width="90" pos="593,-19" depth="2" text="{grouppointcost}" upper_case="true" pivot="center" justify="center" color="{statuscolor}"/>
+			<label width="90" pos="593,-19" depth="2" text="{grouppointcost}" upper_case="false" pivot="center" justify="center" color="{statuscolor}"/>
 		</panel>
 	</skill_entry>
 	<skill_requirement>
 		<rect controller="SkillRequirementEntry">
-			<sprite depth="2" style="icon30px" pos="5,-2" color="{requirementcolor}" sprite="{skillicon}" visible="{hasrequirement}" />
-			<label depth="1" pos="0,-4" text="{requirementtext}" upper_case="true" font_size="26" visible="{hasrequirement}" height="43" width="300" color="{requirementcolor}" justify="center" />
+			<sprite depth="2" style="icon30px" pos="5,-2" color="{requirementcolor}" atlas="ItemIconAtlas" sprite="{skillicon}" visible="{hasrequirement}" />
+			<label depth="1" pos="0,-4" text="{requirementtext}" upper_case="false" font_size="26" visible="{hasrequirement}" height="43" width="300" color="{requirementcolor}" justify="center" />
 		</rect>
 	</skill_requirement>
 	<skill_attribute>
 		<rect controller="SkillAttributeEntry">
-			<label depth="1" pos="0,-4" text="{attribute}" upper_case="true" font_size="26" visible="{hasattribute}" height="43" width="300" color="{lockedcolor}" justify="left" />
+			<label depth="1" pos="0,-4" text="{attribute}" upper_case="false" font_size="26" visible="{hasattribute}" height="43" width="300" color="{lockedcolor}" justify="left" />
 		</rect>
 	</skill_attribute>
 	<quest_entry>
@@ -707,19 +707,19 @@
 		<rect width="300" height="43" controller="QuestObjectiveEntry"  complete_icon="ui_game_symbol_check" incomplete_icon="ui_game_symbol_x" complete_color="[green]" incomplete_color="[red]" visible="{hasobjective}" >
 			<sprite depth="2" name="iconTrack" style="icon22px" pos="4,0" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" />
 			<!-- <sprite depth="0" name="Icon" sprite="ui_game_symbol_pen" style="icon32px" pos="8,-3" foregroundlayer="true" visible="false"/> -->
-			<label depth="4" name="Description" pos="30,2" width="250" height="28" text="{objectiveoptional}{objectivedescription} [DECEA3]{objectivestate}[-]" upper_case="true"  font_size="26" />
+			<label depth="4" name="Description" pos="30,2" width="250" height="28" text="{objectiveoptional}{objectivedescription} [DECEA3]{objectivestate}[-]" upper_case="false"  font_size="26" />
 		</rect>
 	</quest_objective_entry>
 	<quest_objective_tracker_entry>
 		<rect width="300" height="26" controller="QuestTrackerObjectiveEntry" visible="{hasobjective}" >
 			<sprite depth="2" name="iconTrack" style="icon22px" pos="280,0" color="{objectivecompletecolor}" sprite="{objectivecompletesprite}" visible="{objectiveshowicon}" />
-			<label depth="1" pos="0,4" text="{objectiveoptional}{objectivedescription} [{objectivecompletehexcolor}]{objectivestate}[-]" upper_case="true" font_size="26" justify="right" visible="{hasobjective}" width="{objectivetextwidth}" />
+			<label depth="1" pos="0,4" text="{objectiveoptional}{objectivedescription} [{objectivecompletehexcolor}]{objectivestate}[-]" upper_case="false" font_size="26" justify="right" visible="{hasobjective}" width="{objectivetextwidth}" />
 		</rect>
 	</quest_objective_tracker_entry>
 	<quest_reward_entry>
 		<rect width="625" height="43" controller="QuestRewardEntry" visible="{hasreward}" >
 			<sprite depth="0" name="Icon" sprite="{rewardicon}" style="icon22px" pos="4,0" foregroundlayer="true" UIAtlas="{rewardiconatlas}"/>
-			<label depth="4" name="Description" pos="30,0" width="600" height="28" text="{rewardtype}: {rewarddescription}: [DECEA3]{rewardvalue}[-]" upper_case="true"  font_size="26" />
+			<label depth="4" name="Description" pos="30,0" width="600" height="28" text="{rewardtype}: {rewarddescription}: [DECEA3]{rewardvalue}[-]" upper_case="false"  font_size="26" />
 		</rect>
 	</quest_reward_entry>
 	<quest_search>

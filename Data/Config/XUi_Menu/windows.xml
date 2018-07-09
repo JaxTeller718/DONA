@@ -136,7 +136,7 @@
 		</panel>
 		<panel pos="0,-46" width="100%" height="100%" depth="2" backgroundcolor="[darkGrey]" bordercolor="[black]" borderthickness="3" style="hover, scroll, drag" controller="WorldGenerationPreviewWindow">
 			<label depth="106" name="Startup" text="Please press refresh or press Enter on either Seed or Size" pos="0, -336" width="100%" height="50" justify="center" font_size="28" color="[white]" />
-			<label depth="106" name="Startup2" text="Generation of the data may take up to 2 minutes" pos="0, -366" width="100%" height="50" justify="center" font_size="28" color="[white]" />
+			<label depth="106" name="Startup2" text="Generation of the data may take up to 5 minutes" pos="0, -366" width="100%" height="50" justify="center" font_size="28" color="[white]" />
 			<texture depth="105" pos="6,-7" name="worldPreview" material="Materials/Transparent Colored" width="1200" height="800" globalopacity="false" />
 			<button depth="106" name="reload" pos="220,-6" sprite="server_refresh" style="icon32px,press,hover" tooltip="Reload Data" tooltip_key="lblReloadArchetypeXML" />
 			<rect depth="106">

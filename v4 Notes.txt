@@ -1,0 +1,931 @@
+
+------------------------------------------------------------
+
+Patch 3.2a Release Patch Notes  Release Date 03/01/2018
+
+-Added New Terror Sounds
+
+-Added New Herd Hitboxes and names
+
+-Added New Terror Models
+
+-Removed Old Terror Sounds
+
+-Removed Unused POIs
+
+-Added All Magoli Updated POIs to our folder
+
+-Moved all of Magolis Updated POIs that were fixed by dan first to DanCapos Folder so he can go through them later
+
+-Moved Removed POIs to own folder to see why they were removed
+
+-Updated RWG to reflect new ravenhearst names
+
+-Added Magolis RWG Mixer and POI Pack
+
+-Adjusted Terrain Slightly
+
+-Lowered Prob of water
+
+-Removed Traders from Wilderness and placed them in Cities only
+
+-Lowered probability of trader spawns to .7
+
+-Rebalanced biome spawning (less forest)
+
+-Trader Protection Removed
+
+-RH Pois added
+
+-Normal houses added to common Wilderness Spawn
+
+-Added Movement Factors to sand, hay, gravel and asphalt
+
+-Added Compost, Composter and Fertilizer steps to Farmer Quest
+
+-Medic Quest line is now 14 steps long!
+
+-Added Scrap Nails to repair items needed fro wood frames
+
+-Lockpicks stack to 2 (test)
+
+-Gun Parts Now Have the Correct Crafting SKill Group
+
+-Buckets now Work on Sinks
+
+-Lowered chances of nailgun parts
+
+-Combined Coffeemaker, Microwave and Blender into one Appliance Station
+
+-Fixed quest associated with Appliances
+
+-Added One Block Crouching
+
+-Added Jumping now impacts Stamina (testing)
+
+-Added Sphereii and Xyths Better Life Mod (testing)
+
+-Added Decos to water (testing)
+
+-Added fish to water that can be killed for fish meat (testing)
+
+-Added sphereii Take and Replace. Boards and crates must now be pried open with a hammer or crowbar (testing)
+
+-Added three08's Powered Doors mod (testing)
+
+-Herd Zombies Renamed
+
+-Herd Quests updated
+
+-Nightmares Removed (Rip)
+
+-New Terrors Replaced Nightmares
+
+-New Farming System (Temporary)  Using E gives only 1 Harvest. Punching Gives 1 Harvest plus low chance of seed. Hoes give 1 Harvest plus high chance of second Harvest, medium chance of seed. Sickle gives 2 Harvest plus high chance of 2 more Harvest, High chance of seed and low chance of Rotting Harvest. 4th stage of plants added Withered. Gives back 2 Rotting Harvest with all tools. This needs tested in conjunction with fertilizer. And will probably be redone again. Wither occurs 24 in game hours after stage 3.
+
+-Shopping Baskets can be picked up like trash bags and used as both a vehicle Part or as Temporary Storage you can place.
+
+-Lowered Xp on all zombies
+
+-All 100 level skills can no longer be purchased and must now be levelled naturally.
+
+-Removed Light Bulbs from loot (Break those lights people)
+
+-New Lockpicking Mechanic. Needs serious testing. Now you can craft lockpicks but there are several levels to them. They level as you use them and can be used on doors and safes. As you level you unlock higher tiers. Safes can still be broken into but the idea once this goes live is the ONLY way to get into a safe is with a lockpick. Bashing them wont work anymore.
+
+-Reduced Chances of Wall Covering Magazine in loot
+
+-Sent Old Lady Zombie to the Retirement Home
+
+-Reduced Skillet Sale Price
+
+-Rebalanced Wellness values on alcoholic drinks
+
+-Tomato Soup now gives bowl back
+
+-Added Kukri Variants to Advanced Workbench
+
+-Corrected Home Furnishings Icon
+
+-Gaining Knowledge 2/2 now accurately reflects its recipe to complete
+
+-Electric Charges can now be made with All Batteries
+
+-Added New Storage Boxes (Textures MAY appear low quality and may need fixed)
+
+-Added Stone Grinder for future use
+
+-Moved all concrete recipes to Cement Mixer (Localization neeeds updated to reflect)
+
+-Changed font of ui to be smaller, sleeker and more compact to fit more
+
+-Changed color of "Crafted In"
+
+-Added Advanced Storage Perk
+
+-Crossbow Repeater can now be found only in Treasures or Supply Drops
+
+-Added Machete Blade to Stiffs, Treasure and Supply Drop Loot
+
+-Generators now have progression. Normal Gen, Police Gen, Military Gen. Normal = 2000 gas and small engine, Police = 4000 gas and small and ECO engine, Mili = 8000 gas and all 3 engines (engines need tested)
+
+-Rebalanced Zombie and Terrors hand buffs. Bite Marks will occure more than Infections
+
+-Added coffee stamina boost and energy boost to cold coffee and energy drinks
+
+-Added second set of test recipes for the Stone Grinder (possibility of adding new minerals and ores for more accurate recipes)
+
+-Added Signs Category to all signs
+
+-Made store shelving lootable
+
+-Added Marshmallows and Corn Oil for future recipes
+
+-Removed recipe for metal double drawbridge (new drawbridge made by me coming soon)
+
+-Added some doors (they still need hitbox work)
+
+
+
+Patch 3.2b Release Patch Notes  Release Date 05/16/2018
+
+
+
+-Lowered Dismemberment chances on Legolas Perk (arrows dont cut off legs)
+
+-Increased Dismemberment chances on Decaptitator
+
+-Added Flame Thrower and Ammo
+
+-Adjusted Ammo Box loot
+
+-Removed Volume numbers for schematics and replaced them with single pages. Now you must collect 8 pages from each book to make the book.
+
+-Optimized several Unity Assets and removed no longer used ones from the pack
+
+-Reordered Item Numbers for removal of the Schematic Volumes. From now until wipe I will just be adding new items to the botoom of the list without changing item ids until we are ready to push a wipe patch.
+
+-Added some more animal sounds for immersion (Bull has his own sounds)
+
+-Added some new zombie types
+
+-Added 4 new Boss Zombies
+
+-Minibike may no longer be damaged in rad zones (needs testing)
+
+-Changed Cement Mixer, Stone Grinder Wood Chipper to require a Gas Tank
+
+-Added Gas Tank found by harvesting cars
+
+-Added new fuel windows for BBQ Grills and Cement Mixer, Wood Chipper and Stone Grinder to show charcoal and gas cans respectively but the fuel window still takes any burnable item.
+
+-Fixed Wood Chipper Quest
+
+-Added Rock Salt deposits to rocks underground, better chance with Pickaxes
+
+-Added Salt recipe to Chem Station
+
+-Added Tins Pois the Wolf Den, accent POIs in cities and rural pois
+
+-Added 2 Tin Zombies with harvest corpse block to test out harvestinbg loot instead of looting it.
+
+-Composter and Chicken Coops Now can be placed underground
+
+-Normal workbench has a craft time multiplier added so things crafted in backpacks and inventory will craft quicker making it more useful (needs testing)
+
+-Added second set of recipes for all concrete recipes made in backpack to be made in Mixer only (testing)
+
+-Added second set of recipes for all wood required building recipes to be made in the new Carpentry Station (icon and desc needed) 
+
+-Added new Metal Forge for testing new metal only recipes
+
+-Added Carbon found during mining for steel recipes
+
+-Added limestone found in mining for dry cement recipes
+
+-Added cement recipes to Mixer.
+
+-Added a wood log on tree destroy. This log can be placed later on and chopped down for more wood
+
+-Added stick, wood and polished wood to carpentry station for better yields
+
+-Added 2 new candles to use as lights
+
+-Added new Cooking Class (no localization yet) with some quests that will be expanded later. 
+
+-Removed all bought cooking recipes and added them to 5 new cookbooks (No localization yet)
+
+-Moved stoves and bbqs to the cooking class only
+
+-Cooking class now makes meals exclusively
+
+-Most new items have no localization or icons, this is known
+
+-Small chance of bees dropping from trees when cut down
+
+-Changed model of Chicken coops to accomodate the Bee Hive. They are larger. May edit them down in the future
+
+-Added beehive. Use bees on it and it will produce honey and wax. Must find more bees to restart it.
+
+-Added Tainted versions of both meats. You will now get 1-2 less regular meat and 1-2 Tainted Meat. In the future tainted meat will go trough a process wherre you can clean it and use it.
+
+-RWGMixer slightly altered to accomodate flatter land though not as flat as RH. May also spawn more towns in as well this way.
+
+-Set fire to some of the butterflies and listened to their angelic screams of death (thinned out butterflies)
+
+-Sprinkled some small stones around the world
+
+-New model for Mortar and Pestle (so its not a pain in the ass with boxes)
+
+-New Blacksmiths Forge. No recipes, model may be very off and its not finished but its there
+
+-New Bandits added but not in spawn list yet
+
+-Craftable stone hammer. Its not locked yet and it does basic disassemble which gives less back then normal disassemble but it is available from the start
+
+-New model for stone pickaxe
+
+-2 new swords not yet tested or adjusted.
+
+-You can now find fish in the water. Kill one and harvest it for fish meat. The old fishing is still in but will most likely be removed.
+
+-Adjusted Terror Health
+
+-Added missing hand item to game
+
+-Removed White Dot of Doom from MRE Icon
+
+
+
+Patch 3.2c Release Patch Notes  Release Date 05/25/2018
+
+
+-Re-Added Weapon Parts from Gun Parts
+
+-Added Repair Kits for Guns, Blades, Clubs and Bows
+
+-Added Screws
+
+-Added screws to furniture harvests
+
+-Added screws to rebar frames
+
+-Created separate loot list for guns in safes
+
+-Removed all Exclusives from Loot
+
+-Lowered Sticks harvested from all blocks
+
+-Removed Forged Iron and repair kit from cooking class
+
+-Added more loot to the harvestable zombie corpses
+
+-Reduced Probabilities of Ghouls
+
+-Adjusted Tips, Casings and Powder in loot
+
+-Lucille Added to Advanced Workbench
+
+-Added several more Bandits
+
+-Added Aloe Plant to Soap
+
+-ALL weapons, clothing and tools will break completely if not repaired at 0. Guns and Power Tools are NOT part of this change as of now.
+
+-Added a quest on completion of Step 1 of all gun classes that will reward you the Bullet Crafting Schematic when you complete it.
+
+-Added Box of Screws to Loot
+
+-Fixed Localization on some items
+
+-Added Iodine Pills found in Rad Zone only that can extend your Anti Radiation buff by 60 seconds (Loot amount, availability and buff time need feedback)
+
+-Lowered Minimum Wellness to 40 (needs feedback and testing and is not final)
+
+-Added 8 More Bandits (Not spawning yet)
+
+-Added folder with 3 DLL versions in it. One is our defaults, one is for 40 wellness minimum and the thrisd is for 40 wellness minimum and 25 food and water minimum on death.
+
+-Added quest to pick up a trash bag and 1 bag or purse and place it. Rewards a second simple ox
+
+-Working for Jax quest now rewards 25 Twine
+
+-Tweaked Probabilities for Towns and Wilderness Pois
+
+-Adjusted Water Scaling
+
+-Lowered Terrain Height slightly (not as flat as RH 3 yet)
+
+-Added Trioxin to Medic Only
+
+-Removed Scavenging Skill
+
+-Added negative health to flesh, sham sandwich and moldy bread
+
+-Added Boxing perk that levels your fighting with your fists
+
+-Added all doors and drawbridge (having difficulty with Drawbridge as its animation tags are not the same as 7 Days naming conventions and animations have chains attached. Hopefully I can fix)
+
+-Removed Radiation Protection from Bandit Gear
+
+-Aligned Doors properly
+
+-Increased speed of New Bandits
+
+-Slowed Ghouls down slightly
+
+-Increased Health of Herd Slightly
+
+-Added new DLLS that drop Minimum Wellness to 50 and food and water on respawn to 25 percent (original RH dlls still available in Extra Files Folder)
+
+-Lowered Offsets of Doors that degrade when Lockpicking
+
+-Added new tool to Blacksmiths Forge. 4 tools now needed. Boxes are misaligned and need Sirillion to fix if he can
+
+-Added Icons to new items
+
+-Juice Drinks now give 35 Hydration to combat possible wellness abuse.
+
+-Additional Classes now cost 325 KP, and Average Joe Lowered to 125 KP
+
+-Added The Ultimate Quest, a questline that has you unlocking every class and giving a major reward. Reward to be determined.
+
+-Did some basic Localization for the cooking quests but they are just basic. More quests and better text to be added later
+
+-Added chance at acquiring live chicken from harvesting a chicken. Live chickens are now used to make chicken coops
+
+-Unlocked Rain Collector and Chicken Coop for Survival at start
+
+-Trioxin now craftable at Science 8 for Medics
+
+-Added Handful of Insects ;)
+
+-Removed Burnt Trees from Plains
+
+-Added Encumberance Values to select items for testing. The following have varying values of ItemWeight and can be used to test different weights out: ScrapIron, Wood, Insects, Live Chicken, Pistol, Bat, Box of Screws, Stone Hammer, Wood Planks, Blacksmith Station, Wood Log, Small Stone
+
+-Rebalanced Grass and rocks in biomes
+
+-Redid recipes.xml so all stations are together for further breaking them down.
+
+-Changed stacknumber of Joint to 5
+
+-Added 2 new swords found in loot
+
+-Added Stone Knife craftable only by Survival
+
+-Added temporary scalpel model
+
+-Rebalanced Stone Hammer
+
+-Removed most repair materials from stone axe except the basics
+
+-Lowered fuel values of all items to 1 except wood, logs charcoal and coal. Some blocks are surely missing from this
+
+-Moved all recipes to appropriate stations. There are DEFINITELY issues with Localization for this and they will be worked on gradually
+
+-Chicken Coop and Composter can be destroyed in first stage to place them back in inventory.
+
+-Added Animal Trap to Survivor. They get 5 and only 5. It cant be crafted but it CAN be destroyed to go in inventory.
+
+-Bad Mechanic 3,4,5 is Survivor only
+
+-Added Road to concrete quests that explain how the stone grinder and concrete work now
+
+-Changed BS Station quests to BS Forge
+
+-Adjusted cement and concrete recipes.
+
+-Reduced and adjusted amounts given back in all traps (Bee, Chicken, Rain, Composter)
+
+-Added more houses to the Wilderness
+
+-Added honeycomb to bee hive. Use honeycomb in Chem Station to make honey
+
+-Increased Concrete Drying Time from 4 to 10
+
+-All plants and Composter, BeeHive, Coop, Rain Collector have their upgrade stages lowered to 10 minutes per stage for better testing loot amounts and farming.
+
+
+
+Patch 4.0a Release Patch Notes  Release Date 06/10/2018
+
+
+
+-Added Hive POIs. May need balance in every area. SUPPOSED to be hard and no easy to go through keep that in mind. Right now they are set to spawn 1 for every 3 vanilla in a city. And 1 for every 6 in Wilderness. Spawns may need adjusting depending. Overall we dont want one in EVERY city or town. But more than 1 and fewer than 3 is ideal.
+
+-Added Feral Walkers. These look like ferals but walk and have 100 hp. (May need balanced better)
+
+-Added Feral Walkers to Wilderness spawns in mass amounts (Testing Numbers)
+
+-Added Bandits to spawn in the world in small doses
+
+-Changed several loading screens and logos
+
+-Changed Intro and menu
+
+-Moved from 3.2 to 4
+
+-Added new box for the Emergency Supplies found in Hive houses.
+
+-Item Weight of 1 Added to ALL items. Values will be adjusted but now weight will begin to accumulate
+
+-Glue added to most recipes requiring leather
+
+-Categories reorganized and re-arranged
+
+-Cooking Xp of 1 added to all cooking ingredients and recipes
+
+-Adjusted Damage on Magnum
+
+-Moved Dark Exedus to the Wilderness
+
+-Added Incendiary Ammo
+
+-Added Incendiary Ammo Perk to Ammo Class
+
+-Item Weights adjusted for some items.
+
+-Milking Bucket now able to be sold
+
+-Adjusted Damages on Sword of Dragoness, Blade of Helmel, Legendary Fireaxe and Military Hatchet
+
+-Lowered probability of insects
+
+-Padlocks scrap for Mech Parts
+
+-Sugar added to Vodka recipe
+
+-Added missing zombies to quest objectives
+
+-Added Hollow Points and HP ammo
+
+-Removed Bullet casings and replaced with specific ammo casings
+
+-Increased xp eeded to level Blade and Blunt Weapons to fall in line with Gun levels
+
+-Changed Menu Music to Permanent Selection
+
+-Added fruits to loot (not growable no blocks left)
+
+-Added Orange Juice and Lemonade drinks that cool you
+
+-Added Pepper for cooking
+
+-Added Green pepper to loot only
+
+-Added trowel Station Tool for Cement Mixer for all concrete recipes
+
+-Added Bucket as Cement Mixer Tool. Still need bucket of water to make concrete.
+
+-Added Research Book found in loot. First step to possible recipe overhaul.
+
+-KP can now be read to gain a Research Point. First step to possibly locking recipes to classes by Research. Right now it adds skill to the Research Skill which unlocks skill books, class recipes and the research desk.
+
+-Added Basic Disassemble skill to most generic items in world for stone hammer to use.
+
+-Added three test guns that are creative only
+
+-Added disassemble to all doors to harvest screws, nails, door hinges and other items.
+
+-Combined all Build paths to a single one. There are multiple missing icons and localizations. These will need to be done at a later time. Testing full upgrade paths needed
+
+-Added Bolt Turret
+
+-Removed One Washing Machine, All Dishwashers, 2 Semi Truck Variants, a Mototcycle Variant and removed a few breakable bag models found in world (still get the bags back when you break them but they are all 2 singular models now instead of specific models)
+
+
+Patch 4.0b Release Patch Notes  Release Date 06/12/2018
+
+-Reduced Spawning of Prisoners
+
+-Shuffled around rewards for Survival Quest until we find a better way
+
+-Fixed icons for stone pickaxe and stone knife
+
+-Fixed duplicate block id preventing recipes from loading
+
+-Removed kits from Progression unlocks so you can choose starting class again
+
+-Gave the Pig a talking to and he wont be as mean to you as he once was. Still a bitch though. Pigs gotta pig
+
+-Reduced timer on Hive Zombies to turn into gore block
+
+-You can no longer pick up and sell gore blocks to traders (They are quite upset over this and may revolt)
+
+-Added and fixed more categories for items
+
+-Added Car Alarm to cars
+
+-Car Alarm sound will last 5 seconds and could attract area Zeds
+
+-Some more adjustments to RWG. Hopefully cities and towns will spawn. Made lots slightly bigger, flattened land a bit more, increased prob of towns and cities, increased max count of pois per city and town.
+
+-Added some more grass to plains
+
+-Stone Knife can now be repaired
+
+-Reduced amount of treasure chests under water and gave them treasure loot
+
+-Increased foliage a bit in forests
+
+-Safes have insane health now and the best route to open them is lockpicking
+
+-Added icons to Encumbrances
+
+-HazMat suit temperatures adjusted
+
+
+
+Patch 4.0c Release Patch Notes  Release Date 06/18/2018
+
+
+-Brushed Up Localization
+
+-New buffs for Infections, Wounds, Scratches, Resting and Water
+
+-Added debuffs to medical items for new conditions
+
+-Dirty may get dropped for new systems
+
+-Added harvest to stone grinder
+
+-Removed flagstone from opening quest
+
+-Reworked several POIs by removing OP blocks, adding sleepers
+
+-Added 12 new Pois
+
+-Added Handles craftable at Carpenters bench for making axes, pickaxes, shovels and hoes.
+
+-Removed Bad POI
+
+-Fixed all Lock Pick and Drill Descriptions to be more clear
+
+-4 Stages of Lockpicks and Kits. 1 = Doors and Chests, 2 = Desk and Wall Safes , 3 = Gun Safes, 4 = Rad Zone Safes
+
+-Working Stiffs Loot Adjustments
+
+-Schematics Loot Adjustments
+
+-Changed Wood Frame Quest Description to match the new upgrade system.
+
+-Removed Legendary and Last Tier of guns from loot and added to Rad Zone Loot
+
+-Lowered nails in loot
+
+-Added new steps to Quests for Acquiring Stone with Stone Pickaxe, placing Logs and Lock Pcking
+
+-Added Stone Hammer to Jax Hates You Quest
+
+-Finishing Advanced Workbench Quest now gives back Level 150 Hammer and Wrench
+
+-Increased Max Count of POIs per hub by DOUBLE
+
+-Increased ALL Kill Zombie Quest Requirements
+
+-Added Makabriels Vista Poi
+
+-Added Meat Cleaver Exclusive Weapon for Cooks
+
+-Added Survivors Machete to Survival Weapon and removed Bow and arrows
+
+-Removed Leather and Cloth from loot. You will have to craft or scrap items to get them now.
+
+-Added use for Sunblocker
+
+-Removed HD Engines. Small and Economic Engines are now ONLY used for tools and stations while the new Minibike Engine and Upgraded Minibike Engine are used for Minibikes.
+
+-Tainted meat can now be cured in a Chemistry Station with salt, purified water and medical powder
+
+-Removed excess recipes for upgrade paths.
+
+-Added Station Tool Saw for Carpentry Bench
+
+-Survivors Stash Chests in the world now have loot
+
+-Changed Lockpick Models
+
+-Renamed all custom POIs to our naming conventions
+
+-Fixed Engine Parts materials
+
+-Removed return of bowls and jars from all items except water, drinks and salad. These may go to.
+
+-Added Lootable quests to Research Desk
+
+-Added paper to all skills and quest crafts
+
+-Fixed some more categories
+
+-Increased timers on quests.
+
+-Added new Poi
+
+-Increased world border and lessened rad zone border
+
+-Growth times are back to normal.
+
+-There are now Radiated splotches all over the map. Be AWARE!
+
+
+
+Patch 4.0d Release Patch Notes  Release Date 06/20/2018
+
+
+
+-Removed Repair Kit Schematic. Redundant and unneeded with all the new repair kits available
+
+-Corrected Archery Crate Description
+
+-Removed Redhouse (possibly removing all other Tom pois will test)
+
+-Changed Blacksmiths Forge Recipe to reflect block issue on quest
+
+-Added Crushed Gravel made from gravel in the stone grinder.
+
+-Localization Fixes for reported inonsistencies
+
+-Added an .ico and a .png image for icon usage
+
+-Reduced probability of car alarms to 0.05
+
+-Fixed Lockpick Quest
+
+-Added Hungry Zombie and all variants to Walmart quest
+
+-Added icons for Lockpicks and Engine Block
+
+-Changed recipe for house and commercial doors to the proper unlocked stage
+
+-Added Arrow and Bolt Dismantling (Stone/Iron/Steel Only)
+
+-Fixed categories in Blocks.xml which should fix traders
+
+-Switched over Our Dirty system from looting to a new system. All wounded/dirty/infection buffs are now attached to the new system.
+
+-Adjusted all Butcher and Skinner bonuses on entities and blades
+
+-Rath will now Move into your base if you let him. Dick.
+
+-Rebalanced 11 Pois
+
+-New RWGMixer thanks to Makabriel
+
+-Removed unused POI and Asset Files
+
+
+
+
+
+Patch 4.0e Release Patch Notes          Release Date 06/20/2018
+
+
+
+
+-All Harvests on Knives should now be consistent
+
+-Added Resting Mat which can be placed and picked uo but is NOT a bed spawn point. It simulates the Moderate Comfort Buff
+
+-Fixed multiple categories in items for trader issue
+
+-Several Localization Fixes
+
+-Fixed up Cooking Class descriptions
+
+-Icon additions and fixes
+
+-Increased health on boards covering boxes to make crowbar worth using on the boards. May reduce take time as well
+
+-Added some more groups to items and blocks but admittedly am not going to finish this.
+
+-Removed Advanced Forge Perk
+
+-Moved Blacksmiths Forge to Advance Forge Slot
+
+-Added Bows and Crossbows to Perks like Blunt and Blades
+
+-Removed Crossbow Schematic
+
+-Iron Tools now unlock at PL 20
+
+-Added Chemicals and Books back to categories
+
+-First stage of scrap iron upgrade now requires rebar to upgrade
+
+-Removed forged steel and steel polish from stone hammer and hammers and wrenches upgrade abilities. Now resides only in nailguns
+
+-Adjusted Hitbox height on new spikes
+
+-Created new zombie buffs for rhwoodspikes, iron spikes and steel spikes
+
+-Removed 2 unnecessary traders from npc
+
+-Added RH Spikes recipes and Localization
+
+-Fixed incorrect ray spreads on Boomstick and Reggie
+
+-Combined Some Categories
+
+-Increased chance of Car Alarm from 0.05 to 0.15
+
+-Shelves now take 8 seconds to loot down from 15
+
+-Categories now use Vanilla Icons
+
+-Moved more recipes to Carpenter Bench
+
+-Added recipes for the new storage
+
+-Removed polished wood and changed over to wood planks
+
+-Removed Loot List from Hive zombies
+
+-Hive gore blocks now have a chance to give a bone and fat
+
+-Set gore blocks on ghouls to the normal one
+
+-Added Resting Mat Recipe
+
+-Added some Groups to items missing them
+
+-All growable items are set back to their original timers
+
+
+Patch 4.0f Release Patch Notes          Release Date 06/26/2018
+
+
+-Added Rubber to tires instead of the actual tire
+
+-Added recipe for Minibike Rim
+
+-Fixed several pois for balancing and meshes
+
+-Removed some more categories
+
+-Removed some Op pois
+
+-Combined Find and Kill gun quests
+
+-Reverted Categories
+
+-Increased Trader Window Columns
+
+-Added Dan and Spheres fixes for nulling traders
+
+-Changed description of the Bloody buff (formerly dirty from looting bodies) on towels and the buff itself
+
+-Added and rearranged some recipes in stations
+
+-Added Ghouls and Prisoners as chances of wandering hordes
+
+
+Patch 4.0g Release Patch Notes          Release Date 06/28/2018
+
+
+-Added Hazmat suit pieces and Trioxin to Weapon Class Rewards
+
+-Added 3 new POIs
+
+-Cleaned up zombie names
+
+-Burning Barrels now pick to the proper item
+
+-Adjusted Spikey Trap Damages
+
+
+
+
+Patch 4.0 RC  Notes       6/29/2018
+
+
+-Removed a few out of place zombies
+
+-Renamed some zombies
+
+-Added 2 new Pois
+
+-Removed Solar Panel Poi
+
+-Added proper zombies to some pois (medical, bikers etc)
+
+-Added 2 new Quests
+
+-Redid the DLL to clean them up
+
+-Added engine recipe which was missing for some reason
+
+-Reordered items.xml
+
+-Fixed broken textures in frames blocks (HUGE thank you to Makabriel for this one)
+
+-Fixed Null on Combat Axe
+
+-Fixed improper timer on Resting Mat
+
+-Removed Flamethrower from loot for now as it disconnects you from server. If you have one do not use it
+
+-Hive zombies should no longer have various loot
+
+-Fixed Lockpick Descriptions
+
+-Mayonnaise Icon added
+
+-Some Store Shelves no longer lootable
+
+-Survival Class Description Adjusted
+
+-Clarified difference between log types
+
+-Added Boss Zombie during horde nights. Randomly comes once, HP and Damage increases every 100 or so stages. You do NOT want to afk this guy ;)
+
+-Added proper buffs to spikes that were missing it and causing nulls
+
+-Adjusted Prisoner Damage
+
+-Lowered spawn rate of Prisoners
+
+-Max Encumberance raised slightly
+
+-Raised Damages on Last Tier of Weapons
+
+-Removed Wellness Hit from Infections
+
+-Added proper Infection debuffs to honeycomb, herbal antibiotics and antibiotics
+
+-Reduced Prisoner health slightly
+
+-Increased health of the little plants that respawn cars in roads
+
+-A Surprise
+
+-Legendary Weapons and Tools Stats increased to Make them Valuable
+
+-Dying no longer subtracts from gamestage
+
+-Gamestage increase slightly tuned
+
+-New Item: Virus Resistance Mixture. Made from Rotting Flesh, Peroxide, Household Chem and Aloe. Used in all antibiotice recipes
+
+-Tuned medical loot a bit, also made Lab loot in Towers a bit better. 
+
+-Added second stages to all opening Blood Moons so theyre more full
+
+-Adjusted Buffs for Snake Bit so it doesnt hit wellness as much
+
+-Fixed Incorrect Herd Names in Quest
+
+-Reduced Gun Loot
+
+-Added all repair kits to loot
+
+-Fixed incorrect quest showing up for herd and doctor challenges
+
+-Added All of Makabriels POI fixes
+
+-Added Villa fix
+
+-Trimmed some OP loot from 5 pois (multiple Apache Chests)
+
+-Reduced weight on all mining and harvesting items
+
+-Added weight to Stations
+
+-Removed duplicate Spikes recipe
+
+-Added quest for Survivor Machete in place of Bow Quest
+
+
+
+-Fixed Ultimate Survival Quest and added end game rewards
+
+-Added Fixed Notre Damn Poi
+
+-Added missing icons
+
+-Doubled the xp Locksmith needs to level
+
+-Removed Duplicate Research Desk Perk
+
+-Fixed Localizations
+
+-Removed several unneeded recipes from upgraded block paths
+
+-Removed Unencumbered from Main screen
+
+-Balanced out the new RH spikes
+
+-Adjusted recipe of Spikes
+
+-Removed Assault Rifle Incendiary Ammo option due to glitched particles upon firing
+
+-Removed flamethrower completely (works in SP but crashes MP servers)
+
+
+
+KNOWN ISSUES/TO DO
+
+
+-Add more weapons and guns
+
+-Add some immersion models (food etc)
