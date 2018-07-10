@@ -35,7 +35,7 @@
 	<window name="RAVENHEARST">
 		<!-- SIRILLION: JAXTELLER718, this is the HUD logo. There is also a MAINMENU logo, you can set your version number there. It is at the end of the SMX section. -->
 		<texture name="RAVENHEARST" depth="0" size="250,33" texture="@file:Mods\SMX\Textures\Misc\rhhudlogo.png" material="Materials/Transparent Colored" pos="-320,-2" />
-		<label name="SMXServerInfo1" depth="0" size="250,27" text="v4.0" font_size="20" effect="outline" color="[white]" justify="center" pos="-610,-8" overflow="resizeheight" />
+		<label name="SMXServerInfo1" depth="0" size="250,27" text="v4.0DONA" font_size="20" effect="outline" color="[white]" justify="center" pos="-610,-8" overflow="resizeheight" />
 	</window>
 	<!-- <<< LOGO & SERVER INFORMATION <<< -->
 	<!-- >>> UNIT FRAMES >>> -->
@@ -811,7 +811,7 @@
 	<!-- The following section handles: The INGAME MAIN MENU : RAVENHEARST DESIGN -->
 	<window name="RAVENHEARSTingameMenu" anchor="CenterCenter" pos="-125,200" width="250" height="200" controller="InGameMenuWindow" cursor_area="true">
 		<texture name="RAVENHEARST" depth="0" size="788,788" texture="@file:Mods\SMX\Textures\Misc\rhmenulogo.png" material="Materials/Transparent Colored" pos="-268,290" />
-		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="Exp v4.0" font_size="38" effect="outline" color="[white]" justify="center" />
+		<label name="RAVENHEARSTVersion" pos="190, -5" depth="0" size="250,33" text="v4.0DONA" font_size="38" effect="outline" color="[white]" justify="center" />
 		<!-- SIRILLION: -->
 		<grid name="buttons" pos="0, -100" cols="1" width="250" cell_width="250" cell_height="56" arrangement="vertical" repeat_content="false" >
 			<simplebutton name="btnOptions" depth="3" width="250" height="46" caption_key="xuiMenuOptions" font_size="40" />
@@ -2316,7 +2316,7 @@
 		</panel>
 	</window>
 	<!--#$-IGS BEGIN: Adding cursor area. -$#-->
-	<window name="windowSkillInfo" width="603" height="470" panel="Right" controller="SkillInfoWindow" cursor_area="true" >
+	<window name="windowSkillInfo" width="603" height="722" panel="Right" controller="SkillInfoWindow" cursor_area="true" >
 		<!--#$-IGS END.-$#-->
 		<panel name="header" height="43" depth="1" backgroundspritename="ui_game_panel_header">
 			<sprite pos="4,-5" depth="2" name="windowIcon" style="icon32px" sprite="ui_game_symbol_skills"/>
@@ -2346,9 +2346,9 @@
 				<sprite depth="3" pos="160,-215" height="10" width="287" color="[lightGrey]" foregroundlayer="true" visible="{skillpercentshouldshow}" type="sliced" />
 				<sprite depth="3" pos="160,-215" height="10" width="287" color="[red]" foregroundlayer="true" type="filled" fill="{skillpercentthislevel}" visible="{skillpercentshouldshow}" />
 			</rect>
-			<rect depth="1" pos="0,-234" width="600" height="197">
+			<rect depth="1" pos="0,-234" width="600" height="449">
 				<sprite depth="1" name="background" color="[darkGrey]" type="sliced"/>
-				<sprite depth="3" pos="0,1" width="603" height="198" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
+				<sprite depth="3" pos="0,1" width="603" height="450" name="backgroundMain" sprite="menu_empty3px" color="[black]" type="sliced" fillcenter="false" />
 				<rect name="tableHeader" pos="0,0" width="600" height="43">
 					<sprite depth="1" name="background" color="[lightGrey]" type="sliced"/>
 					<rect depth="1" width="303" height="40">
@@ -2364,21 +2364,36 @@
 						<!--#$-IGS END.-$#-->
 					</rect>
 				</rect>
-				<grid rows="5" cols="1" pos="6,-46" width="300" cell_width="147" cell_height="28" controller="SkillAttributeList">
+				<grid rows="14" cols="1" pos="6,-46" width="300" cell_width="147" cell_height="28" controller="SkillAttributeList">
 					<skill_attribute/>
 					<skill_attribute />
 					<skill_attribute />
 					<skill_attribute />
 					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
+					<skill_attribute />
 				</grid>
-				<grid rows="4" cols="1" pos="300,-46" width="300" cell_width="147" cell_height="42" controller="SkillRequirementList">
+				<grid rows="10" cols="1" pos="300,-46" width="300" cell_width="147" cell_height="42" controller="SkillRequirementList">
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
+					<skill_requirement />
 					<skill_requirement />
 					<skill_requirement />
 					<skill_requirement />
 					<skill_requirement />
 				</grid>
 			</rect>
-			<rect depth="3" width="600" height="43" pos="3,-432" controller="Paging">
+			<rect depth="3" width="600" height="43" pos="3,-684" controller="Paging">
 				<sprite depth="0" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="603" height="49" color="[black]" type="sliced" fillcenter="false" />
 				<sprite name="pagingControls" width="597" color="[mediumGrey]" type="sliced" />
 				<label depth="5" name="currentSkillLevel" pos="6, -8" width="250" height="30" text="{currentSkillLevel} {skillLevel}/{maxSkillLevel}" font_size="30" justify="left"/>
