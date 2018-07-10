@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <xml>
 	<ModInfo>
-		<Name value="SDX" />
+		<Name value="Ravenhearst" />
 		<Description value="SDX" />
-		<Author value="Domonix (SDX Team)" />
-		<Version value="1" />
-		<Website value="http://sdxmods.com" />
+		<Author value="JaxTeller718" />
+		<Version value="v4.0.1v21DayDONA" />
+		<Website value="https://ravenhearst.enjin.com/" />
 	</ModInfo>
 </xml>
