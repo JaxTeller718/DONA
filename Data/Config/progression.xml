@@ -571,7 +571,7 @@
 			<recipe name="crossbow" unlock_level="2"/>
 			<requirement skill_level="3" required_skill_name="Archery" required_skill_level="45"/>
 			<recipe name="ironCrossbow" unlock_level="3"/>
-			<requirement skill_level="3" required_skill_name="Archery" required_skill_level="60"/>
+			<requirement skill_level="4" required_skill_name="Archery" required_skill_level="60"/>
 			<recipe name="crossbowRepeater" unlock_level="4"/>
 		</perk>
 		<perk name="Legolas" icon="archery" description_key="legolasDesc" title_key="legolas" max_level="3" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="weapons">
