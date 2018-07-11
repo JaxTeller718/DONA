@@ -1455,7 +1455,7 @@
 		</perk>
 		<perk name="Anti Radiation Pills" icon="medical" description_key="antiRadiationPillsPerkDesc" title_key="antiRadiationPillsPerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="15" group="science">
 			<requirement skill_level="1" required_skill_name="craftSkillScience" required_skill_level="8"/>
-			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="8"/>
+			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
 			<recipe name="antiRad" unlock_level="1"/>
 		</perk>
 		<perk name="paintDecorations" icon="paint_brush" description_key="paintGroupDesc" title_key="paintMagazineDecorations" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="0" group="painting">
@@ -2195,7 +2195,6 @@
 			<recipe name="blueIce" unlock_level="1"/>
 			<recipe name="disinfectantBandage" unlock_level="1"/>
 			<recipe name="scalpel" unlock_level="1"/>
-			<recipe name="antiRad" unlock_level="1"/>
 		</perk>
 		<perk name="Alternative Medicine" icon="medical" description_key="altmeddesc" title_key="altMedicinePerk" max_level="1" skill_point_cost_multiplier="0" skill_point_cost_per_level="10" group="health">
 			<requirement skill_level="1" required_skill_name="MedicalClass" required_skill_level="1"/>
