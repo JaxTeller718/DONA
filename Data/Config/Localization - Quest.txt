@@ -930,7 +930,7 @@ quest_ultimateSurvivor_offer,,Quest Info,NEW,"Learn every class there is to lear
 quest_ultimateSurvivor_description,,Quest Info,NEW,Become The Ultimate Survivor by learning all classes.,,Werde ein Experte für Ackerbau,,
 cookingclass1,,Quest Info,NEW,Cooking Class,,Klasse: Überlebender,,
 cookingclass1_subtitle,,Quest Info,NEW,Cooking Class,,Klasse: Überlebender,,
-cookingclass1_offer,,Quest Info,NEW,"Accepting this will give you a Butcher Knife, a Cooking and Grill, 50 empty jars and bowls, ability to craft meals and Exclusive Access to BBQ Grills and Stoves.",,"Du bekommst einen Holzbogen, 250 Pfeile mit Eisenspitze, einen Klauenhammer, Fertigkeiten im Kochen und ein paar Extravorräte. Exclusiver Zugang zur Herstellung von Gläsern sowie dem Hühnerstall und der Regentonne.",,
+cookingclass1_offer,,Quest Info,NEW,"Accepting this will give you a bloody cleaver, bowls, empty jars and exclusive access to bbq grills, stoves and meals..",,"Du bekommst einen Holzbogen, 250 Pfeile mit Eisenspitze, einen Klauenhammer, Fertigkeiten im Kochen und ein paar Extravorräte. Exclusiver Zugang zur Herstellung von Gläsern sowie dem Hühnerstall und der Regentonne.",,
 quest_CookingClass,,Quest Info,NEW,"Cooking Skills",,"Überleben in der Apokalypse",,
 quest_CookingClass01,,Quest Info,NEW,"Cooking Skills 1/9",,"Überleben in der Apokalypse 1/6",,
 quest_CookingClass01_subtitle,,Quest Info,NEW,"Kill 25 Zombies",,Töte 15 Zombies,,
